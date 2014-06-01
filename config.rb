@@ -1,3 +1,17 @@
+helpers do
+  def gravatar_for(email)
+    if email
+        # Make md5 hash for email address
+        hash = Digest::MD5.hexdigest(email.strip.downcase)
+        # Return url for Gravatar image
+        "http://www.gravatar.com/avatar/#{hash}.jpg"
+      else
+        # Return default image
+        "http://www.gravatar.com/avatar/?d=mm"
+      end
+  end
+end
+
 ###
 # Blog settings
 ###
@@ -101,3 +115,5 @@ configure :build do
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
 end
+
+activate :authors

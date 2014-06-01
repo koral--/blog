@@ -14,6 +14,61 @@
   </head>
   
   <body class="<%= page_classes %>">
-    <%= yield %>
+    <div class="navigation">
+      <div class="wrapper">
+        <h1>Concrete is the easiest way to automate your development workflow</h1>
+        <div class="right">
+          <div class="btn">Register for free</div>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="wrapper">
+        <div class="header">
+          <h1>Concrete</h1>
+          <div class="top-links">
+            <a href="http://demo.concretebuilder.io">What is Concrete?</a>
+          </div>
+          <div class="clear"></div>
+        </div>
+        <div class="articles">
+          <div class="articles-inner">
+            <%= yield %>
+          </div>
+        </div>
+        <div class="articles-addons">
+          <div class="articles-addons-inner">
+            <h3>Archives</h3>
+            <h3>Recent articles</h3>
+            <h3>Tags</h3>
+          </div>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="wrapper">
+        <div class="footer-col">
+          <div class="footer-col-inner">
+            <div class="title">Register an account</div>
+            <div class="separator"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed posuere eros. Donec auctor aliquet varius. In lacinia,u</p>
+          </div>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-inner">
+            <div class="title">Join the community</div>
+            <div class="separator"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed posuere eros. Donec auctor aliquet varius. In lacinia, justo eu viverra luctus, orci libero ornare justo, sit amet condimentum metus libero vel justo. Morbi convallis blandit purus,</p>
+          </div>
+        </div>
+        <div class="clear"></div>
+        <div class="copyright">Copyright ©<%= Time.now.year %> Concrete
+          <span class="footer-nav"><a href="http://demo.concretebuilder.io">HOME</a></span>
+          <span class="footer-nav"><a href="http://blog.concretebuilder.io">BLOG</a></span>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
