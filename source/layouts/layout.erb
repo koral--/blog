@@ -7,7 +7,7 @@
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "The Middleman" %></title>
+    <title><%= current_page.data.title || "Concrete" %></title>
     
     <%= stylesheet_link_tag "normalize", "all" %>
     <%= javascript_include_tag  "all" %>
@@ -36,9 +36,9 @@
             <%= yield %>
           </div>
         </div>
-        <div class="articles-addons">
-          <div class="articles-addons-inner">
-            <h3>Archives</h3>
+        <div class="articles-addon">
+          <div class="articles-addon-inner">
+            <h3><a href="/archive.html">Archives</a></h3>
             <h3>Recent articles</h3>
             <ul>
               <% blog.articles[0...10].each do |article| %>
