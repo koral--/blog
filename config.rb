@@ -62,6 +62,8 @@ activate :blog do |blog|
   blog.paginate = true
   blog.per_page = 2
   blog.page_link = "page/{num}"
+
+  blog.layout = "article_layout"
 end
 
 page "/feed.xml", layout: false
@@ -123,6 +125,7 @@ set :images_dir, 'images'
 configure :build do
   activate :minify_css
   activate :minify_javascript
+  activate :minify_html
 
   # Enable cache buster
   # activate :asset_hash
@@ -135,4 +138,3 @@ configure :build do
 end
 
 activate :authors
-activate :minify_html

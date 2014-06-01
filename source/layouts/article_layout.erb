@@ -7,7 +7,7 @@
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "Concrete" %></title>
+    <title><%= "#{current_page.data.title} | Concrete" %></title>
     
     <%= stylesheet_link_tag "normalize", "all" %>
     <%= javascript_include_tag  "all" %>
@@ -33,7 +33,16 @@
         </div>
         <div class="articles">
           <div class="articles-inner">
-            <%= yield %>
+            <div class="article">
+              <h1><%= link_to current_page.data.title, current_page %></h1>
+              <div class="article-info">
+                <div class="profile"><%= image_tag(gravatar_for(current_page.authors.first.name.split('|').last)) %> </div>
+                <p>Posted on <%= current_page.date.strftime('%d %b %Y') %></p>
+                <p>Written by <%= current_page.authors.first.name.split('|').first %></p>   
+              </div>
+              <div class="clear"></div>
+              <p><%= current_page.body %></p>
+            </div>
           </div>
         </div>
         <div class="articles-addon">
