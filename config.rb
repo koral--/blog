@@ -73,5 +73,4 @@ end
 
 activate :blog do |blog|
   blog.permalink = "{year}/{month}/{day}/{title}.html"
-  blog.layout = "blog_layout"
 end
