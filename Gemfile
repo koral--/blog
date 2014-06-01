@@ -9,3 +9,5 @@ gem "middleman-blog", "~> 3.5.3"
 gem "builder", "~> 3.0"
 
 gem "middleman-blog-authors"
+
+gem "middleman-minify-html"
