@@ -40,7 +40,16 @@
           <div class="articles-addons-inner">
             <h3>Archives</h3>
             <h3>Recent articles</h3>
+            <ul>
+              <% blog.articles[0...10].each do |article| %>
+                <li><a href="<%= article.url %>"><%= article.title %></a></li>
+              <% end %>
+            </ul>
             <h3>Tags</h3>
+            <ul>
+              <% tags.each do |tag| %>
+                <li><%= link_to tag.first, tag_path(tag.first) %> (<%= tag.last %>)</a></li>
+              <% end %>
           </div>
         </div>
         <div class="clear"></div>

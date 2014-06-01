@@ -1,14 +1,35 @@
 helpers do
   def gravatar_for(email)
     if email
-        # Make md5 hash for email address
-        hash = Digest::MD5.hexdigest(email.strip.downcase)
-        # Return url for Gravatar image
-        "http://www.gravatar.com/avatar/#{hash}.jpg"
-      else
-        # Return default image
-        "http://www.gravatar.com/avatar/?d=mm"
+      # Make md5 hash for email address
+      hash = Digest::MD5.hexdigest(email.strip.downcase)
+      # Return url for Gravatar image
+      "http://www.gravatar.com/avatar/#{hash}.jpg"
+    else
+      # Return default image
+      "http://www.gravatar.com/avatar/?d=mm"
+    end
+  end
+
+  def tags
+    tags_by_count = {}
+    blog.tags.each do |tag, value|
+      tags_by_count[value.count] ||= []
+      tags_by_count[value.count] << tag
+    end
+
+    tags_by_count.each do |k, v|
+      tags_by_count[k] = tags_by_count[k].sort { |a,b| a <=> b }
+    end    
+
+    tags_in_order = []
+    Hash[tags_by_count.sort.reverse].each do |key,value|
+      value.each do |v|
+        tags_in_order << [v, key]
       end
+    end
+
+    tags_in_order
   end
 end
 
