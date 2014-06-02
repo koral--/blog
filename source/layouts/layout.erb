@@ -39,6 +39,7 @@
         <div class="articles-addon">
           <div class="articles-addon-inner">
             <h3><a href="/archive.html">Archives</a></h3>
+            <h3><a href="/feed.xml">RSS feed</a></h3>
             <h3>Recent articles</h3>
             <ul>
               <% blog.articles[0...10].each do |article| %>
@@ -50,6 +51,7 @@
               <% tags.each do |tag| %>
                 <li><%= link_to tag.first, tag_path(tag.first) %> (<%= tag.last %>)</a></li>
               <% end %>
+            </ul>
           </div>
         </div>
         <div class="clear"></div>
