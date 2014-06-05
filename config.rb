@@ -137,4 +137,9 @@ configure :build do
   # set :http_prefix, "/Content/images/"
 end
 
+# Disqus
+activate :disqus do |d|
+  d.shortname = "concretebuilder"
+end
+
 activate :authors

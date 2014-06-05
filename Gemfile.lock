@@ -66,6 +66,8 @@ GEM
       rack-test (~> 0.6.2)
       thor (>= 0.15.2, < 2.0)
       tilt (~> 1.4.1, < 2.0)
+    middleman-disqus (0.0.3)
+      middleman-core (>= 3.1.0)
     middleman-minify-html (3.4.0)
       htmlcompressor (~> 0.1.0)
       middleman-core (>= 3.2)
@@ -119,4 +121,5 @@ DEPENDENCIES
   middleman (~> 3.3.3)
   middleman-blog (~> 3.5.3)
   middleman-blog-authors
+  middleman-disqus
   middleman-minify-html

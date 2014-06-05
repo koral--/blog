@@ -10,4 +10,6 @@ gem "builder", "~> 3.0"
 
 gem "middleman-blog-authors"
 
+gem "middleman-disqus"
+
 gem "middleman-minify-html"
