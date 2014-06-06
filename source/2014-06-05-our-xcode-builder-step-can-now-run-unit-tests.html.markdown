@@ -25,6 +25,7 @@ Additionally you can specify the OS version of the device by appending "OS=x.x" 
 For example: 
 
 - iPhone Retina (4-inch),OS=7.1
+- iPad Retina (64-bit),OS=7.1
 
 To get all the supported device OS versions you can use our updated System Info Reporter (read more below).
 
