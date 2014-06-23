@@ -125,6 +125,13 @@ a.white {
         color: white;
         display: block;
       }
+
+      blockquote {
+        p {
+          padding: 20px;
+          background-color: #f0f0f0;
+        }
+      }
     }
   }
 

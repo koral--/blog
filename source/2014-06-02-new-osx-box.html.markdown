@@ -1,7 +1,7 @@
 ---
 title: New OSX Box
 date: 2014-06-02 12:55 UTC
-tags: box, update
+tags: box-update
 authors: Viktor Benei|viktor.benei@gmail.com
 ---
 

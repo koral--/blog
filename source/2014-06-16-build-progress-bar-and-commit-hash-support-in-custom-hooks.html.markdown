@@ -1,7 +1,7 @@
 ---
 title: Build Progress-bar and Commit Hash support in custom hooks
 date: 2014-06-16 12:19 UTC
-tags: concrete, site, update, step
+tags: concrete-update, site-update, step-update
 authors: Viktor Benei|viktor.benei@gmail.com
 ---
 

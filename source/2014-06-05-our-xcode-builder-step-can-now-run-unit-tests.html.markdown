@@ -1,7 +1,7 @@
 ---
 title: Our Xcode Builder Step can now run Unit Tests
 date: 2014-06-05 14:34 UTC
-tags: step, update
+tags: step-update
 authors: Viktor Benei|viktor.benei@gmail.com
 ---
 

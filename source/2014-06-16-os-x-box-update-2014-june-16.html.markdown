@@ -1,7 +1,7 @@
 ---
 title: OS X Box Update (2014-June-16)
 date: 2014-06-16 10:43 UTC
-tags: box, update
+tags: box-update
 authors: Viktor Benei|viktor.benei@gmail.com
 ---
 
