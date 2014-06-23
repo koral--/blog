@@ -13,6 +13,8 @@ New Environment Variables for special Step related folders and files:
 - $CONCRETE_STEP_DATA_FOLDER_PATH: Step data folder
 - $CONCRETE_STEP_FORMATTED_OUTPUT_FILE_PATH: Formatted Step output file
 
+*You don't have to create these folders, these are part of the new OS X Box.*
+
 > For the complete list of available Environment Variables check out the Concrete DevCenter's [Step Development](http://devcenter.concretebuilder.io/step-dev.html) page
 
 
