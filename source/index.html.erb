@@ -10,6 +10,11 @@ per_page: 10
       <div class="profile"><%= image_tag(gravatar_for(article.authors.first.name.split('|').last)) %> </div>
       <p>Posted on <%= article.date.strftime('%d %b %Y') %></p>
       <p>Written by <%= article.authors.first.name.split('|').first %></p>   
+      <p>Tags:
+        <% article.tags.each do |tag| %>
+        <span><%= link_to tag, tag_path(tag) %></span>
+        <% end %>
+      </p>
     </div>
     <div class="clear"></div>
     <p><%= article.body %></p>

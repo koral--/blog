@@ -49,7 +49,7 @@
             <h3>Tags</h3>
             <ul>
               <% tags.each do |tag| %>
-                <li><%= link_to tag.first, tag_path(tag.first) %> (<%= tag.last %>)</a></li>
+                <li><%= link_to tag.first, tag_path(tag.first) %> (<%= tag.last %>)</li>
               <% end %>
             </ul>
           </div>

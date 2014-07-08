@@ -38,7 +38,12 @@
               <div class="article-info">
                 <div class="profile"><%= image_tag(gravatar_for(current_page.authors.first.name.split('|').last)) %> </div>
                 <p>Posted on <%= current_page.date.strftime('%d %b %Y') %></p>
-                <p>Written by <%= current_page.authors.first.name.split('|').first %></p>   
+                <p>Written by <%= current_page.authors.first.name.split('|').first %></p>
+                <p>Tags:
+                  <% current_page.tags.each do |tag| %>
+                  <span><%= link_to tag, tag_path(tag) %></span>
+                  <% end %>
+                </p>
               </div>
               <div class="clear"></div>
               <p><%= current_page.body %></p>
@@ -58,7 +63,7 @@
             <h3>Tags</h3>
             <ul>
               <% tags.each do |tag| %>
-                <li><%= link_to tag.first, tag_path(tag.first) %> (<%= tag.last %>)</a></li>
+                <li><%= link_to tag.first, tag_path(tag.first) %> (<%= tag.last %>)</li>
               <% end %>
             </ul>
           </div>
