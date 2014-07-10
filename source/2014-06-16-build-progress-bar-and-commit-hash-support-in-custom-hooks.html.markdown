@@ -31,7 +31,7 @@ Example:
 
 `'payload={"repository":{"url":"..."},"hook_info":{"type":"bitrise"},"build_params":{"commit_hash":"fc486d0395b9e84ffc9b1ba59c83ad836c719fd2"}}'`
 
-For more information about Build URL Hooks check out our DevCenter at: [http://devcenter.bitrise.io/build-url-hooks.html](http://devcenter.bitrise.io/build-url-hooks.html)
+For more information about Build URL Hooks check out our Dev Center at: [http://devcenter.bitrise.io/build-url-hooks.html](http://devcenter.bitrise.io/build-url-hooks.html)
 
 And for examples specific to your app on Bitrise you can check out the **Settings** tab of your app and click on the **REPOSITORY HOOK** section.
 
