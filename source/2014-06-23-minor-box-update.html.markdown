@@ -26,4 +26,4 @@ Our **System Information Reporter** Step has been updated to generate a formatte
 
 ![Formatted Step Output of System Information Reporter Step](formatted-step-output-example-1.png)
 
-As usual you can check out the Step's [source code on GitHub](https://github.com/bitrise/steps-system-info-reporter).
+As usual you can check out the Step's [source code on GitHub](https://github.com/bitrise-io/steps-system-info-reporter).
