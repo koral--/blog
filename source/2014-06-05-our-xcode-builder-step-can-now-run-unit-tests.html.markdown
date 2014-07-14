@@ -5,9 +5,9 @@ tags: step-update
 authors: Viktor Benei|viktor.benei@gmail.com
 ---
 
-We just updated our Xcode Builder step (available on GitHub: [https://github.com/concretebuilder/steps-xcode-builder](https://github.com/concretebuilder/steps-xcode-builder) - feel free to fork it) with the option to run Xcode unit tests.
+We just updated our Xcode Builder step (available on GitHub: [https://github.com/bitrise-io/steps-xcode-builder](https://github.com/bitrise/steps-xcode-builder) - feel free to fork it) with the option to run Xcode unit tests.
 
-A new Step was added to the Concrete Step Library, you can now add this to your workflows.
+A new Step was added to the Bitrise Step Library, you can now add this to your workflows.
 
 The Step supports both Xcode's command line xcodebuilder and the popular xctool, runs the tests with the Xcode Simulator and supports to choose the Simulator device which will run the tests. 
 
@@ -32,7 +32,7 @@ To get all the supported device OS versions you can use our updated System Info 
 
 # System Info Reporter Step was also updated
 
-We added a new report to the System Info Reporter Step (available on GitHub: [https://github.com/concretebuilder/steps-system-info-reporter](https://github.com/concretebuilder/steps-system-info-reporter) - feel free to fork it) to list all the available SDKs you can use with Xcode, for your Unit Tests.
+We added a new report to the System Info Reporter Step (available on GitHub: [https://github.com/bitrise-io/steps-system-info-reporter](https://github.com/bitrise/steps-system-info-reporter) - feel free to fork it) to list all the available SDKs you can use with Xcode, for your Unit Tests.
 
 
-Have fun with Unit Testing your iOS projects and let us know what you think about Unit Testing with Concrete!
+Have fun with Unit Testing your iOS projects and let us know what you think about Unit Testing with Bitrise!
