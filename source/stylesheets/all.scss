@@ -57,6 +57,8 @@ a.white {
     font-size: 18px;
     text-transform: uppercase;
     background-color: #f47421;
+    margin-right: 80px;
+    letter-spacing: 1px;
   }
 
   .btn:hover {
@@ -106,7 +108,7 @@ a.white {
   }
 
   .articles {
-    width: 70%;
+    width: 60%;
     float: left;
 
     .articles-inner {
@@ -227,78 +229,199 @@ a.white {
         display: block;
       }
 
-      blockquote {
-        p {
-          padding: 20px;
-          background-color: #fedf02;
-          color: #2a2a2a;
-        }
+       ul {
+        margin: 0;
+        padding: 0 0 0 30px;
+        line-height: 25px;
+        font-size: 14px;
+        list-style-image: url('/images/bullet.png');
+        color: #2a2a2a;
+      }
+
+     blockquote {
+
+          p {
+            padding: 20px;
+            background-color: #fedf02;
+            color: #2a2a2a;
+            padding-top: 0px;
+            padding-left: 35px;
+            text-indent: -35px;
+            font-style: italic;
+            padding-bottom: 30px; 
+
+
+          }
+
+          p:before {
+            content: url(/images/quote.png);
+            margin-right: 20px;
+            margin-left: -43px;
+          }
       }
     }
   }
 
   .articles-addon {
-    width: 30%;
+    width: 35%;
     float: right;
     background-color: #e1e1e1;
-    margin-top: -8px;
     padding-top: 70px;
+    margin-top: -70px; 
+    padding-bottom: 100px;
+    
    
-
-
-
-
     .articles-addon-inner {
       margin: 0 0 0 25px;
 
       h3 {
         margin: 0;
-        line-height: 30px;
-        font-weight: 300;
-        font-size: 16px;
+        line-height: 20px;
+        font-weight: bold;
+        font-size: 14px;
+        color: #2a2a2a;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+
+      }
+
+      .top>h3 {
+        margin: 0;
+      }
+
+      h3>a{
+        text-transform: none;
+        color: #2a2a2a;
+        letter-spacing: 0px;
+        padding-left: 10px;
+
+      }
+
+      li>h3>a {
+        float: left;
+        display: block;
+
+      }
+
+      li>img {
+        display: block;
+        float: left;
+      }
+
+      .top {
+        clear: both;
+        overflow: hidden;
+        margin-bottom: 10px;
+        list-style-type: none;
+      }
+
+      h3>a:hover {
+        color: #3cc1a7;
       }
 
       ul {
         margin: 0;
         padding: 0 0 0 15px;
-        list-style: none;
-        line-height: 20px;
+        line-height: 25px;
         font-weight: 300;
         font-size: 14px;
+        list-style-image: url('/images/bullet.png');
+      }
+
+      li>a {
+        color: #2a2a2a;
+      }
+
+      li>a:hover {
+        color: #3cc1a7;
+      }
+
+      .tags>li>a{
+        background-color: #3cc1a7;
+        line-height: 21px;
+        padding: 2px;
+        padding-left: 6px;
+        padding-right: 6px;
+      }
+
+      .tags>li>a:hover{
+        background-color: #fedf02;
+        color: #2a2a2a;
       }
     }
   }
 }
 
 .footer {
-  background-color: #FFFFFF;
+  background-color: #3b3b3b;
   border-top: 1px #DCE0E2 solid;
   padding: 20px;
 
-  text-align: center;
+  text-align: left;
   font-weight: 300;
   font-size: 12px;
   line-height: 24px;
+  padding-bottom: 50px;
 
   .footer-col {
     width: 50%;
     float: left;
 
+
     .footer-col-inner {
-      margin: 25px 50px;
+      margin: 35px 50px;
     }
 
     .title {
       text-transform: uppercase;
+      font-weight: bold;
+      color: #3cc1a7;
+      letter-spacing: 2px;
+      font-size: 18px;
+      line-height: 30px;
+      vertical-align: middle;
+      padding-top: 0px;
     }
 
+      li>img {
+        display: block;
+        float: left;
+        margin-left: -45px;
+        margin-right: 10px;
+      }
+      .top {
+        clear: both;
+        margin-bottom: 10px;
+        list-style-type: none;
+      }
+/*    .title:before {
+      content: url(/images/footer1.png);
+      margin-left: -40px;
+      margin-right: 5px;
+    }
+*/
+    .title2 {
+      text-transform: uppercase;
+      font-weight: bold;
+      color: #fedf02;
+      letter-spacing: 2px;
+      font-size: 18px;
+    }
+/*
+    .title2:before {
+      content: url(/images/footer2.png);
+    }*/
+
     .separator {
-      height: 1px;
+      height: 4px;
       background-color: #DCE0E2;
-      margin: 2px 0 5px 0;
+      margin: 10px 0 10px 0;
     }
 
     p {
+      color: #FFFFFF;
     }
   }
 
@@ -306,6 +429,8 @@ a.white {
     width: 80%;
     margin: 0 auto;
     text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
   }
 
   .footer-nav {
@@ -315,8 +440,10 @@ a.white {
 }
 
 .wrapper {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
+  padding-right: 0px;
+  margin-right: 0px;
 }
 
 .clear {

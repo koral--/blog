@@ -27,27 +27,6 @@
     <div class="header">
           <h1>Bitrise is the easiest way to automate your development workflow</h1>
                     <hr>
-
-        <div class="articles-addon">
-          <div class="articles-addon-inner">
-            <h3><a href="/archive.html">Archives</a></h3>
-            <h3><a href="/feed.xml">RSS feed</a></h3>
-            <h3>Recent articles</h3>
-            <ul>
-              <% blog.articles[0...10].each do |article| %>
-                <li><a href="<%= article.url %>"><%= article.title %></a></li>
-
-
-              <% end %>
-            </ul>
-            <h3>Tags</h3>
-            <ul>
-              <% tags.each do |tag| %>
-                <li><%= link_to tag.first, tag_path(tag.first) %> (<%= tag.last %>)</li>
-              <% end %>
-            </ul>
-          </div>
-        </div>
           <div class="clear"></div>
         </div>
       <div class="wrapper">
@@ -58,7 +37,32 @@
             <%= yield %>
           </div>
         </div>
-        
+        <div class="articles-addon">
+          <div class="articles-addon-inner">
+            <li class="top">
+            	<img src="images/archives_icon.png" alt=""></img>
+            	<h3><a href="/archive.html">Archives</a></h3>
+            </li>	
+            <li class="top">
+            <img src="images/rss_icon.png" alt=""></img>
+            <h3><a href="/feed.xml">RSS feed</a></h3>
+            </li>
+            <h3>Recent articles</h3>
+            <ul>
+              <% blog.articles[0...10].each do |article| %>
+                <li><a href="<%= article.url %>"><%= article.title %></a></li>
+
+
+              <% end %>
+            </ul>
+            <h3>Tags</h3>
+            <ul class="tags">
+              <% tags.each do |tag| %>
+                <li><%= link_to tag.first, tag_path(tag.first) %> (<%= tag.last %>)</li>
+              <% end %>
+            </ul>
+          </div>
+        </div>
         <div class="clear"></div>
       </div>
     </div>
@@ -67,14 +71,20 @@
       <div class="wrapper">
         <div class="footer-col">
           <div class="footer-col-inner">
+           <li class="top">
+           	<img src="images/footer1.png"></img>
             <div class="title">Register an account</div>
+            </li>
             <div class="separator"></div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed posuere eros. Donec auctor aliquet varius. In lacinia,u</p>
           </div>
         </div>
         <div class="footer-col">
           <div class="footer-col-inner">
-            <div class="title">Join the community</div>
+            <li class="top">
+           	<img src="images/footer2.png"></img>
+            <div class="title2">Join the community</div>
+            </li>
             <div class="separator"></div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed posuere eros. Donec auctor aliquet varius. In lacinia, justo eu viverra luctus, orci libero ornare justo, sit amet condimentum metus libero vel justo. Morbi convallis blandit purus,</p>
           </div>
