@@ -20,3 +20,5 @@ We're still cleaning up our codes and doing the renaming. We hope to finish it d
 A quick note about the public release: it's planned for the end of the week. Most of the systems are already in place and you can even try it at [http://bitrise.io](http://bitrise.io) - but keep in mind that we're in the middle of a final system revision and so things might broke during the week.
 
 Farewell to concrete and welcome to Bitrise!
+
+

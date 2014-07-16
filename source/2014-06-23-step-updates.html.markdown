@@ -8,7 +8,7 @@ authors: Viktor Benei|viktor.benei@gmail.com
 Lately we updated quite a few of our core Steps, here are the more significant updates:
 
 
-# Git Clone Step
+## Git Clone Step
 
 *Repository: [https://github.com/bitrise-io/steps-git-clone](https://github.com/bitrise-io/steps-git-clone)*
 
@@ -18,7 +18,7 @@ There were two significant changes:
 2. for additional security the Step will remove the private SSH key after the clone finishes
 
 
-# HipChat Step
+### HipChat Step ######
 
 *Repository: [https://github.com/bitrise-io/steps-hipchat](https://github.com/bitrise-io/steps-hipchat)*
 
