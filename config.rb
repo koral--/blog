@@ -139,7 +139,7 @@ end
 
 # Disqus
 activate :disqus do |d|
-  d.shortname = "bitrise"
+  d.shortname = "concretebuilder"
 end
 
 activate :authors
