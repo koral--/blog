@@ -13,7 +13,7 @@ After a few tests we found that the initialization was painfully slow. So slow t
 
 The AWS Gem installs a huge amount of dependencies, some even requires native extensions to be compiled.
 
-We already used [s3cmd](http://s3tools.org/s3cmd) in our [S3 Upload Step](https://github.com/bitrise-io/steps-amazon-s3-upload) and it works really well. 
+We already used [s3cmd](http://s3tools.org/s3cmd) in our [S3 Upload Step](https://github.com/bitrise-io/steps-amazon-s3-upload) and it works really well.
 
 The installation of s3cmd through [Homebrew](http://brew.sh/) takes less than 5 seconds. That’s roughly a **85 seconds speed up**.
 
@@ -25,6 +25,6 @@ We’ll continue refining our Steps so you can build and deploy your apps more e
 
 *Link to the Amazon S3 Deploy Step's [source code](https://github.com/bitrise-io/steps-amazon-s3-deploy)*
 
-> If you need help with updating the version of your Steps check out our [DevCenter](http://devcenter.bitrise.io/step-update.html) or leave a comment below.
+> If you need help with updating the version of your Steps check out our [DevCenter](http://devcenter.bitrise.io/docs/step-update.html) or leave a comment below.
 
 > If you have problems with the new version of the Step contact us at **letsconnect at bitrise io** or leave a comment below.
