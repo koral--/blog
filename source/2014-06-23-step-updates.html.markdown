@@ -2,7 +2,7 @@
 title: Step Updates
 date: 2014-06-23 17:07 UTC
 tags: step-update
-authors: Viktor Benei|viktor.benei@gmail.com
+authors: Viktor Benei|viktorbenei@bitrise.io
 ---
 
 Lately we updated quite a few of our core Steps, here are the more significant updates:

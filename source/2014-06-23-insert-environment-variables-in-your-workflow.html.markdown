@@ -2,7 +2,7 @@
 title: Insert Environment Variables in your Workflow
 date: 2014-06-23 14:43 UTC
 tags: bitrise-update, site-update
-authors: Viktor Benei|viktor.benei@gmail.com
+authors: Viktor Benei|viktorbenei@bitrise.io
 ---
 
 You could always insert Environment Variables into your Workflow's step inputs but from now on you can use our quick inserter popup.

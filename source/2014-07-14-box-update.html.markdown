@@ -2,7 +2,7 @@
 title: Box Update
 date: 2014-07-14 19:35 UTC
 tags: box-update
-authors: Viktor Benei|viktor.benei@gmail.com
+authors: Viktor Benei|viktorbenei@bitrise.io
 ---
 
 
