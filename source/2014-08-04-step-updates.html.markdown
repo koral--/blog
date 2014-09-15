@@ -2,7 +2,7 @@
 title: Step Updates
 date: 2014-08-04 19:48 UTC
 tags: step-update
-authors: Viktor Benei|viktor.benei@gmail.com
+authors: Viktor Benei|viktorbenei@bitrise.io
 ---
 
 We've added Formatted Output support for three deploy Steps:

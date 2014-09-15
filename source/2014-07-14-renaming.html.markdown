@@ -2,7 +2,7 @@
 title: Renaming
 date: 2014-07-14 09:42 UTC
 tags: status, bitrise-update
-authors: Viktor Benei|viktor.benei@gmail.com
+authors: Viktor Benei|viktorbenei@bitrise.io
 ---
 
 As we're moving forward to our public beta we try to finalize the things both under the hood and on the UI.

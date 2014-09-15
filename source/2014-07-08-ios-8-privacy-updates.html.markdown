@@ -2,7 +2,7 @@
 title: iOS 8 Privacy Updates
 date: 2014-07-08 09:07 UTC
 tags: ios, news, tips
-authors: Viktor Benei|viktor.benei@gmail.com
+authors: Viktor Benei|viktorbenei@bitrise.io
 ---
 
 A good summary of the key privacy changes, based on WWDC session videos:

@@ -2,7 +2,7 @@
 title: App Reviews - in Word Clouds
 date: 2014-07-19 22:10 UTC
 tags: tips, app store
-authors: Viktor Benei|viktor.benei@gmail.com
+authors: Viktor Benei|viktorbenei@bitrise.io
 ---
 
 A short analysis of the words used in App Store reviews.

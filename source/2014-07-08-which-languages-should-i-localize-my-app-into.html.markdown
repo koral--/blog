@@ -2,7 +2,7 @@
 title: Which Languages Should I Localize My App Into?
 date: 2014-07-08 13:01 UTC
 tags: ios, tips
-authors: Viktor Benei|viktor.benei@gmail.com
+authors: Viktor Benei|viktorbenei@bitrise.io
 ---
 
 Useful language usage statistics for iOS developers:

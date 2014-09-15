@@ -2,7 +2,7 @@
 title: Our Xcode Builder Step can now run Unit Tests
 date: 2014-06-05 14:34 UTC
 tags: step-update
-authors: Viktor Benei|viktor.benei@gmail.com
+authors: Viktor Benei|viktorbenei@bitrise.io
 ---
 
 We just updated our Xcode Builder step (available on GitHub: [https://github.com/bitrise-io/steps-xcode-builder](https://github.com/bitrise/steps-xcode-builder) - feel free to fork it) with the option to run Xcode unit tests.
