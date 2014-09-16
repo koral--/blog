@@ -24,7 +24,7 @@ For more information you can check our [Xcode support guideline on our DevCenter
 ## xctool Xcode 6 support
 
 Right now xctool doesn't support Xcode 6 in it's latest release version.
-We'll [keep an eye](https://github.com/facebook/xctool/issues/380) on this issue
+We'll [keep an eye](https://github.com/facebook/xctool/issues/380){:target="_blank"} on this issue
 and we'll update the preinstalled xctool in our VMs when the new release gets available.
 
 In the meantime if you want to use xctool you'll have to use it with Xcode 5.
