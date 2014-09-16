@@ -7,9 +7,9 @@ authors: Viktor Benei|viktorbenei@bitrise.io
 
 We've added Formatted Output support for three deploy Steps:
 
-* Amazons S3 Deploy [github](https://github.com/bitrise-io/steps-amazon-s3-deploy)
-* TestFlight Deploy [github](https://github.com/bitrise-io/step-testflight-deploy)
-* Amazon S3 Upload / Bucket sync [github](https://github.com/bitrise-io/steps-amazon-s3-upload)
+* Amazons S3 Deploy [github](https://github.com/bitrise-io/steps-amazon-s3-deploy){:target="_blank"}
+* TestFlight Deploy [github](https://github.com/bitrise-io/step-testflight-deploy){:target="_blank"}
+* Amazon S3 Upload / Bucket sync [github](https://github.com/bitrise-io/steps-amazon-s3-upload){:target="_blank"}
 
 Formatted Output will help you get to the related deploy easier.
 
