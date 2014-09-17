@@ -1,7 +1,7 @@
 ---
 title: Minor TestFlight issues
 date: 2014-07-18 15:29 UTC
-tags: status, issues
+tags: status
 authors: Viktor Benei|viktorbenei@bitrise.io
 ---
 

@@ -1,7 +1,7 @@
 ---
-title: New step update warning
+title: New step update alerts
 date: 2014-09-15 20:58 UTC
-tags: bitrise-update, announcement
+tags: announcement
 authors: Viktor Benei|viktorbenei@bitrise.io
 ---
 

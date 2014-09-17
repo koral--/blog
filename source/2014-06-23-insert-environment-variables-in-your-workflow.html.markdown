@@ -1,7 +1,7 @@
 ---
 title: Insert Environment Variables in your Workflow
 date: 2014-06-23 14:43 UTC
-tags: bitrise-update, site-update
+tags: announcement
 authors: Viktor Benei|viktorbenei@bitrise.io
 ---
 

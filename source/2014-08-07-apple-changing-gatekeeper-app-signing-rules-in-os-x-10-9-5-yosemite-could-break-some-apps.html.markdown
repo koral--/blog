@@ -1,7 +1,7 @@
 ---
 title: Apple changing Gatekeeper app signing rules in OS X 10.9.5 & Yosemite, could break some apps
 date: 2014-08-07 10:05 UTC
-tags: news, osx, app store
+tags: osx-dev
 authors: Barnabas Birmacher|birmacher@bitrise.io
 ---
 

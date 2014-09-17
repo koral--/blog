@@ -1,6 +1,6 @@
 ---
 title: Xcode Unit Test through SSH
-tags: osx, howto, security
+tags: osx-dev, ios-dev
 authors: Viktor Benei|viktorbenei@bitrise.io
 ---
 

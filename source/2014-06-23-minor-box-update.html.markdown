@@ -1,7 +1,7 @@
 ---
 title: Minor OS X Box Update
 date: 2014-06-23 08:42 UTC
-tags: box-update, bitrise-update
+tags: box-update, announcement
 authors: Viktor Benei|viktorbenei@bitrise.io
 ---
 
