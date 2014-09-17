@@ -1,7 +1,7 @@
 ---
 title: iOS 8 Privacy Updates
 date: 2014-07-08 09:07 UTC
-tags: ios, news, tips
+tags: ios-dev
 authors: Viktor Benei|viktorbenei@bitrise.io
 ---
 
