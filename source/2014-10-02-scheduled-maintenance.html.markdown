@@ -19,3 +19,10 @@ while we update our databases and our queue system.
 > Starts at: 8am UTC; Ends at: 10am UTC (planned)
 
 Please let us know if you have problems with the maintenance schedule.
+
+## Status
+
+The maintenance is now finished. We're still closely monitoring
+the system for issues introduced with the maintenance - so far none discovered.
+
+If you find a bug feel free to reach us, we'll investigate it ASAP.
