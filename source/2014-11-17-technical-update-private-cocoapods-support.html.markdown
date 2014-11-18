@@ -1,5 +1,5 @@
 ---
-title: Technical update - Pricate Cocoapods support
+title: Technical update - Private Cocoapods support
 date: 2014-11-17 16:48 UTC
 tags: announcement
 authors: Viktor Benei|viktorbenei@bitrise.io
