@@ -1,5 +1,5 @@
 ---
-title: Virtual Machines updates finished
+title: Virtual Machine updates finished
 date: 2014-12-13 10:13 UTC
 tags: announcement, status, box-update
 authors: Viktor Benei|viktorbenei@bitrise.io
