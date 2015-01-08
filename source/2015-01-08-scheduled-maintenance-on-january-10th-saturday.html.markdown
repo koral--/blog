@@ -16,8 +16,9 @@ or through the Bitrise Build Trigger API during the maintenance.
 
 The maintenance is required to safely manage the transition
 from our previous Build Workflow system to a new system
-which is completely built on the open source StepLib
-specification and format.
+which is completely built on the
+open source [StepLib](http://www.steplib.com/){:target="_blank"} specification
+and format.
 
 We'll deploy our new Workflow Editor as well and a couple
 of related additional features which were requested by
