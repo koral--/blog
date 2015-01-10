@@ -5,6 +5,8 @@ tags: announcement, status
 authors: Viktor Benei|viktorbenei@bitrise.io
 ---
 
+> **Update**: maintenance finished, every subsystem turned back on.
+
 We'll perform a scheduled maintenance at Saturday morning.
 
 **Bitrise will be unaccessible during the maintenance**,
@@ -40,4 +42,5 @@ Please let us know if you have problems with the maintenance schedule.
 
 ## Status
 
-No changes in the schedule or scope of the maintenance so far.
+The maintenance is now finished.
+If you find a bug feel free to [reach us](http://www.bitrise.io/contact){:target="_blank"}, we'll investigate it ASAP.
