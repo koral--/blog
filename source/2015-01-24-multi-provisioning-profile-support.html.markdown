@@ -37,7 +37,7 @@ the handling of the new, multiple Provisioning Profile urls
 environment variable.
 
 
-## An important not about Xcode steps
+## An important note about Xcode steps
 
 To use this new feature in your existing app you have to **upgrade
 your Xcode build steps** to the latest **3.0.0** version!
