@@ -5,7 +5,7 @@ tags: announcement
 authors: Viktor Benei|viktorbenei@bitrise.io
 ---
 
-Apple announced a couple of days ago the said news
+Apple announced a couple of days ago the sad news
 that probably the most popular iOS beta testing service,
 the "old" TestFlightApp.com is shutting down.
 And it's shutting down very soon, in less than a month.
