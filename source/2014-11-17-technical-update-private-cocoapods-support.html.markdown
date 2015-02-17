@@ -77,6 +77,6 @@ feedback in the last weeks and we discussed each one
 and kept in mind while we were working on the revisions.
 
 > As usual if you have any issues or suggestion
-> you can [contact us](http://www.bitrise.io/contact){:target="_blank"},
+> you can [contact us](http://www.bitrise.io/contact?utm_source=blog&utm_medium=blog&utm_campaign=bitrise){:target="_blank"},
 > we're always happy to help
 > or discuss about how Bitrise works.

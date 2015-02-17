@@ -71,7 +71,7 @@ making it more in line technically with our newer steps.
 in the [Bitrise step collection](https://github.com/bitrise-io/bitrise-step-collection){:target="_blank"}.*
 
 > As usual if you have any issues or suggestion
-> you can [contact us](http://www.bitrise.io/contact){:target="_blank"}
+> you can [contact us](http://www.bitrise.io/contact?utm_source=blog&utm_medium=blog&utm_campaign=bitrise){:target="_blank"}
 > or leave a comment below,
 > we're always happy to help
 > and to discuss about Bitrise.
