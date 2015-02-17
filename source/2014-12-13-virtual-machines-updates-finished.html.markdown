@@ -11,7 +11,7 @@ You can find the current pre-installed software list and the version numbers
 on our [DevCenter](http://devcenter.bitrise.io/docs/virtual-machine-updates.html).
 
 > As usual if you have any issues or suggestion
-> you can [contact us](http://www.bitrise.io/contact){:target="_blank"}
+> you can [contact us](http://www.bitrise.io/contact?utm_source=blog&utm_medium=blog&utm_campaign=bitrise){:target="_blank"}
 > or leave a comment below,
 > we're always happy to help you
 > and to discuss about Bitrise.
