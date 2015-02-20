@@ -1,11 +1,11 @@
 ---
-title: First version of Bitrise integrated iOS App Deploy
+title: First version of Bitrise integrated iOS App Deployment
 date: 2015-02-20 16:37 UTC
 tags: announcement
 authors: Viktor Benei|viktorbenei@bitrise.io
 ---
 
-The first version of our integrated iOS App Deploy
+The first version of our integrated iOS App Deployment
 feature is finally available for all of you now.
 It's still rough around the edges, there will be
 a lot of improvements during the next week to make it
