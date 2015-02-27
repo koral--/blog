@@ -9,7 +9,7 @@ As we mentioned in our [previous post](2015/02/20/first-version-of-bitrise-integ
 for our integrated App Deployment system.
 
 We discussed a lot about how the deployment system
-should work to provide you easy of use and the level
+should work to provide you an easy to use solution with the level
 of customization you expect on Bitrise.
 
 This week we finished two important new features:
