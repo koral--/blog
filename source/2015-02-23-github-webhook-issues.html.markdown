@@ -1,7 +1,7 @@
 ---
 title: GitHub webhook issues
 date: 2015-02-23 18:08 UTC
-tags: announcement
+tags: announcement, status
 authors: Viktor Benei|viktorbenei@bitrise.io
 ---
 
