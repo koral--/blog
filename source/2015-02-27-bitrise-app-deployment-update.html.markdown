@@ -26,17 +26,20 @@ a Bitrise account.
 You can also send install invite emails through Bitrise,
 from the same place: the app version's build page.
 
-We updated our deployment step too, with the latest
-version you can automate both whether the *Public install page*
-is enabled and the install invite email sending.
+We updated our deployment step too. With the latest
+version (*1.1.0*) you can define the list of
+testers who should receive an email notification
+about the new app version
+and whether the *Public install page*
+should be enabled.
 
 With these new features you can now automate
 a continuous deployment workflow like this:
 
-1. Work on your App's code and with the Workflow system define on what branch you would like an automatic app deployment (usually you want this for your *master* branch)
+1. Work on your App's code and with the Workflow system define on what branch you would like an automatic app deployment (usually you want this for your *master* branch).
 2. Whenever you push code to a branch which is configured for Bitrise App Deployment you'll be able to see and install the built app version right from the Build's page.
-3. Invite your testers into your Bitrise App's team, this way you can configure automatic notifications which will be sent in email every time a new version of your app is built on Bitrise
-4. If you have other testers or a client you want to share stable versions with you can just go to the Build's page and invite as many additional testers as you like
+3. Invite your testers into your Bitrise App's team, this way you can configure automatic notifications which will be sent in email every time a new version of your app is built on Bitrise.
+4. If you have other testers or a client you want to share stable versions with you can just go to the Build's page and invite as many additional testers as you like.
 
 Check out our [DevCenter](http://devcenter.bitrise.io/docs/bitrise-app-deployment.html){:target="_blank"} if you want to know all the details of
 the deployment system and for a guide on
