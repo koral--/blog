@@ -14,7 +14,13 @@ for the upcoming Virtual Machine update.
 
 The Virtual Machine update is scheduled for **Saturday, March 7, 2015**,
 we'll update this section with the status of the update.
-*We don't expect any downtime during the update.*
+*We don't expect any downtime during the update, but build queue
+times might be longer while we disconnect a set of
+builder machines for the update.*
+
+**Update**: the virtual machine update is now finished,
+we published a new blog post with the details of the new
+Xcode version naming scheme.
 
 
 ## Planned changes
