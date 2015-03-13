@@ -51,8 +51,4 @@ and we'll make sure that the new update contains the
 previous, stable solution which we used before.
 
 
-> As always if you have any issues or suggestion
-> you can [contact us](http://www.bitrise.io/contact?utm_source=blog&utm_medium=blog&utm_campaign=bitrise){:target="_blank"}
-> or leave a comment below,
-> we're happy to help
-> and to discuss about Bitrise.
+

@@ -5,12 +5,15 @@
 
 		<!-- Always force latest IE rendering engine or request Chrome Frame -->
 		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+		<meta name=viewport content="width=device-width, initial-scale=1.0" />
+		<meta name=apple-mobile-web-app-capable content=yes>
 
 		<!-- Use title if it's in the page YAML frontmatter -->
 		<title><%= "#{current_page.data.title} | Bitrise" %></title>
 
 		<%= stylesheet_link_tag "normalize", "all" %>
 		<%= stylesheet_link_tag '//fonts.googleapis.com/css?family=Source+Code+Pro' %>
+		<%= stylesheet_link_tag '//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,700,300,600' %>
 		<%= javascript_include_tag  "all" %>
 	</head>
 
@@ -30,35 +33,58 @@
 		</div>
 		<div class="content">
 				<div class="header">
-					<h1>Bitrise is the easiest way to automate your iOS development workflow</h1>
-					<div id="line"></div>
+					<h1>All you have to do is work on your code, Bitrise will do the rest.</h1>
 					<div class="clear"></div>
 				</div>
 			<div class="wrapper">
-
 				<div class="articles">
 					<div class="articles-inner">
-						<div class="article">
+						<div class="article-header">
 							<h1><%= link_to current_page.data.title, current_page %></h1>
-
-							<div id="postline"></div>
-
 							<div class="article-info">
-								<div class="profile"><%= image_tag(gravatar_for(current_page.authors.first.name.split('|').last)) %> </div>
-								<p>Posted on <%= current_page.date.strftime('%d %b %Y') %></p>
-								<p>Written by <%= current_page.authors.first.name.split('|').first %></p>
+								<p>Posted on
+									<span>
+										<i><b><%= current_page.date.strftime('%d %b %Y') %></b></i>
+									</span>
+								</p>
+								<p>Written by
+									<span>
+										<i><b><%= current_page.authors.first.name.split('|').first %></b></i>
+									</span>
+								</p>
 								<p>Tags:
 									<% current_page.tags.each do |tag| %>
 									<span class="tags"><%= link_to tag, tag_path(tag) %></span>
 									<% end %>
 								</p>
 							</div>
-							<div id="postline_after">
-							</div>
 							<div class="clear"></div>
-							<p><%= current_page.body %></p>
+						</div>					
+						<div class="article">
+							<div class="article-content">
+								<p><%= current_page.body %>
+									<blockquote>
+										<p class="contact-us">As always if you have any issues or suggestion you can
+											<span>
+												<a href="https://www.bitrise.io/contact?utm_source=blog&utm_medium=blog&utm_campaign=bitrise">contact us</a></span>, submit your idea on
+											<span>
+												<a href="https://bitrise.uservoice.com/">UserVoice</a>
+											</span>	
+											or leave a comment below, we're happy to help and to discuss about Bitrise.
+										</p>								
+									</blockquote>
+								</p>
+							</div>
 						</div>
 					</div>
+					<div class="recent-articles-mobile">
+						<h3>Recent articles</h3>
+						<ul>
+							<% blog.articles[0...5].each do |article| %>
+								<li><a href="<%= article.url %>"><%= article.title %></a></li>
+							<% end %>
+						</ul>
+					</div>					
 					<%= disqus %>
 				</div>
 				<div class="articles-addon">
@@ -88,47 +114,19 @@
 				<div class="clear"></div>
 			</div>
 		</div>
-
 		<div class="footer">
-			<div class="wrapper">
-				<div class="footer-col">
-					<div class="footer-col-inner">
-					 <li class="top">
-						<img src="/images/footer1.png"></img>
-						<div class="title">Register an account</div>
-						</li>
-						<div class="separator"></div>
-						<p>
-							It takes about a minute to register a <strong>free</strong> account
-							on <a href="http://www.bitrise.io/" target="_blank">Bitrise</a>
-							and to start your app's first automated build!
-						</p>
-					</div>
-				</div>
-				<div class="footer-col">
-					<div class="footer-col-inner">
-						<li class="top">
-						<img src="/images/footer2.png"></img>
-						<div class="title2">Join the community</div>
-						</li>
-						<div class="separator"></div>
-						<p>
-							Every Step in Bitrise is open source.
-							You can find all of our repositories
-							on <a href="https://github.com/bitrise-io/blog" target="_blank">GitHub</a>.
-							In fact you can even fork <a href="https://github.com/bitrise-io/blog" target="_blank">this website</a>.
-							<br />
-							You're more than welcome to work with us to provide
-							the best build automation system.
-						</p>
-					</div>
-				</div>
-				<div class="clear"></div>
-				<div class="copyright">Copyright ©<%= Time.now.year %> Bitfall Kft.
-					<span class="footer-nav"><a href="http://bitrise.io">BITRISE</a></span>
-					<span class="footer-nav"><a href="http://devcenter.bitrise.io">DEV CENTER</a></span>
-				</div>
+			<div class="left-menu">
+				<p>Copyright © <%= Time.now.year %> Bitfall Kft.</p>
+				<p class="slash">/</p>
+				<a href="http://bitrise.io">BITRISE</a>
+				<p class="slash">/</p>
+				<a href="http://devcenter.bitrise.io">DEVCENTER</a>
 			</div>
+			<div class="right-menu">
+				<a href="https://github.com/bitrise-io" class="github"></a>
+				<a href="https://twitter.com/bitrise" class="twitter"></a>
+			</div>
+			<div class="clear"></div>
 		</div>
 	</body>
 </html>

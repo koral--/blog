@@ -58,8 +58,3 @@ Let us know what you think about the new feature
 and send us your feedback if we missed something crucial
 what you would use our deployment system for.
 
-> As always if you have any issues or suggestion
-> you can [contact us](http://www.bitrise.io/contact?utm_source=blog&utm_medium=blog&utm_campaign=bitrise){:target="_blank"}
-> or leave a comment below,
-> we're happy to help
-> and to discuss about Bitrise.

@@ -37,8 +37,4 @@ We'll definitely work on improving how you can select the Xcode version you
 want to use, in the meantime feel free to ask or suggest anything related to
 the new virtual machine update schedule or Xcode version support!
 
-> As always if you have any issues or suggestion
-> you can [contact us](http://www.bitrise.io/contact?utm_source=blog&utm_medium=blog&utm_campaign=bitrise){:target="_blank"}
-> or leave a comment below,
-> we're happy to help
-> and to discuss about Bitrise.
+

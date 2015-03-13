@@ -33,8 +33,4 @@ We've updated our DevCenter article about the [virtual machine
 environment](http://devcenter.bitrise.io/docs/virtual-machine-updates.html){:target="_blank"}
 and it now contains a [changelog](http://devcenter.bitrise.io/docs/vm-box-changelog.html){:target="_blank"} with all the tool version changes.
 
-> As always if you have any issues or suggestion
-> you can [contact us](http://www.bitrise.io/contact?utm_source=blog&utm_medium=blog&utm_campaign=bitrise){:target="_blank"}
-> or leave a comment below,
-> we're happy to help
-> and to discuss about Bitrise.
+

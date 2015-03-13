@@ -29,8 +29,3 @@ With this schedule we hope that we can provide a stable environment for those
 who use stable release versions of Xcode and also provide quick support for those
 who experiment or develop with beta versions.
 
-> As always if you have any issues or suggestion
-> you can [contact us](http://www.bitrise.io/contact?utm_source=blog&utm_medium=blog&utm_campaign=bitrise){:target="_blank"}
-> or leave a comment below,
-> we're happy to help
-> and to discuss about Bitrise.
