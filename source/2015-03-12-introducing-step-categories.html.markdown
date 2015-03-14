@@ -5,7 +5,7 @@ tags: announcement
 authors: Viktor Benei|viktorbenei@bitrise.io
 ---
 
-As our Step collection grows it's gets more important
+As our Step collection grows it gets more important
 to provide an easy way for you to find the steps you
 want to add to your Workflow. So far you could only
 search the list of steps which is fine if you know
