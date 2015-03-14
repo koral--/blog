@@ -12,8 +12,11 @@ for the upcoming Virtual Machine update.
 
 ## Schedule & Status
 
+**Status**: the virtual machine update is now **finished**.
+
 The Virtual Machine update is scheduled for **Saturday, March 14, 2015**,
 we'll update this section with the status of the update.
+
 *We don't expect any downtime during the update, but build queue
 times might be longer while we disconnect a set of
 builder machines for the update.*
