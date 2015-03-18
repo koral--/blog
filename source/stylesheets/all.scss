@@ -76,7 +76,7 @@ a.white {
 	background-size: 27px 14px;
 	background-position: right center;
 	background-repeat: no-repeat;
-	padding-right: 35px;	
+	padding-right: 35px;
 }
 
 .navigation {
@@ -121,7 +121,7 @@ a.white {
 		-moz-background-clip: padding-box;
 		-o-background-clip: padding-box;
 		-ms-background-clip: padding-box;
-		cursor: pointer;	
+		cursor: pointer;
 
 		&:hover {
 			border-bottom: 2px solid #67308f;
@@ -189,7 +189,7 @@ a.white {
 			padding-bottom: 5px;
 			border-bottom: 1px solid #e2e2e2;
 
-			h1 {  
+			h1 {
 
 				color: #2a2a2a;
 
@@ -205,7 +205,7 @@ a.white {
 				font-weight: 300;
 				font-size: 36px;
 				line-height: 40px;
-			}			
+			}
 
 			.article-info {
 				margin-top: 20px;
@@ -252,8 +252,8 @@ a.white {
 					background-color: #ffe74a;
 				}
 
-		
-			}			
+
+			}
 		}
 
 		.articles-inner {
@@ -295,7 +295,11 @@ a.white {
 		.article-content {
 			background-color: white;
 			padding: 10px 20px;
-		}		
+
+			h1 {
+				line-height: 120%;
+			}
+		}
 
 		.article {
 			@media only screen and (max-width: 768px) {
@@ -308,7 +312,7 @@ a.white {
 			background-color: #ebebeb;
 			padding: 20px;
 			-webkit-box-shadow: 0 2px 3px 0 #cccccc;
-			box-shadow: 0 2px 3px 0 #cccccc;			
+			box-shadow: 0 2px 3px 0 #cccccc;
 
 			h1 {
 				font-size: 24px;
@@ -409,7 +413,7 @@ a.white {
 		padding-top: 20px;
 		padding-bottom: 100px;
 
-	 
+
 		.articles-addon-inner {
 			margin: 0 0 0 25px;
 
@@ -440,7 +444,7 @@ a.white {
 
 			li {
 				margin-top: 15px;
-				padding-right: 25px;			
+				padding-right: 25px;
 			}
 
 			li>h3>a {
@@ -516,7 +520,7 @@ a.white {
 .recent-articles-mobile {
 	@media only screen and (max-width: 768px) {
 		display: block;
-	}	
+	}
 
 	display: none;
 	padding: 0 20px;
@@ -573,7 +577,7 @@ a.white {
 			@media only screen and (max-width: 768px) {
 				display: block;
 				margin: 12px 0;
-			}			
+			}
 		}
 
 		p {
@@ -586,7 +590,7 @@ a.white {
 			&.slash {
 				@media only screen and (max-width: 768px) {
 					display: none;
-				}			
+				}
 				margin: 0 15px;
 			}
 		}
@@ -606,10 +610,10 @@ a.white {
 		.github, .twitter {
 			@media only screen and (max-width: 768px) {
 				display: block;
-			}			
+			}
 		}
 
-		.github {		
+		.github {
 			width: 31px;
 			height: 30px;
 			background-image: image-url('/images/github.png');
@@ -632,7 +636,7 @@ a.white {
 
 		.twitter:hover {
 			background-image: image-url('/images/twitter_hover.png');
-		}		
+		}
 	}
 }
 
