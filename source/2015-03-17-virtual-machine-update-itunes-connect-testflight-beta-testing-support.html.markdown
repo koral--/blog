@@ -53,7 +53,7 @@ This virtual machine update will contain only two tool version upgrade
 and a platform related change:
 
 * Xcode 6.3 beta 2 (Build version 6D532l) -> Xcode 6.3 beta 3 (Build version 6D543q)
-* git: 2.3.2 -> 2.3.2
+* git: 2.3.2 -> 2.3.3
 * *Platform note*: we'll increase the RAM of the virtual machines from 3GB to 4GB
 
 
