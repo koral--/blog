@@ -358,13 +358,23 @@ a.white {
 				display: block;
 			}
 
-			 ul {
+			ul {
 				margin: 0;
 				padding: 0 0 0 30px;
 				line-height: 25px;
 				font-size: 14px;
 				list-style-image: url('/images/bullet-star.png');
-				color: #2a2a2a;
+				color: black;
+			}
+
+			ol {
+				color: black;
+				font-size: 14px;
+				line-height: 18px;
+
+				li {
+					margin: 10px 0;
+				}
 			}
 
 		 blockquote {
