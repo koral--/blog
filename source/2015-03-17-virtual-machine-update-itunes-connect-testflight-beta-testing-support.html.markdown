@@ -59,7 +59,7 @@ and a platform related change:
 
 ## Schedule & Status
 
-**Status**: the new virtual machine is fully prepared, ready for deployment.
+**Status**: the new virtual machine was successfully deployed, available for everyone.
 
 The Virtual Machine update is scheduled for **Saturday, March 21, 2015**,
 we'll update this section with the status of the update.
