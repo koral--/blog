@@ -21,6 +21,12 @@ a.white {
 }
 
 #logo {
+	@media only screen and (max-width: 480px) {
+		width: 150px;
+		height: 23px;
+		margin-top: 30px;
+	}
+
 	width: 206px;
 	height: 31px;
 	margin-top: 26px;
@@ -103,7 +109,12 @@ a.white {
 
 	.btn {
 		@media only screen and (max-width: 480px) {
-			display: none;
+			font-size: 12px;
+			padding: 10px 20px;
+
+			span {
+				display: none;
+			}
 		}
 
 		line-height: 13px;
