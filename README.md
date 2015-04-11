@@ -1,6 +1,8 @@
 Bitrise Blog
 =============
 
+[http://blog.bitrise.io/](http://blog.bitrise.io/)
+
 To start the middleman server:
 
     $ middleman server
@@ -8,8 +10,6 @@ To start the middleman server:
 To add a new post/article:
 
     $ middleman article "Title of the article"
-
-URL: [http://blog.bitrise.io/](http://blog.bitrise.io/)
 
 # Tagging guideline
 
