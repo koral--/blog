@@ -11,6 +11,7 @@ To add a new post/article:
 
     $ middleman article "Title of the article"
 
+
 # Tagging guideline
 
 * announcement : Bitrise service announcements (new features, changes in existing features)
