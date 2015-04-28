@@ -9,7 +9,7 @@ Status images have finally arrived to Bitrise! From now on you can embed your pr
 
 Here is our [Dev Center's](http://devcenter.bitrise.io) status ( hope it's green when you reed this:) )
 
-[![Build Status](https://www.bitrise.io/app/83acac4fa8a7643e.svg?token=TOKEN&branch=master)](http://devcenter.bitrise.io/)
+[![Build Status](https://www.bitrise.io/app/83acac4fa8a7643e.svg?token=KlXUQom3675zIXd5K2xf7w&branch=master)](http://devcenter.bitrise.io/)
 
 
 Currently we are only supporting private apps on Bitrise so security was a huge issue when integrating this request into our service. You already have an API token that you can use to start manual builds. It's a great feature but it's a big risk to use it in a public environment.
