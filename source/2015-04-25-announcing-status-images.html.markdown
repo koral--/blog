@@ -16,4 +16,4 @@ Currently we are only supporting private apps on Bitrise so security was a huge 
 
 Therefore we created a new read-only token just for interacting with the status image, so you can show it anywhere and still have your project in full safety.
 
-You can find the embedding codes in your project's page. Grab it, add it to wherever you want and once it's public shoot us a line to get some free stickers!
+You can find the embedding codes in your project's page. Grab it, add it to wherever you want and once it's public shoot us a tweet to get some free stickers!
