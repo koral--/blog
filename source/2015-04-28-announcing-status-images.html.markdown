@@ -11,7 +11,6 @@ Here is our [Dev Center's](http://devcenter.bitrise.io) status ( hope it's green
 
 [![Build Status](https://www.bitrise.io/app/83acac4fa8a7643e.svg?token=KlXUQom3675zIXd5K2xf7w&branch=master)](http://devcenter.bitrise.io/)
 
-
 Currently we are only supporting private apps on Bitrise so security was a huge issue when integrating this request into our service. You already have an API token that you can use to start manual builds. It's a great feature but it's a big risk to use it in a public environment.
 
 Therefore we created a new read-only token just for interacting with the status image, so you can show it anywhere and still have your project in full safety.
