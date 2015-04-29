@@ -7,7 +7,7 @@ authors: Barnabas Birmacher|birmacher@bitrise.io
 
 Status images have finally arrived to Bitrise! From now on you can embed your project's status image to your project's README file, documentation or wherever you want and show it to your visitors.
 
-Here is our [Dev Center's](http://devcenter.bitrise.io) status ( hope it's green when you reed this:) )
+Here is our [Dev Center's](http://devcenter.bitrise.io) status ( hope it's green when you read this:) )
 
 [![Build Status](https://www.bitrise.io/app/83acac4fa8a7643e.svg?token=KlXUQom3675zIXd5K2xf7w&branch=master)](http://devcenter.bitrise.io/)
 
