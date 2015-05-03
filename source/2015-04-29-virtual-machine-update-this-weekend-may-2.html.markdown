@@ -27,6 +27,10 @@ the [GitHub page of the previous tool](https://github.com/bitrise-io/xcodebuild-
 
 ## Schedule & Status
 
+**Status**: the virtual machine update is now **finished**.
+Everything seems to be working correctly, we don't know
+about any issue caused by this update.
+
 The Virtual Machine update is scheduled for **Saturday, May 2, 2015**,
 we'll update this section with the status of the update.
 
