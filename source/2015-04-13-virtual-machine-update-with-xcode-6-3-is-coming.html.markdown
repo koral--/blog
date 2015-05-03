@@ -11,8 +11,11 @@ version change list, we expect this to be the complete list of updates.
 
 ## Schedule & Status
 
+**Status**: the virtual machine update is now **finished**.
+
 The Virtual Machine update is scheduled for **Saturday, April 18, 2015**,
 we'll update this section with the status of the update.
+
 *We don't expect any downtime during the update, but build queue
 times might be longer while we disconnect a set of
 builder machines for the update.*

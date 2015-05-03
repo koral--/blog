@@ -14,6 +14,7 @@ for the upcoming Virtual Machine update.
 
 The Virtual Machine update is scheduled for **Saturday, March 7, 2015**,
 we'll update this section with the status of the update.
+
 *We don't expect any downtime during the update, but build queue
 times might be longer while we disconnect a set of
 builder machines for the update.*
@@ -40,6 +41,3 @@ Xcode version naming scheme.
 * nomad-cli: 2.4.3 -> 2.4.6
 * RVM: 1.26.3 -> 1.26.10
 * Ruby: 2.1.5 installed with RVM, 2.1.5 is set as default
-
-
-
