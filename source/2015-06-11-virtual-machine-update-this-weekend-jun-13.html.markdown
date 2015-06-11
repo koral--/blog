@@ -1,0 +1,51 @@
+---
+title: Virtual machine update this weekend (June 13)
+date: 2015-06-11 14:15 UTC
+tags: announcement, status
+authors: Viktor Benei|viktorbenei@bitrise.io
+---
+
+We now have the new virtual machine prepared and it
+passed our initial tests so we now have the exact tool
+version change list, we expect this to be the complete list of updates.
+
+We're preparing to support the awesome new Xcode 7 announced on WWDC
+and still waiting for Xcode 6.4 which is in Beta for quite some time now.
+
+We actually anticipated that Xcode 6.4 will be out of beta by now,
+but (probably because of the work on Xcode 7) it's still just a beta
+so we finally decided to do a minor Xcode upgrade instead:
+from Xcode `6.3.1` to `6.3.2`.
+
+There were other minor pre-installed tool upgrades
+and we now pre-install one more tool (actually a collection of tools): `coreutils`.
+
+Coreutils contains handy utility tools like `(g)timeout`
+which can be used to run `bash` commands easily with a maximum
+allowed execution time.
+
+*Note: Coreutils installed with [Homebrew](http://brew.sh/){:target="_blank"} which means
+that all the tools are prefixed with the letter `g`.
+For example `timeout` is available as `gtimeout`.*
+
+There was no mayor tool version upgrade, as usual you can find
+the full [#changelog on our DevCenter](http://devcenter.bitrise.io/docs/vm-box-changelog.html).
+
+
+## Schedule & Status
+
+**Status**: the virtual machine is prepared and passed our initial tests.
+We'll keep testing it until we start the release on June 13.
+
+The Virtual Machine update is scheduled for **Saturday, June 13, 2015**,
+we'll update this section with the status of the update.
+
+*We don't expect any downtime during the update, but build queue
+times might be longer while we disconnect a set of
+builder machines for the update.*
+
+
+## Planned changes
+
+*You can always check the previous and planned changes
+on our [DevCenter - Virtual Machines / Box change log](http://devcenter.bitrise.io/docs/vm-box-changelog.html).*
