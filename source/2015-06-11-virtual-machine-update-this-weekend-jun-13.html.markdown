@@ -24,11 +24,11 @@ Coreutils contains handy utility tools like `(g)timeout`
 which can be used to run `bash` commands easily with a maximum
 allowed execution time.
 
-*Note: Coreutils installed with [Homebrew](http://brew.sh/){:target="_blank"} which means
+*Note: Coreutils is installed with [Homebrew](http://brew.sh/){:target="_blank"} which means
 that all the tools are prefixed with the letter `g`.
 For example `timeout` is available as `gtimeout`.*
 
-There was no mayor tool version upgrade, as usual you can find
+There was no major tool version upgrade, as usual you can find
 the full [#changelog on our DevCenter](http://devcenter.bitrise.io/docs/vm-box-changelog.html).
 
 
