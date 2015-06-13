@@ -34,8 +34,8 @@ the full [#changelog on our DevCenter](http://devcenter.bitrise.io/docs/vm-box-c
 
 ## Schedule & Status
 
-**Status**: the virtual machine is prepared and passed our initial tests.
-We'll keep testing it until we start the release on June 13.
+**Status**: the virtual machine update is now **finished**.
+Our tests did finish successfully, we don't know about any issue related to the update.
 
 The Virtual Machine update is scheduled for **Saturday, June 13, 2015**,
 we'll update this section with the status of the update.
