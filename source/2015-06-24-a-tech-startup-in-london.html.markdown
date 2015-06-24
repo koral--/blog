@@ -7,7 +7,7 @@ authors: Daniel Balla|danielballa@bitrise.io
 
 <img class="cover" src="images/london.gif" />
 
-I’m going to cut to the chase: two of us from the Bitrise team has moved to London a month ago.
+I’m going to cut to the chase: two of us from the Bitrise team have moved to London a month ago.
 
 > “Yes, London. You know: fish, chips, cup 'o tea, bad food, worse weather, Mary fucking Poppins... LONDON.”
 
