@@ -344,7 +344,13 @@ a.white {
 			}
 
 			img {
-				max-width: 90%;
+				max-width: 100%;
+
+				&.cover {
+					min-width: 808px;
+					margin-left: -40px;
+					margin-top: -47px;
+				}
 			}
 
 			p {
