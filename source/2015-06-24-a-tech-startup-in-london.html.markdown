@@ -23,6 +23,15 @@ Roughly one and a half month ago we got an increasing number of requests for Bit
 
 <blockquote class="twitter-tweet" lang="en" align="center"><p lang="en" dir="ltr">Just found this in the mailbox. Thanks <a href="https://twitter.com/bitrise">@bitrise</a>! <a href="http://t.co/ig0i2Nea7p">pic.twitter.com/ig0i2Nea7p</a></p>&mdash; Paolo Tagliani (@PablosProject) <a href="https://twitter.com/PablosProject/status/603824372990779393">May 28, 2015</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<blockquote class="twitter-tweet" lang="en" align="center"><p lang="en" dir="ltr">Just received <a href="https://twitter.com/bitrise">@bitrise</a> stickers and a BEAUTIFUL handwritten letter. Thanks guys! <a href="https://t.co/MRbx6E0l8P">https://t.co/MRbx6E0l8P</a></p>&mdash; Jorge Maroto (@patoroco) <a href="https://twitter.com/patoroco/status/603550108026806272">May 27, 2015</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" lang="en" align="center" data-conversation="none"><p lang="und" dir="ltr"><a href="https://twitter.com/bitrise">@bitrise</a> <a href="http://t.co/TUKnlFyYyr">pic.twitter.com/TUKnlFyYyr</a></p>&mdash; Gödrei Krisztián (@Klerenc) <a href="https://twitter.com/Klerenc/status/603521161037803520">May 27, 2015</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" lang="en" align="center"><p lang="en" dir="ltr">Thank you <a href="https://twitter.com/bitrise">@bitrise</a> for your awesome stickers! <a href="http://t.co/IYqdQ7kIeC">pic.twitter.com/IYqdQ7kIeC</a></p>&mdash; Miguel Ferrando (@nandodelauni) <a href="https://twitter.com/nandodelauni/status/603113871562436608">May 26, 2015</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck" align="center"><p lang="en" dir="ltr">Got a <a href="https://twitter.com/bitrise">@Bitrise</a> special cargo delivery from Hungary today! <a href="http://t.co/jWKsasVxVW">pic.twitter.com/jWKsasVxVW</a></p>&mdash; Justin Miller (@incanus77) <a href="https://twitter.com/incanus77/status/604071018261389315">May 28, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 We love that so many of you are so supporting, and we want to bring you along on this ride! We are on a mission to bring back the joy of app development, and that somehow also means that you can have awesome stickers to put on your stuff.
 
 We don’t want anybody to feel left out, so if you think you have just the place for a Bitrise sticker on your laptop, [write us an email](https://bitrise.io/contact), and we will send you some!
