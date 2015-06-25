@@ -5,7 +5,7 @@ tags: deep-space-travels
 authors: Daniel Balla|danielballa@bitrise.io
 ---
 
-<img class="cover" src="images/london.gif" />
+<img class="cover" src="/images/london.gif" />
 
 I’m going to cut to the chase: two of us from the Bitrise team have moved to London a month ago.
 
