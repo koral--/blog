@@ -5,7 +5,7 @@ tags: announcement
 authors: Viktor Benei|viktorbenei@bitrise.io
 ---
 
-We've updated the [Profile Page](http://www.bitrise.io/me/profile)
+We've updated the [Profile Page](https://www.bitrise.io/me/profile)
 to get it more in line with the design of Bitrise.
 
 It's probably not your most frequently visited page and that's

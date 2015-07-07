@@ -69,7 +69,7 @@ steps collection (like this new [Fabric/Crashlytics deploy Step](http://www.step
 write your own - the StepLib project now has a complete step template
 repository [on GitHub](https://github.com/steplib/step-template){:target="_blank"}
 to make it super easy for you to get started
-developing your Step and you can always [contact us](http://www.bitrise.io/contact?utm_source=blog&utm_medium=blog&utm_campaign=bitrise){:target="_blank"}
+developing your Step and you can always [contact us](https://www.bitrise.io/contact?utm_source=blog&utm_medium=blog&utm_campaign=bitrise){:target="_blank"}
 if you have a question or if you need help with your Step.
 
 

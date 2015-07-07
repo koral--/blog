@@ -34,7 +34,7 @@ Roughly one and a half month ago we got an increasing number of requests for Bit
 
 We love that so many of you are so supporting, and we want to bring you along on this ride! We are on a mission to bring back the joy of app development, and that somehow also means that you can have awesome stickers to put on your stuff.
 
-We don’t want anybody to feel left out, so if you think you have just the place for a Bitrise sticker on your laptop, [write us an email](https://bitrise.io/contact), and we will send you some!
+We don’t want anybody to feel left out, so if you think you have just the place for a Bitrise sticker on your laptop, [write us an email](https://www.bitrise.io/contact), and we will send you some!
 
 Next time, I thought I would introduce the team behind Bitrise to prove we are not really robots from space. Stay tuned!
 

@@ -22,4 +22,4 @@ We would be happy to talk with you about Bitrise,
 iOS continuous delivery and build automation.
 
 If you can't meet us at the competition you
-can also [chat with us online](http://www.bitrise.io/contact).
+can also [chat with us online](https://www.bitrise.io/contact).

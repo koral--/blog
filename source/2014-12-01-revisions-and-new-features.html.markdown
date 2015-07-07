@@ -23,7 +23,7 @@ We plan to finish the revision of the remaining pages during
 this week and hopefully next week you'll be presented with
 the new design on every page.
 
-> We're eager to hear your [feedback](http://www.bitrise.io/contact){:target="_blank"}!
+> We're eager to hear your [feedback](https://www.bitrise.io/contact){:target="_blank"}!
 > The new design will be tweaked in the coming weeks
 > and we plan to align our other sub-sites' (Blog and DevCenter) design
 > to better match the new style.
@@ -71,7 +71,7 @@ making it more in line technically with our newer steps.
 in the [Bitrise step collection](https://github.com/bitrise-io/bitrise-step-collection){:target="_blank"}.*
 
 > As usual if you have any issues or suggestion
-> you can [contact us](http://www.bitrise.io/contact?utm_source=blog&utm_medium=blog&utm_campaign=bitrise){:target="_blank"}
+> you can [contact us](https://www.bitrise.io/contact?utm_source=blog&utm_medium=blog&utm_campaign=bitrise){:target="_blank"}
 > or leave a comment below,
 > we're always happy to help
 > and to discuss about Bitrise.
