@@ -10,7 +10,7 @@ fix we mentioned in our [previous blog post](/2015/03/09/amazon-s3-network-issue
 did not detect any issues since the update.
 
 > If you still have issues
-> please [contact us](http://www.bitrise.io/contact?utm_source=blog&utm_medium=blog&utm_campaign=bitrise){:target="_blank"}
+> please [contact us](https://www.bitrise.io/contact?utm_source=blog&utm_medium=blog&utm_campaign=bitrise){:target="_blank"}
 > and we'll fix it as soon as possible!
 
 The virtual machine update contains two pre-installed tool
@@ -20,7 +20,7 @@ version upgrade as well:
 * xctool: 0.2.2 -> 0.2.3
 
 As always if you have a suggestion for new tools to be pre-installed
-on the Virtual Machines [contact us](http://www.bitrise.io/contact?utm_source=blog&utm_medium=blog&utm_campaign=bitrise){:target="_blank"}
+on the Virtual Machines [contact us](https://www.bitrise.io/contact?utm_source=blog&utm_medium=blog&utm_campaign=bitrise){:target="_blank"}
 and if it's reasonable to have the tools built into the virtual machines
 then the next update will already contain the new tools.
 

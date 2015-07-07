@@ -23,6 +23,6 @@ to make it easier to get started and to work with Bitrise.
 
 > We already have a huge list of feature requests in our development backlog
 > but if you have anything you miss you
-> can [contact and chat with us](http://www.bitrise.io/contact){:target="_blank"},
+> can [contact and chat with us](https://www.bitrise.io/contact){:target="_blank"},
 > we're always open to discuss about Bitrise and about mobile
 > development automation in general.

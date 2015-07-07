@@ -32,7 +32,7 @@ We'll update all the pre-installed components:
 ## Schedule
 
 We plan to prepare the box during the week - as always
-we're open to discuss suggestions, feel free to [contact us](http://www.bitrise.io/contact).
+we're open to discuss suggestions, feel free to [contact us](https://www.bitrise.io/contact).
 
 We'll replace our existing virtual machines during the weekend
 (starting on Saturday).

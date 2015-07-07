@@ -7,7 +7,7 @@ authors: Viktor Benei|viktorbenei@bitrise.io
 
 Now that we had a little time to make some revisions in our system we went through our existing Steps, testing their performance.
 
-Our Amazon S3 Deploy Step was one of the first Steps we developed for [Bitrise](http://www.bitrise.io){:target="_blank"}. We worked mostly with Ruby, we used S3's Ruby SDK in other projects so we choose to do a Ruby Gem based solution.
+Our Amazon S3 Deploy Step was one of the first Steps we developed for [Bitrise](https://www.bitrise.io){:target="_blank"}. We worked mostly with Ruby, we used S3's Ruby SDK in other projects so we choose to do a Ruby Gem based solution.
 
 After a few tests we found that the initialization was painfully slow. So slow that in most of the cases the initialization took more time than the actual deployment of the files!
 

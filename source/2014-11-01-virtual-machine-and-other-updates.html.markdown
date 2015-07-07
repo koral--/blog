@@ -63,4 +63,4 @@ under the **Always run this step?** section.*
 
 
 > If you have any problem with the new base box let us know below in the comments section
-> or [contact us](http://www.bitrise.io/contact)!
+> or [contact us](https://www.bitrise.io/contact)!

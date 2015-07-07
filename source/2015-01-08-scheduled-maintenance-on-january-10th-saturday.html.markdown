@@ -43,4 +43,4 @@ Please let us know if you have problems with the maintenance schedule.
 ## Status
 
 The maintenance is now finished.
-If you find a bug feel free to [reach us](http://www.bitrise.io/contact){:target="_blank"}, we'll investigate it ASAP.
+If you find a bug feel free to [reach us](https://www.bitrise.io/contact){:target="_blank"}, we'll investigate it ASAP.

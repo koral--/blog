@@ -31,7 +31,7 @@ We'll also add a few new pre-installed tools:
 * [ansible](http://www.ansible.com/home){:target="_blank"} version 1.8.1
 * [nomad-cli](http://nomad-cli.com/){:target="_blank"} version 2.4.3
 
-> As always we're open to discuss suggestions, feel free to [contact us](http://www.bitrise.io/contact?utm_source=blog&utm_medium=blog&utm_campaign=bitrise){:target="_blank"}.
+> As always we're open to discuss suggestions, feel free to [contact us](https://www.bitrise.io/contact?utm_source=blog&utm_medium=blog&utm_campaign=bitrise){:target="_blank"}.
 
 
 ## Schedule
