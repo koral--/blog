@@ -17,6 +17,12 @@ You'll be able to select Xcode 7 beta for building
 with the *Select Xcode version* step once the new Virtual Machine is
 published.
 
+**We'll introduce a new environment variable** as well: `CI=true`.
+This is an emerging trend in Continuous Integration / Delivery
+services, and helps you to write scripts which do different
+things when you run it on your own machine and when it runs
+on a CI server/service like [Bitrise](https://www.bitrise.io/){:target="_blank"}.
+
 
 ## Schedule & Status
 
