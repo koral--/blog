@@ -1,24 +1,31 @@
 ---
 title: Renaming
 date: 2014-07-14 09:42 UTC
-tags: status, bitrise-update
-authors: Viktor Benei|viktor.benei@gmail.com
+tags: announcement
+authors: Viktor Benei|viktorbenei@bitrise.io
 ---
 
-As we're moving forward to our public beta we try to finalize the things both under the hood and on the UI.
+As we're moving forward to our public beta we try to finalize the things both
+under the hood and on the UI.
 
-One of the major remaining tasks on our todo list was the renaming of the service. We used "concrete" as the codename of the project for a long time.
+One of the major remaining tasks on our todo list was the renaming of the service.
+We used "concrete" as the codename of the project for a long time.
 
-We kinda loved the name too, but it's too general - which means no social accounts are available - and there's also an Open Source CI project on GitHub.
+We kinda loved the name too, but it's too general - which means no social
+accounts are available - and there's also an Open Source CI project on GitHub.
 
 After weeks of discussion about the name we finally found the one we're happy with: **Bitrise**
 
 It's short, it's "techy" and it perfectly fits with our company's name (Bitfall).
 
-We're still cleaning up our codes and doing the renaming. We hope to finish it during the week - in the meantime there might be some places where you'll still see "concrete" instead of Bitrise. Feel free to report it to us if you find one.
+We're still cleaning up our codes and doing the renaming. We hope to finish
+it during the week - in the meantime there might be some places where you'll
+still see "concrete" instead of Bitrise. Feel free to report it to us if you find one.
 
-A quick note about the public release: it's planned for the end of the week. Most of the systems are already in place and you can even try it at [http://bitrise.io](http://bitrise.io) - but keep in mind that we're in the middle of a final system revision and so things might broke during the week.
+A quick note about the public release:
+it's planned for the end of the week. Most of the systems are already in
+place and you can even try it at [https://www.bitrise.io](https://www.bitrise.io){:target="_blank"} - but
+keep in mind that we're in the middle of a final system revision and so
+things might broke during the week.
 
 Farewell to concrete and welcome to Bitrise!
-
-

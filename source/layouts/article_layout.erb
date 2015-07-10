@@ -2,17 +2,21 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		
+
 		<!-- Always force latest IE rendering engine or request Chrome Frame -->
 		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-		
+		<meta name=viewport content="width=device-width, initial-scale=1.0" />
+		<meta name=apple-mobile-web-app-capable content=yes>
+
 		<!-- Use title if it's in the page YAML frontmatter -->
 		<title><%= "#{current_page.data.title} | Bitrise" %></title>
-		
+
 		<%= stylesheet_link_tag "normalize", "all" %>
+		<%= stylesheet_link_tag '//fonts.googleapis.com/css?family=Source+Code+Pro' %>
+		<%= stylesheet_link_tag '//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,700,300,600' %>
 		<%= javascript_include_tag  "all" %>
 	</head>
-	
+
 	<body class="<%= page_classes %>">
 		<div class="navigation">
 			<div class="wrapper">
@@ -21,41 +25,68 @@
 				</a>
 				<!--  <h1>Bitrise is the easiest way to automate your development workflow</h1> -->
 				<div class="right">
-					<div class="btn"><a href="http://bitrise.io" class="white">Register for free
-					</a></div>
+					<div class="btn">
+						<a href="https://www.bitrise.io" class="white">Register <span>for free</span></a>
+					</div>
 				</div>
 			</div>
 		</div>
-		<div class="content">       
+		<div class="content">
 				<div class="header">
-					<h1>Bitrise is the easiest way to automate your development workflow</h1>
-					<hr>
+					<h1>All you have to do is work on your code, Bitrise will do the rest.</h1>
 					<div class="clear"></div>
 				</div>
 			<div class="wrapper">
-
 				<div class="articles">
 					<div class="articles-inner">
-						<div class="article">
+						<div class="article-header">
 							<h1><%= link_to current_page.data.title, current_page %></h1>
-
-							<div id="postline"></div>
-
 							<div class="article-info">
-								<div class="profile"><%= image_tag(gravatar_for(current_page.authors.first.name.split('|').last)) %> </div>
-								<p>Posted on <%= current_page.date.strftime('%d %b %Y') %></p>
-								<p>Written by <%= current_page.authors.first.name.split('|').first %></p>
+								<p>Posted on
+									<span>
+										<i><b><%= current_page.date.strftime('%d %b %Y') %></b></i>
+									</span>
+								</p>
+								<p>Written by
+									<span>
+										<i><b><%= current_page.authors.first.name.split('|').first %></b></i>
+									</span>
+								</p>
 								<p>Tags:
 									<% current_page.tags.each do |tag| %>
 									<span class="tags"><%= link_to tag, tag_path(tag) %></span>
 									<% end %>
 								</p>
 							</div>
-							<div id="postline_after">
-							</div>
 							<div class="clear"></div>
-							<p><%= current_page.body %></p>
+						</div>					
+						<div class="article">
+							<div class="article-content">
+								<p><%= current_page.body %>
+									<blockquote>
+										<p class="contact-us">As always if you have any issues or suggestion you can
+											<span>
+												<a href="https://www.bitrise.io/contact?utm_source=blog&utm_medium=blog&utm_campaign=bitrise">contact us</a></span>, submit your idea on
+											<span>
+												<a href="https://bitrise.uservoice.com/">UserVoice</a>
+											</span>	
+											or leave a comment below, we're happy to help and to discuss about Bitrise.
+										</p>								
+									</blockquote>
+								</p>
+							</div>
 						</div>
+					</div>
+					<div class="recent-articles-mobile">
+						<h3>Recent articles</h3>
+						<ul>
+							<% blog.articles[0...5].each do |article| %>
+								<li><a href="<%= article.url %>"><%= article.title %></a></li>
+							<% end %>
+						</ul>
+					</div>
+					<div class="comments">				
+						<%= disqus %>
 					</div>
 				</div>
 				<div class="articles-addon">
@@ -63,10 +94,10 @@
 							<li class="top">
 								<img src="/images/archives_icon.png" alt=""></img>
 								<h3><a href="/archive.html">Archives</a></h3>
-							</li> 
+							</li>
 							<li class="top">
 							<img src="/images/rss_icon.png" alt=""></img>
-							<h3><a href="/feed.xml">RSS feed</a></h3>
+							<h3><a href="/feed.xml">Atom feed</a></h3>
 							</li>
 						<h3>Recent articles</h3>
 						<ul>
@@ -83,38 +114,21 @@
 					</div>
 				</div>
 				<div class="clear"></div>
-				<%= disqus %>
 			</div>
 		</div>
-
 		<div class="footer">
-			<div class="wrapper">
-				<div class="footer-col">
-					<div class="footer-col-inner">
-					 <li class="top">
-						<img src="/images/footer1.png"></img>
-						<div class="title">Register an account</div>
-						</li>
-						<div class="separator"></div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed posuere eros. Donec auctor aliquet varius. In lacinia,u</p>
-					</div>
-				</div>
-				<div class="footer-col">
-					<div class="footer-col-inner">
-						<li class="top">
-						<img src="/images/footer2.png"></img>
-						<div class="title2">Join the community</div>
-						</li>
-						<div class="separator"></div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed posuere eros. Donec auctor aliquet varius. In lacinia, justo eu viverra luctus, orci libero ornare justo, sit amet condimentum metus libero vel justo. Morbi convallis blandit purus,</p>
-					</div>
-				</div>
-				<div class="clear"></div>
-				<div class="copyright">Copyright ©<%= Time.now.year %> Bitrise
-					<span class="footer-nav"><a href="http://bitrise.io">HOME</a></span>
-					<span class="footer-nav"><a href="http://devcenter.bitrise.io">DEV CENTER</a></span>
-				</div>
+			<div class="left-menu">
+				<p>Copyright © <%= Time.now.year %> Bitfall Kft.</p>
+				<p class="slash">/</p>
+				<a href="https://www.bitrise.io">BITRISE</a>
+				<p class="slash">/</p>
+				<a href="http://devcenter.bitrise.io">DEVCENTER</a>
 			</div>
+			<div class="right-menu">
+				<a href="https://github.com/bitrise-io" class="github"></a>
+				<a href="https://twitter.com/bitrise" class="twitter"></a>
+			</div>
+			<div class="clear"></div>
 		</div>
 	</body>
 </html>

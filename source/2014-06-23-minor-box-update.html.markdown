@@ -1,8 +1,8 @@
 ---
 title: Minor OS X Box Update
 date: 2014-06-23 08:42 UTC
-tags: box-update, bitrise-update
-authors: Viktor Benei|viktor.benei@gmail.com
+tags: box-update, announcement
+authors: Viktor Benei|viktorbenei@bitrise.io
 ---
 
 ## What changed?
@@ -15,7 +15,7 @@ New Environment Variables for special Step related folders and files:
 
 *You don't have to create these folders, these are part of the new OS X Box.*
 
-> For the complete list of available Environment Variables check out the Bitrise Dev Center's [Step Development](http://devcenter.bitrise.io/step-dev.html) page
+> For the complete list of available Environment Variables check out the Bitrise Dev Center's [Step Development](http://devcenter.bitrise.io/docs/step-dev.html){:target="_blank"} page
 
 
 ### What is this Formatted Step Output file?

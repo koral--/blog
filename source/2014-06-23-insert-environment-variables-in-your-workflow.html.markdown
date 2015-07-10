@@ -1,8 +1,8 @@
 ---
 title: Insert Environment Variables in your Workflow
 date: 2014-06-23 14:43 UTC
-tags: bitrise-update, site-update
-authors: Viktor Benei|viktor.benei@gmail.com
+tags: announcement
+authors: Viktor Benei|viktorbenei@bitrise.io
 ---
 
 You could always insert Environment Variables into your Workflow's step inputs but from now on you can use our quick inserter popup.
@@ -23,4 +23,4 @@ For example the *$BITRISE_STEP_DIR* key will be replaced with the actual path of
 > Note: the Insert Variable Popup lists the Environment Variables which are set by the Bitrise Build (for example the build's and the app's URL) automatically **and** the Environment Variables which are exported from previous Steps.
 
 > For example the *Xcode Build* Step exports a *$BITRISE_BUILD_STATUS* variable, which will store whether the Build was successful or not.
-> For more details on Step exported Environment Variables check out the Bitrise Dev Center's [Step Development](http://devcenter.bitrise.io/step-dev.html) page.
+> For more details on Step exported Environment Variables check out the Bitrise Dev Center's [Step Development](http://devcenter.bitrise.io/docs/step-dev.html) page.

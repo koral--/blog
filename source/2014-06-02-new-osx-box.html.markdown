@@ -2,7 +2,7 @@
 title: New OSX Box
 date: 2014-06-02 12:55 UTC
 tags: box-update
-authors: Viktor Benei|viktor.benei@gmail.com
+authors: Viktor Benei|viktorbenei@bitrise.io
 ---
 
 # New Base box available!
@@ -22,6 +22,6 @@ authors: Viktor Benei|viktor.benei@gmail.com
 
 ## Why RVM?
 
-With the default OS X system Ruby we had a lot of troubles building Ruby native gem extensions (especially with Nokogiri, it's just a pain in the ass to install with the system default Ruby). With the RVM Ruby all of the issues stopped. 
+With the default OS X system Ruby we had a lot of troubles building Ruby native gem extensions (especially with Nokogiri, it's just a pain in the ass to install with the system default Ruby). With the RVM Ruby all of the issues stopped.
 
 Hopefully this will make it much easier for everyone to use Ruby in your Steps. And if you need another version of Ruby for some reason you can install the exact version you need with RVM.
