@@ -26,8 +26,8 @@ on a CI server/service like [Bitrise](https://www.bitrise.io/){:target="_blank"}
 
 ## Schedule & Status
 
-**Status**: the new Virtual Machine passed our initial tests,
-we'll keep testing it during the week.
+**Status**: the virtual machine update is now **finished**.
+Our tests did finish successfully, we don't know about any issue related to the update.
 
 The Virtual Machine update is scheduled for **Saturday, July 11, 2015**,
 we'll update this section with the status of the update.
