@@ -1,5 +1,5 @@
 ---
-title: A few new features to check out on Bitrise
+title: Announcing pull request filtering and more!
 date: 2015-07-17 14:14 UTC
 tags: features, updates
 authors: József Erős|erosdome@gmail.com
