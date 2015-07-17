@@ -15,9 +15,9 @@ If you create a pull request, it triggers a build on Bitrise. Sometimes, you don
 
 *Note: currently only supported for repositories hosted on GitHub*
 
-## Receive e-mail when invited to new team
+## E-mail notification when invited to a new team
 
-Up until now, if you were already registered to Bitrise when invited to an App's team, you received no notifications about it. From now, you will receive a notification e-mail every time someone invites you to work on their awesome App.
+Up until now, if you were already registered to Bitrise when invited to an App's team, you received no notifications about it. From now on, you will receive a notification e-mail every time someone invites you to work on their awesome App.
 
 ## Account limits
 
