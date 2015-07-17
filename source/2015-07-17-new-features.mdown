@@ -1,0 +1,38 @@
+---
+title: Announcing pull request filtering and more!
+date: 2015-07-17 14:14 UTC
+tags: features, updates
+authors: József Erős|erosdome@gmail.com
+---
+
+## Filter build list by build trigger type
+
+Tired of scrolling over builds triggered by pull requests? Build type filtering to the rescue!
+
+If you create a pull request, it triggers a build on Bitrise. Sometimes, you don't want these builds to show up in your build list. Now you can filter your build list to show only builds which were triggered by a push, or by a pull request. You can also see an icon in the build list, if the build was triggered by a pull request.
+
+![Pull request filter](pr_filter.png)
+
+*Note: currently only supported for repositories hosted on GitHub*
+
+Filtering by branch was also made a lot easier, check out our new cool filter dropdown.
+
+## E-mail notification when invited to a new team
+
+Up until now, if you were already registered to Bitrise when invited to an App's team, you received no notifications about it. From now on, you will receive a notification e-mail every time someone invites you to work on their awesome App.
+
+## Account limits
+
+Before, your account limits were separated from your account status. Now you can now also see your account limits with numbers in the Account status section of the Account settings page, not just on a brief, though really awesome pie-chart.
+
+![Account limits](account-limits.png)
+
+## Sign up with GitHub & Bitbucket
+
+It's now a whole lot easier to sign up with GitHub & Bitbucket! No need to check your inbox for those nasty registration confirmation e-mails anymore. If you register to Bitrise with your GitHub or Bitbucket account, you are good to go.
+
+## Bitrise Slack chat
+
+Are you a fan of Slack too? If so, you can now chat with us on Slack about fix requests, feature requests, the meaning of life, etc.
+
+To find us on Slack, [click here](http://chat.bitrise.io/).
