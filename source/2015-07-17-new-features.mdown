@@ -7,39 +7,28 @@ authors: József Erős|erosdome@gmail.com
 
 ## Filter build list by build trigger type
 
-Tired of scrolling over builds triggered by pull requests? Build type filtering to the rescue! If you create a pull request, it triggers a build on Bitrise. Sometimes, you don't want these builds to show up in your build list. Now you can filter your build list to show only builds which were triggered by a push, or by a pull request.
+Tired of scrolling over builds triggered by pull requests? Build type filtering to the rescue!
 
-<img src="/images/pr_filter.png" />
+If you create a pull request, it triggers a build on Bitrise. Sometimes, you don't want these builds to show up in your build list. Now you can filter your build list to show only builds which were triggered by a push, or by a pull request.
+
+![Pull request filter](pr_filter.png)
 
 *Note: currently only supported for repositories hosted on GitHub*
 
 ## Receive e-mail when invited to new team
 
-From now, you will receive a notification e-mail every time someone invites you to an App's team on Bitrise.
+Up until now, if you were already registered to Bitrise when invited to an App's team, you received no notifications about it. From now, you will receive a notification e-mail every time someone invites you to work on their awesome App.
 
 ## Account limits
 
 You can now also see your account limits in the Account status section of the Account settings page.
 
+![Account limits](account-limits.png)
+
 ## Sign up with GitHub & Bitbucket
 
-It's now easier to sign up with GitHub & Bitbucket! No need to confirm registration anymore, if you register with the account of your provider to Bitrise.
-
-## Infrastructure revisions - to make it better for you
-
-We worked a lot on making bitrise optimized - fortunately we keep growing fast, but this means we have to optimize
-
-* we introduced docker to our infra
-* more automated VM prepares - envman
-* optimized logs etc
-* coupon code handling to give discounts
+It's now easier to sign up with GitHub & Bitbucket! No need to confirm registration anymore, if you register with the account of your provider to Bitrise, you are good to go.
 
 ## Bitrise Slack chat: http://chat.bitrise.io/
 
-You can now chat with us on Slack about fix requests, feature requests, the meaning of life, etc.
-
-## I-wont-be-available Workflow Step
-
-Say goodbye to sending e-mails to co-workers, or turning on auto-reply. We created a Step for you, which you can fork and set up with time interval, name, comment. Include the forked step in your Workflow and configure additional Steps (e. g. send SMS, send e-mail, send HipChat message). Every time a build is triggered, the message will be sent out to the addresses specified in your Workflow configuration.
-
-You can find the [I-wont-be-available Workflow Step](https://bitbucket.org/bitfallkft/i_wont_be_available){:target="_blank"} on Bitbucket.
+Are you a fan of Slack, too? If so, you can now chat with us on Slack about fix requests, feature requests, the meaning of life, etc.
