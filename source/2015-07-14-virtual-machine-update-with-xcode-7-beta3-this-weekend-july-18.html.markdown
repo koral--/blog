@@ -17,7 +17,8 @@ changes on our DevCenter at [Virtual Machines / Box #changelog](http://devcenter
 
 ## Schedule & Status
 
-**Status**: the new virtual machine is prepared and it passed our initial tests.
+**Status**: the virtual machine update is now **finished**.
+Our tests did finish successfully, we don't know about any issue related to the update.
 
 The Virtual Machine update is scheduled for **Saturday, July 18, 2015**,
 we'll update this section with the status of the update.
