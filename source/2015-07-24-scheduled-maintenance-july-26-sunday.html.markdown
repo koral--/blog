@@ -1,9 +1,11 @@
 ---
-title: Scheduled Maintenance - July 26, Sunday
+title: "[finished] Scheduled Maintenance - July 26, Sunday"
 date: 2015-07-24 11:45 UTC
 tags: announcement, status
 authors: Viktor Benei|viktorbenei@bitrise.io
 ---
+
+> **Update**: maintenance finished, every subsystem turned back on.
 
 We'll perform a quick, scheduled maintenance at Saturday afternoon.
 We should be back in less than 30 minutes (unless something unexpected
@@ -33,4 +35,5 @@ Please let us know if you have problems with the maintenance schedule.
 
 ## Status
 
-Status of the maintenance will be updated here.
+The maintenance is now finished.
+If you find a bug feel free to [reach us](https://www.bitrise.io/contact){:target="_blank"}, we'll investigate it ASAP.
