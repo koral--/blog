@@ -5,6 +5,8 @@ tags: announcement, status
 authors: Viktor Benei|viktorbenei@bitrise.io
 ---
 
+> **Status**: the virtual machine update is now **finished**.
+
 We now have the new virtual machine prepared and it
 passed our initial tests so we now have the exact tool
 version change list, we expect this to be the complete list of updates.
@@ -21,7 +23,7 @@ changes on our DevCenter at [Virtual Machines / Box #changelog](http://devcenter
 
 ## Schedule & Status
 
-**Status**: the virtual machine is prepared and passed all of our internal tests.
+**Status**: the virtual machine update is now **finished**.
 
 The Virtual Machine update is scheduled for **Saturday, Aug 1, 2015**,
 we'll update this section with the status of the update.
