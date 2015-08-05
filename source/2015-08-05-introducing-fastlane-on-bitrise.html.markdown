@@ -26,6 +26,6 @@ We are really happy to let you know that we officially support [fastlane](https:
 
 ## How to get started?
 
-We have created a tutorial to make it easy for you to get started using `fastlane`.
+We have created a tutorial to make it easy for you to get started with `fastlane`.
 
-#### [Check it out!](http://devcenter.bitrise.io/tutorials/fastlane_tools_integration.html)
+**[Check it out!](http://devcenter.bitrise.io/tutorials/fastlane_tools_integration.html)**
