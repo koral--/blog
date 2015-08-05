@@ -11,9 +11,9 @@ We are really happy to let you know that we officially support [fastlane](https:
 
 ## What is fastlane?
 
-`Fastlane` lets you define and run your deployment pipelines for different environments. It helps you unify and automate your app’s release process. `Fastlane` connects all `fastlane tools` and third party tools, like CocoaPods and xctool.
+`fastlane` lets you define and run your deployment pipelines for different environments. It helps you unify and automate your app’s release process. `fastlane` connects all `fastlane tools` and third party tools, like CocoaPods and xctool.
 
-`Fastlane` is a collection of ruby scripts that covers the most usual tasks required when submitting a new iOS app or update to the App Store:
+`fastlane` is a collection of ruby scripts that covers the most usual tasks required when submitting a new iOS app or update to the App Store:
 
 * **deliver** uploads screenshots, metadata and your app to the App Store
 * **snapshot** automates taking localized screenshots of your iOS app on every device 
@@ -26,6 +26,6 @@ We are really happy to let you know that we officially support [fastlane](https:
 
 ## How to get started?
 
-We have created a tutorial to easily get you started using `fastlane`.
+We have created a tutorial to make it easy for you to get started using `fastlane`.
 
 #### [Check it out!](http://devcenter.bitrise.io/tutorials/fastlane_tools_integration.html)
