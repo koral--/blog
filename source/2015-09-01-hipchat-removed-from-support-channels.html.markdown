@@ -11,7 +11,7 @@ Another thing we have to consider, though, is giving you the best tech support. 
 
 
 **This is why we decided to remove HipChat from our channels.** HipChat was good, because it enables a quick live chat, and users don't need to register to join.
-But we can't notify you, if you left the chat and there is no private chat option. The last one is crucial, because we usually ask you to send some confidential information so we can resolve the respective issue.
+But we can't notify you, if you left the chat and there is no private chat option. The last one is crucial, because usually we have to request some confidential information so we can resolve the respective issue.
 
 ![Slack savior](slack_savior.png)
 
