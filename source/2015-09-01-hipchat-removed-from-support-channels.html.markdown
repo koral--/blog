@@ -1,9 +1,10 @@
 ---
-title: HipChat removed from support channels
+title: Why we decided to close our HipChat support channel
 date: 2015-09-01 14:37 UTC
 tags: announcement
 authors: Daniel Balla|danielballa@bitrise.io
 ---
+
 We can't stress enough how much we value all your feedback. To make things easier for you, we created [numerous channels to reach us](https://www.bitrise.io/contact), including email, Slack, HipChat, Twitter, UserVoice and through GitHub issues.
 
 
