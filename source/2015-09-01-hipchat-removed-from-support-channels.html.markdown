@@ -17,4 +17,4 @@ But we can't notify you, if you left the chat and there is no private chat optio
 ![Slack savior](slack_savior.png)
 
 However, we accepted Slack as our lord and savior, because it has all these features! Only downside: you have to register, but that's just a few seconds (and Slack is an emoji-filled awesomeness).
-So [head over to our Slack](chat.bitrise.io) to chat with the Bitrise team or the rest of the community, or to request tech support!
+So [head over to our Slack](http://chat.bitrise.io) to chat with the Bitrise team or the rest of the community, or to request tech support!
