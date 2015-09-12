@@ -5,7 +5,7 @@ tags: announcement, status
 authors: Viktor Benei|viktorbenei@bitrise.io
 ---
 
-> **Status**: we prepared everything for the migration, will start it as planned.
+> **Status**: maintenance & migration finished, we'll keep monitoring and testing the system.
 > You can check our Twitter for live status information: [#status](https://twitter.com/search?q=%23status%20from%3Abitrise&src=typd)
 
 We've been working around the clock to improve and enhance Bitrise, and soon we're arriving to a new chapter. This new chapter will first feature our very own, [open source Command Line Interface](https://github.com/bitrise-io/bitrise)! But to introduce it fully, we first have to migrate all steps and with it the workflows to our new infrastructure.
