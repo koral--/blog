@@ -5,7 +5,7 @@ tags: announcement, status
 authors: Viktor Benei|viktorbenei@bitrise.io
 ---
 
-> **Status**: maintenance scheduled.
+> **Status**: we prepared everything for the migration, will start it as planned.
 
 We've been working around the clock to improve and enhance Bitrise, and soon we're arriving to a new chapter. This new chapter will first feature our very own, [open source Command Line Interface](https://github.com/bitrise-io/bitrise)! But to introduce it fully, we first have to migrate all steps and with it the workflows to our new infrastructure.
 
