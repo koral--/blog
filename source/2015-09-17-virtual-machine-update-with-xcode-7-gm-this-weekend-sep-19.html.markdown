@@ -20,7 +20,7 @@ VM after this one).
 
 There are other minor version changes and we also update
 OS X from `10.10.4` to `10.10.5`. If you want to see the full list
-you can check it on our DevCenter at [Virtual Machines / Box #changelog](http://devcenter.bitrise.io/docs/vm-box-changelog.html){:target="_blank"}.
+you can check it on our DevCenter at [Virtual Machines / Box #changelog](http://devcenter.bitrise.io/docs/vm-box-changelog){:target="_blank"}.
 
 
 ## Schedule & Status
@@ -38,4 +38,4 @@ builder machines for the update.*
 ## Planned changes
 
 *You can always check the previous and planned changes
-on our [DevCenter - Virtual Machines / Box change log](http://devcenter.bitrise.io/docs/vm-box-changelog.html).*
+on our [DevCenter - Virtual Machines / Box change log](http://devcenter.bitrise.io/docs/vm-box-changelog).*
