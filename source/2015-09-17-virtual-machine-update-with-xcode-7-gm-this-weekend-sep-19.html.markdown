@@ -18,6 +18,9 @@ version selection scheme in the next VM to support more Xcode versions
 in the future (we plan to include Xcode 6, 7 and 7.1 beta in the
 VM after this one).
 
+**Update**: the pre-installed [bitrise CLI] will also be updated
+from `1.0.0` to `1.1.1`.
+
 There are other minor version changes and we also update
 OS X from `10.10.4` to `10.10.5`. If you want to see the full list
 you can check it on our DevCenter at [Virtual Machines / Box #changelog](http://devcenter.bitrise.io/docs/vm-box-changelog){:target="_blank"}.
