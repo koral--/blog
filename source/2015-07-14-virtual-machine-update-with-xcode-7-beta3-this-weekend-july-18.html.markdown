@@ -12,7 +12,7 @@ version change list, we expect this to be the complete list of updates.
 The only significant change will be the Xcode 7 upgrade
 from beta 2 to the latest, beta 3.
 As always you can check all the pre-installed tool version
-changes on our DevCenter at [Virtual Machines / Box #changelog](http://devcenter.bitrise.io/docs/vm-box-changelog.html){:target="_blank"}.
+changes on our DevCenter at [Virtual Machines / Box #changelog](http://devcenter.bitrise.io/docs/vm-box-changelog){:target="_blank"}.
 
 
 ## Schedule & Status
@@ -31,4 +31,4 @@ builder machines for the update.*
 ## Planned changes
 
 *You can always check the previous and planned changes
-on our [DevCenter - Virtual Machines / Box change log](http://devcenter.bitrise.io/docs/vm-box-changelog.html).*
+on our [DevCenter - Virtual Machines / Box change log](http://devcenter.bitrise.io/docs/vm-box-changelog).*

@@ -31,6 +31,6 @@ next week: **Saturday, March 21, 2015**
 
 We've updated our DevCenter article about the [virtual machine
 environment](http://devcenter.bitrise.io/docs/virtual-machine-updates.html){:target="_blank"}
-and it now contains a [changelog](http://devcenter.bitrise.io/docs/vm-box-changelog.html){:target="_blank"} with all the tool version changes.
+and it now contains a [changelog](http://devcenter.bitrise.io/docs/vm-box-changelog){:target="_blank"} with all the tool version changes.
 
 

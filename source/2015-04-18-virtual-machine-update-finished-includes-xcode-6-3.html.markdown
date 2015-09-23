@@ -13,4 +13,4 @@ available.
 You can find detailed information about the virtual machines,
 base environment and preinstalled tools on
 our [DevCenter](http://devcenter.bitrise.io/docs/virtual-machine-updates.html), and you can see the update history
-on the [virtual machine #changelog page](http://devcenter.bitrise.io/docs/vm-box-changelog.html).
+on the [virtual machine #changelog page](http://devcenter.bitrise.io/docs/vm-box-changelog).

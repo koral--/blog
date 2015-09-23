@@ -29,7 +29,7 @@ that all the tools are prefixed with the letter `g`.
 For example `timeout` is available as `gtimeout`.*
 
 There was no major tool version upgrade, as usual you can find
-the full [#changelog on our DevCenter](http://devcenter.bitrise.io/docs/vm-box-changelog.html).
+the full [#changelog on our DevCenter](http://devcenter.bitrise.io/docs/vm-box-changelog).
 
 
 ## Schedule & Status
@@ -48,4 +48,4 @@ builder machines for the update.*
 ## Planned changes
 
 *You can always check the previous and planned changes
-on our [DevCenter - Virtual Machines / Box change log](http://devcenter.bitrise.io/docs/vm-box-changelog.html).*
+on our [DevCenter - Virtual Machines / Box change log](http://devcenter.bitrise.io/docs/vm-box-changelog).*
