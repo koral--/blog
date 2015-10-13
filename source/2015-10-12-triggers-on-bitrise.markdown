@@ -4,8 +4,6 @@ date: 2015-10-12 12:55 UTC
 tags: features, announcement
 authors: Tamas Bazsonyi|tamas.bazsonyi@bitrise.io
 ---
-#Triggers on Bitrise
-
 We admit, handling Workflows can be a bit hard especially when you use lots of feature branches. We created a Trigger Map to make things much more easier on [Bitrise](https://www.bitrise.io) and in our [Command Line Interface](https://github.com/bitrise-io/bitrise) too!
 
 What is this Trigger Map? It's a mapping between `trigger expressions` and Workflows. Eg.: On [Bitrise](https://www.bitrise.io) the triggers are the name of the given branch and in our [Command Line Interface](https://github.com/bitrise-io/bitrise) the expression you set in `bitrise trigger <trigger_expression>`.
