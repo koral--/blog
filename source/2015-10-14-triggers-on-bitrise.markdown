@@ -14,7 +14,7 @@ The `trigger expressions` can contain wildcard characters so it is possible to:
 
 To get you started here are two examples:
 
-- In the first example the `feature` Workflow runs for every trigger that starts with `feature/`. The `masterwf` Workflow is started when the trigger is `master` **except** if it is a Pull Request and finally every other trigger is handled by the `primary` Workflow, that functions like a `catch all` Workflow.
+In the first example the `feature` Workflow runs for every trigger (branch name) that starts with `feature/`. The `masterwf` Workflow is started when the trigger is `master` **except** if it was triggered by a Pull Request. Finally, every other trigger is handled by the `primary` Workflow, which functions like a `catch all` Workflow.
 
 
     trigger_map:
@@ -29,7 +29,7 @@ To get you started here are two examples:
         workflow: primary
 
 
-- In the second example a build is only started if the trigger expression is master **except** if it is a Pull Request. For other triggers no build is started.
+In the second example a build is only started if the trigger expression is master **except** if it is a Pull Request. For other triggers no build is started.
 
 
     trigger_map:
