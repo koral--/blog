@@ -1,6 +1,6 @@
 ---
 title: Triggers on Bitrise
-date: 2015-10-14 12:55 UTC
+date: 2015-10-14 11:34 UTC
 tags: features, announcement
 authors: Tamas Bazsonyi|tamas.bazsonyi@bitrise.io
 ---
