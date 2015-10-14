@@ -4,9 +4,34 @@ date: 2015-10-12 12:55 UTC
 tags: features, announcement
 authors: Tamas Bazsonyi|tamas.bazsonyi@bitrise.io
 ---
-We admit, handling Workflows can be a bit hard especially when you use lots of feature branches. We created a Trigger Map to make things much more easier on [Bitrise](https://www.bitrise.io) and in our [Command Line Interface](https://github.com/bitrise-io/bitrise) too!
 
-What is this Trigger Map? It's a mapping between `trigger expressions` and Workflows. Eg.: On [Bitrise](https://www.bitrise.io) the triggers are the name of the given branch and in our [Command Line Interface](https://github.com/bitrise-io/bitrise) the expression you set in `bitrise trigger <trigger_expression>`.
+To get you started here are two examples:
+
+- In the first example the `feature` Workflow runs for every trigger that starts with `feature/`. The `masterwf` Workflow is started when the trigger is `master` **except** if it is a Pull Request and finally every other trigger is handled by the `primary` Workflow, that functions like a `catch all` Workflow.
+
+
+    trigger_map:
+      - pattern: feature/*
+        is_pull_request_allowed: true
+        workflow: feature
+      - pattern: master
+        is_pull_request_allowed: false
+        workflow: masterwf
+      - pattern: "*"
+        is_pull_request_allowed: true
+        workflow: primary
+
+
+- In the second example a build is only started if the trigger expression is master **except** if it is a Pull Request. For other triggers no build is started.
+
+
+    trigger_map:
+      - pattern: master
+        is_pull_request_allowed: false
+        workflow: masterwf
+
+
+What is the Trigger Map? It's a mapping between `trigger expressions` and Workflows. Eg.: On [Bitrise](https://www.bitrise.io) the trigger expression is the name of the given branch and in our [Command Line Interface](https://github.com/bitrise-io/bitrise) the expression you set in `bitrise trigger <trigger_expression>`.
 
 The `trigger expressions` can contain wildcard characters so it is possible to:
 - Run the same Workflow for every Trigger
