@@ -13,7 +13,7 @@
 
 		<%= stylesheet_link_tag "normalize", "all" %>
 		<%= stylesheet_link_tag '//fonts.googleapis.com/css?family=Source+Code+Pro' %>
-		<%= stylesheet_link_tag '//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,500,700,300,600' %>
+		<%= stylesheet_link_tag '//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,700,300,600' %>
 		<%= javascript_include_tag  "all" %>
 	</head>
 
@@ -22,6 +22,7 @@
 			<a href="/">
 				<img src="/images/bitrise_blog_logo.png" alt="Bitrise logo" id="logo" />
 			</a>
+			<!-- <h1>Bitrise is the easiest way to automate your development workflow</h1> -->
 			<div class="right">
 				<div class="btn">
 					<a href="https://www.bitrise.io" class="white">Register <span>for free</span></a>
@@ -29,12 +30,10 @@
 			</div>
 		</div>
 		<div class="content">
-			<div class="main">
-				<div class="overlay">
-					<h1>Bitrise Blog</h1>
-					<h4>Enjoy Continuous Integration & Delivery</h4>
+		<div class="header">
+					<h1>All you have to do is work on your code, Bitrise will do the rest.</h1>
+					<div class="clear"></div>
 				</div>
-			</div>
 			<div class="wrapper">
 				<div class="articles">
 					<div class="articles-inner">
@@ -43,34 +42,28 @@
 				</div>
 				<div class="articles-addon">
 					<div class="articles-addon-inner">
-						<section>
-							<li class="top">
-								<div class="icon archive">
-									<a href="/archive.html">Archives</a>
-								</div>
-							</li>
-							<li class="top">
-								<div class="icon rss">
-									<a href="/feed.xml">Atom feed</a>
-								</div>
-							</li>
-						</section>
-						<section class="posts">
-							<h3>Recent articles</h3>
-							<ul>
-								<% blog.articles[0...10].each do |article| %>
-									<li><a href="<%= article.url %>"><%= article.title %></a></li>
-								<% end %>
-							</ul>
-						</section>
-						<section>
-							<h3>Tags</h3>
-							<ul class="tags">
-								<% tags.each do |tag| %>
-									<li><%= link_to tag.first, tag_path(tag.first) %> (<%= tag.last %>)</li>
-								<% end %>
-							</ul>
-						</section>
+						<li class="top">
+							<img src="/images/archives_icon.png" alt=""></img>
+							<h3><a href="/archive.html">Archives</a></h3>
+						</li>
+						<li class="top">
+						<img src="/images/rss_icon.png" alt=""></img>
+						<h3><a href="/feed.xml">Atom feed</a></h3>
+						</li>
+						<h3>Recent articles</h3>
+						<ul>
+							<% blog.articles[0...10].each do |article| %>
+								<li><a href="<%= article.url %>"><%= article.title %></a></li>
+
+
+							<% end %>
+						</ul>
+						<h3>Tags</h3>
+						<ul class="tags">
+							<% tags.each do |tag| %>
+								<li><%= link_to tag.first, tag_path(tag.first) %> (<%= tag.last %>)</li>
+							<% end %>
+						</ul>
 					</div>
 				</div>
 				<div class="clear"></div>

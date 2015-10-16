@@ -19,62 +19,54 @@
 
 	<body class="<%= page_classes %>">
 		<div class="navigation">
-			<div class="wrapper">
-				<a href="/">
-					<img src="/images/bitrise_blog_logo.png" alt="Bitrise logo" id="logo" />
-				</a>
-				<!--  <h1>Bitrise is the easiest way to automate your development workflow</h1> -->
-				<div class="right">
-					<div class="btn">
-						<a href="https://www.bitrise.io" class="white">Register <span>for free</span></a>
-					</div>
+			<a href="/">
+				<img src="/images/bitrise_blog_logo.png" alt="Bitrise logo" id="logo" />
+			</a>
+			<div class="right">
+				<div class="btn">
+					<a href="https://www.bitrise.io" class="white">Register <span>for free</span></a>
 				</div>
 			</div>
 		</div>
 		<div class="content">
-				<div class="header">
-					<h1>All you have to do is work on your code, Bitrise will do the rest.</h1>
-					<div class="clear"></div>
-				</div>
+			<div class="main subpage">
+				<div class="overlay"></div>
+			</div>
 			<div class="wrapper">
 				<div class="articles">
 					<div class="articles-inner">
 						<div class="article-header">
+							<p class="date">
+								<%= current_page.date.strftime('%d %b %Y') %>
+							</p>
 							<h1><%= link_to current_page.data.title, current_page %></h1>
 							<div class="article-info">
-								<p>Posted on
-									<span>
-										<i><b><%= current_page.date.strftime('%d %b %Y') %></b></i>
-									</span>
-								</p>
-								<p>Written by
+								<p class="profile">Written by
 									<span>
 										<i><b><%= current_page.authors.first.name.split('|').first %></b></i>
 									</span>
 								</p>
-								<p>Tags:
+								<p>
 									<% current_page.tags.each do |tag| %>
 									<span class="tags"><%= link_to tag, tag_path(tag) %></span>
 									<% end %>
 								</p>
 							</div>
 							<div class="clear"></div>
-						</div>					
+						</div>
 						<div class="article">
-							<div class="article-content">
-								<p><%= current_page.body %>
-									<blockquote>
-										<p class="contact-us">As always if you have any issues or suggestion you can
-											<span>
-												<a href="https://www.bitrise.io/contact?utm_source=blog&utm_medium=blog&utm_campaign=bitrise">contact us</a></span>, submit your idea on
-											<span>
-												<a href="https://bitrise.uservoice.com/">UserVoice</a>
-											</span>	
-											or leave a comment below, we're happy to help and to discuss about Bitrise.
-										</p>								
-									</blockquote>
-								</p>
-							</div>
+							<p><%= current_page.body %>
+								<blockquote>
+									<p class="contact-us">As always if you have any issues or suggestion you can
+										<span>
+											<a href="https://www.bitrise.io/contact?utm_source=blog&utm_medium=blog&utm_campaign=bitrise">contact us</a></span>, submit your idea on
+										<span>
+											<a href="https://bitrise.uservoice.com/">UserVoice</a>
+										</span>
+										or leave a comment below, we're happy to help and to discuss about Bitrise.
+									</p>
+								</blockquote>
+							</p>
 						</div>
 					</div>
 					<div class="recent-articles-mobile">
@@ -85,37 +77,46 @@
 							<% end %>
 						</ul>
 					</div>
-					<div class="comments">				
+					<div class="comments">
 						<%= disqus %>
 					</div>
 				</div>
-				<div class="articles-addon">
+				<div class="articles-addon subpage">
 					<div class="articles-addon-inner">
+						<section>
 							<li class="top">
-								<img src="/images/archives_icon.png" alt=""></img>
-								<h3><a href="/archive.html">Archives</a></h3>
+								<div class="icon archive">
+									<a href="/archive.html">Archives</a>
+								</div>
 							</li>
 							<li class="top">
-							<img src="/images/rss_icon.png" alt=""></img>
-							<h3><a href="/feed.xml">Atom feed</a></h3>
+								<div class="icon rss">
+									<a href="/feed.xml">Atom feed</a>
+								</div>
 							</li>
-						<h3>Recent articles</h3>
-						<ul>
-							<% blog.articles[0...10].each do |article| %>
-								<li><a href="<%= article.url %>"><%= article.title %></a></li>
-							<% end %>
-						</ul>
-						<h3>Tags</h3>
-						<ul class="tags">
-							<% tags.each do |tag| %>
-								<li><%= link_to tag.first, tag_path(tag.first) %> (<%= tag.last %>)</li>
-							<% end %>
-						</ul>
+						</section>
+						<section class="posts">
+							<h3>Recent articles</h3>
+							<ul>
+								<% blog.articles[0...10].each do |article| %>
+									<li><a href="<%= article.url %>"><%= article.title %></a></li>
+								<% end %>
+							</ul>
+						</section>
+						<section>
+							<h3>Tags</h3>
+							<ul class="tags">
+								<% tags.each do |tag| %>
+									<li><%= link_to tag.first, tag_path(tag.first) %> (<%= tag.last %>)</li>
+								<% end %>
+							</ul>
+						</section>
 					</div>
 				</div>
 				<div class="clear"></div>
 			</div>
 		</div>
+
 		<div class="footer">
 			<div class="left-menu">
 				<p>Copyright © <%= Time.now.year %> Bitfall Kft.</p>
