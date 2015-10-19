@@ -19,9 +19,7 @@
 
 	<body class="<%= page_classes %>">
 		<div class="navigation">
-			<a href="/">
-				<img src="/images/bitrise_blog_logo.png" alt="Bitrise logo" id="logo" />
-			</a>
+			<a href="/" id="logo"></a>
 			<div class="right">
 				<div class="btn">
 					<a href="https://www.bitrise.io" class="white">Register <span>for free</span></a>
@@ -56,8 +54,8 @@
 						</div>
 						<div class="article">
 							<p><%= current_page.body %>
-								<blockquote>
-									<p class="contact-us">As always if you have any issues or suggestion you can
+								<blockquote  class="contact-us">
+									<p>As always if you have any issues or suggestion you can
 										<span>
 											<a href="https://www.bitrise.io/contact?utm_source=blog&utm_medium=blog&utm_campaign=bitrise">contact us</a></span>, submit your idea on
 										<span>
@@ -67,6 +65,12 @@
 									</p>
 								</blockquote>
 							</p>
+							<div class="share-buttons">
+								<a href="https://twitter.com/share" class="twitter-share-button" data-via="bitrise">Tweet</a>
+								<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+								<a href="https://news.ycombinator.com/submit" class="hn-button" data-count="horizontal" data-style="twitter">Vote on Hacker News</a>
+								<script type="text/javascript">var HN=[];HN.factory=function(e){return function(){HN.push([e].concat(Array.prototype.slice.call(arguments,0)))};},HN.on=HN.factory("on"),HN.once=HN.factory("once"),HN.off=HN.factory("off"),HN.emit=HN.factory("emit"),HN.load=function(){var e="hn-button.js";if(document.getElementById(e))return;var t=document.createElement("script");t.id=e,t.src="//hn-button.herokuapp.com/hn-button.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n)},HN.load();</script>
+							</div>
 						</div>
 					</div>
 					<div class="recent-articles-mobile">
@@ -119,7 +123,7 @@
 
 		<div class="footer">
 			<div class="left-menu">
-				<p>Copyright © <%= Time.now.year %> Bitfall Kft.</p>
+				<p>Copyright © <%= Time.now.year %> Bitrise Ltd.</p>
 				<p class="slash">/</p>
 				<a href="https://www.bitrise.io">BITRISE</a>
 				<p class="slash">/</p>

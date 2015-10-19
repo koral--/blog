@@ -93,6 +93,8 @@ a.white {
 		margin-top: 30px;
 	}
 
+	background-image: image-url("/images/bitrise_blog_logo.svg");
+	background-repeat: no-repeat;
 	width: 206px;
 	height: 31px;
 	margin-top: 26px;
@@ -177,6 +179,7 @@ a.white {
 		@media only screen and (max-width: 480px) {
 			font-size: 12px;
 			padding: 10px 20px;
+			margin-top: 25px;
 
 			span {
 				display: none;
@@ -207,6 +210,13 @@ a.white {
 	}
 }
 
+.share-buttons {
+	overflow: hidden;
+	iframe {
+		margin-right: 10px;
+	}
+}
+
 .main {
 	height: 330px;
 	background-image: image-url("sky.jpg");
@@ -215,6 +225,14 @@ a.white {
 	background-repeat: no-repeat;
 
 	&.subpage {
+		@media only screen and (max-width: 1024px) {
+			margin-right: 250px;
+		}
+
+		@media only screen and (max-width: 768px) {
+			margin-right: 0;
+		}
+
 		margin-right: 400px;
 		background-image: image-url("light.jpg");
 	}
@@ -248,9 +266,12 @@ a.white {
 	padding-top: 80px;
 
 	.articles {
+		@media only screen and (max-width: 1024px) {
+			padding: 20px 40px;
+		}
+
 		@media only screen and (max-width: 768px) {
 			width: 100%;
-			float: none;
 		}
 
 		flex-grow: 1;
@@ -330,6 +351,10 @@ a.white {
 			}
 		}
 
+		h1 {
+			line-height: 120%;
+		}
+
 		h2 {
 			font-size: 18px;
 			font-weight: bold;
@@ -359,11 +384,7 @@ a.white {
 			}
 
 		.article {
-			@media only screen and (max-width: 768px) {
-				padding: 20px 0;
-			}
-
-			margin: 30px 0 50px 0;
+			margin: 15px 0 50px 0;
 			overflow-x: hidden;
 			line-height: 120%;
 
@@ -434,8 +455,8 @@ a.white {
 				border-radius: 3px;
 				border: 1px solid #d7d7d7;
 				color: $default_purple;
-				padding: 2px 3px;
-				font-size: 14px;
+				padding: 0 3px;
+				font-size: 15px;
 				font-family: 'Source Code Pro';
 			}
 
@@ -459,6 +480,7 @@ a.white {
 
 			li {
 				margin: 15px 0;
+				line-height: 140%;
 			}
 
 			ol {
@@ -476,6 +498,14 @@ a.white {
 		 	margin: 0;
 			border-left: 3px solid $default_green;
 
+			&.contact-us {
+				border-left: 3px solid $default_purple;
+
+				p {
+					background-color: #f0e6f8;
+				}
+			}
+
 				p {
 					background-color: #ddf8f4;
 					color: black;
@@ -485,18 +515,16 @@ a.white {
 					font-style: italic;
 					padding: 5px 0;
 					padding-left: 15px;
-
-			 		&.contact-us {
-			 			background-color: #fff3b2;
-			 			box-shadow: 10px 0 0 #fff3b2, -10px 0 0 #fff3b2;
-			 		}
-
 				}
 			}
 		}
 	}
 
 	.articles-addon {
+		@media only screen and (max-width: 1024px) {
+			width: 250px;
+		}
+
 		@media only screen and (max-width: 768px) {
 			display: none;
 		}
@@ -640,20 +668,21 @@ a.white {
 	}
 
 	display: none;
-	padding: 0 20px;
-	margin: 20px 0;
-	border-bottom: 1px solid #ebebeb;
+	padding: 0;
+	margin: 20px 0 40px 0;
+	background-color: #ddf8f4;
+	border: 1px solid $default_green;
+	border-radius: 5px;
 
 
 	h3 {
+		margin: 0;
+		padding: 15px 0;
 		font-size: 18px !important;
-		font-weight: 300;
-		padding-left: 15px;
+		font-weight: 600;
 		text-align: center;
-		padding: 10px 0;
-		border-top: 1px dashed #959595;
-		border-bottom: 1px dashed #959595;
-		color: #959595;
+		border-bottom: 1px solid $default_green;
+		color: $default_green !important;
 	}
 
 	li {
