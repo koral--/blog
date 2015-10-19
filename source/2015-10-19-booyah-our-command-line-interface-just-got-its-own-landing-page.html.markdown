@@ -1,6 +1,6 @@
 ---
 title: "Booyah: Our Command Line Interface just got its own landing page!"
-date: 2015-10-14 12:53 UTC
+date: 2015-10-19 10:36 UTC
 tags: announcement
 authors: Daniel Balla|danelballa@bitrise.io
 ---
