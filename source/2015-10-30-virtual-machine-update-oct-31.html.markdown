@@ -5,7 +5,7 @@ tags: announcement, status
 authors: Viktor Benei|viktorbenei@bitrise.io
 ---
 
-> **Status**: the new Virtual Machine passed all of our tests.
+> **Status**: the virtual machine update is now **finished**.
 
 We got quite a lot of requests about when the new VM will be available
 with `Xcode 7.1` (final), and why didn't we publish our VM update schedule yet.
@@ -35,7 +35,7 @@ changes on our DevCenter at [Virtual Machines / Box #changelog](http://devcenter
 
 ## Schedule & Status
 
-**Status**: the new Virtual Machine passed all of our tests.
+**Status**: the virtual machine update is now **finished**.
 
 The Virtual Machine update is scheduled for **Saturday, Oct 31, 2015**,
 we'll update this section with the status of the update.
