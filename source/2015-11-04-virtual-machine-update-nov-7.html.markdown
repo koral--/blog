@@ -5,7 +5,7 @@ tags: announcement, status
 authors: Viktor Benei|viktorbenei@bitrise.io
 ---
 
-> **Status**: the virtual machine passed our tests.
+> **Status**: the virtual machine update is now **finished**.
 
 We found a solution to have both Xcode 6 & 7 installed on the same OS X machine
 and install all of their iOS Simulators as well, so this week
@@ -30,7 +30,7 @@ changes on our DevCenter at [Virtual Machines / Box #changelog](http://devcenter
 
 ## Schedule & Status
 
-**Status**: the virtual machine passed our tests.
+**Status**: the virtual machine update is now **finished**.
 
 The Virtual Machine update is scheduled for **Saturday, Nov 7, 2015**,
 we'll update this section with the status of the update.
