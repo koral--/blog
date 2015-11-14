@@ -5,7 +5,7 @@ tags: announcement, status
 authors: Viktor Benei|viktorbenei@bitrise.io
 ---
 
-> **Status**: the virtual machine passed our tests, ready for distribution.
+> **Status**: the virtual machine update is now **finished**.
 
 There's only two pre-installed tool version change in this weekend's new Virtual Machine:
 
@@ -18,7 +18,7 @@ changes on our DevCenter at [Virtual Machines / Box #changelog](http://devcenter
 
 ## Schedule & Status
 
-**Status**: the virtual machine passed our tests, ready for distribution.
+**Status**: the virtual machine update is now **finished**.
 
 The Virtual Machine update is scheduled for **Saturday, Nov 7, 2015**,
 we'll update this section with the status of the update.
