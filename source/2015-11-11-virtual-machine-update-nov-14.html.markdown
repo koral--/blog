@@ -20,7 +20,7 @@ changes on our DevCenter at [Virtual Machines / Box #changelog](http://devcenter
 
 **Status**: the virtual machine update is now **finished**.
 
-The Virtual Machine update is scheduled for **Saturday, Nov 7, 2015**,
+The Virtual Machine update is scheduled for **Saturday, Nov 14, 2015**,
 we'll update this section with the status of the update.
 
 *We don't expect any downtime during the update, but build queue

@@ -22,7 +22,7 @@ changes on our DevCenter at [Virtual Machines / Box #changelog](http://devcenter
 
 **Status**: the virtual machine passed our tests, ready for distribution.
 
-The Virtual Machine update is scheduled for **Saturday, Nov 7, 2015**.
+The Virtual Machine update is scheduled for **Saturday, Nov 21, 2015**.
 We'll update this section with the status of the update.
 
 *We don't expect any downtime during the update, but build queue
