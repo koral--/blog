@@ -5,7 +5,7 @@ tags: announcement, status
 authors: Viktor Benei|viktorbenei@bitrise.io
 ---
 
-> **Status**: the virtual machine passed our tests, ready for distribution.
+> **Status**: the virtual machine update is now **finished**.
 
 Here are the more significant pre-installed tool version changes,
 which will be available after this weekend's OS X Virtual Machine update:
@@ -20,7 +20,7 @@ changes on our DevCenter at [Virtual Machines / Box #changelog](http://devcenter
 
 ## Schedule & Status
 
-**Status**: the virtual machine passed our tests, ready for distribution.
+**Status**: the virtual machine update is now **finished**.
 
 The Virtual Machine update is scheduled for **Saturday, Nov 21, 2015**.
 We'll update this section with the status of the update.
