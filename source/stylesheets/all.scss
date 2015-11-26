@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+* {
+	min-width: 0;
+}
+
 $default_purple: #8151a8;
 $default_green: #3bc3a3;
 $dark_green: #3aa792;
@@ -274,7 +278,7 @@ a.white {
 			width: 100%;
 		}
 
-		flex-grow: 1;
+		@include mixin_flex_grow(1);
 		padding: 40px 80px;
 
 		.article-header {
@@ -530,7 +534,7 @@ a.white {
 		}
 
 		width: 400px;
-		flex-shrink: 0;
+		@include mixin_flex_shrink(0);
 		background-color: #f0e6f8;
 		border-left: 1px solid #d0b5e7;
 
