@@ -31,7 +31,7 @@ Example:
 
 `'payload={"repository":{"url":"..."},"hook_info":{"type":"bitrise"},"build_params":{"commit_hash":"fc486d0395b9e84ffc9b1ba59c83ad836c719fd2"}}'`
 
-For more information about the Build Trigger API check out our Dev Center at: [http://devcenter.bitrise.io/docs/api/build-trigger-api.html](http://devcenter.bitrise.io/docs/api/build-trigger-api.html){:target="_blank"}
+For more information about the Build Trigger API check out our Dev Center at: [http://devcenter.bitrise.io/docs/build-trigger-api](http://devcenter.bitrise.io/docs/build-trigger-api){:target="_blank"}
 
 And for examples specific to your app on Bitrise you can check out the **Settings** tab of your app and click on the **REPOSITORY HOOK** section.
 
