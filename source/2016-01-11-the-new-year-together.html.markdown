@@ -21,6 +21,6 @@ We want to challenge the status quo by organizing our very own meetup, [NSBudape
 
 And last but not least, our team is growing again! **We'll have our very own Developer Advocate** who has a pretty good track record both in iOS/Mac development and community building, and she is great at connecting with the tech world through multiple channels. [Agnes](https://twitter.com/vasarhelyia) will help us engage even more people and will join us on our mission to bring back the joy of mobile app development, and maybe [teach us how to make craft beer](http://brewfactory.org). Welcome aboard!
 
-You can find[@vasarhelyia](https://twitter.com/vasarhelyia) on Twitter and read some interesting iOS/Mac related articles [on her blog](https://blog.alltheflow.com).
+You can find [@vasarhelyia](https://twitter.com/vasarhelyia) on Twitter and read some interesting iOS/Mac related articles [on her blog](https://blog.alltheflow.com).
 
 We are very excited for this year, and we are sure it will be a hell of a ride. So get in your space shuttles and fire up your FTL engines, because interesting news are coming really soon!
