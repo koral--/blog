@@ -9,7 +9,7 @@ Happy to introduce our new stack beta today, which is a small step for [Bitrise]
 
 > **TL;DR -** You can find the new stack selector under your app's settings.
 
-It means that from now on, we will deliver a machine with the desired Xcode version preinstalled to you. You can select from various setups, like an OS X 10.11 machine with Xcode 7.2, or Xcode 6.4 for example.
+It means that from now on, we will deliver a machine only with the desired Xcode version preinstalled to you. You can select from various setups, like an OS X 10.11 machine with Xcode 7.2, or Xcode 6.4 for example.
 
 Until now you could [change your Xcode version](https://github.com/bitrise-io/steps-select-xcode-version) in your workflow as a separate build step. This possibility introduced a lot of unpleasant complexity to the infrastructure, so we decided to make it right. 👊
 
