@@ -10,6 +10,6 @@ So although it's not spring yet, we're going to have some spring-cleaning on our
 
 > The maintenance will be on this **Saturday, January 30th from 10.00 to 11.00 (UTC)**. During this time you won't be able to access the website or start new builds.
 
-We are very sorry for any inconvenience this might cause. We are going to update this post once the maintenance finished.
+We are very sorry for any inconvenience this might cause. You can follow the status of the maintenance on our [status page](http://status.bitrise.io).
 
 *puts on hard hat and grabs a wrench*
