@@ -17,6 +17,6 @@ Another great thing about the new stack that we can now add pre-installed tools 
 
 >We are going to move all of you to the new stack **this Saturday, February 6**. It will come *without* any downtime, you will probably not experience anything special.
 
-If you are using an OS X machine with Xcode 7.2 currently for example, you will have Xcode 7.2.1 after the transition. Any other setup stays the same (Xcode 6.4 will stay Xcode 6.4, etc.). You will be able to opt-out from the new stack until the end of this February. If you have any issues you can tie to this transition though, please contact us on [Slack](http://chat.bitrise.io/) or drop an [email to support](email to support), we are here to help.
+If you are using an OS X machine with Xcode 7.2 currently for example, you will have Xcode 7.2.1 after the transition. Any other setup stays the same (Xcode 6.4 will stay Xcode 6.4, etc.). You will be able to opt-out from the new stack until the end of this February. If you have any issues you can tie to this transition though, please contact us on [Slack](http://chat.bitrise.io/) or drop an [email to support](https://www.bitrise.io/contact), we are here to help.
 
 Cheers and happy building on our shiny new machines! 🍷
