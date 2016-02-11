@@ -32,4 +32,6 @@ If you need more info about Xamarin.Insights, [head over to its website](https:/
 
 Maybe you fancy using [FAKE](http://fsharp.github.io/FAKE/) to build your Xamarin apps. That's fine, you can easily do that. For now you'll need to add a [simple script step to your workflow](http://devcenter.bitrise.io/v1.0/docs/run-builds-with-fake) to start using it, but we'll release the official step in the near future after we tested it out with you!
 
+>We prepared a few [helpful guides on our Devcenter](http://devcenter.bitrise.io/docs/getting-started-with-xamarin-on-bitrise) to make it easy setting up your Xamarin porjects on Bitrise. Use them wisely.
+
 We hope this new partnership will bring many fresh and exciting features and benefits for you, and we'll continue improving Bitrise to make more and more mobile developers happy around the world! If you have any feedback, [tweet at us](https://twitter.com/bitrise), [chat with us](http://chat.bitrise.io) or [write to us](mailto:letsconnect@bitrise.io), we are curious what you think!
