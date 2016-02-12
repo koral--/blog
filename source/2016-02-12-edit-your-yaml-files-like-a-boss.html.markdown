@@ -7,9 +7,9 @@ authors: Daniel Balla|danielballa@bitrise.io
 
 ![YAML editor](yaml_editor.png)
 
-Do you fancy editing your `bitrise.yml` sometimes, beside using the Workflow Editor? We have great news for you then, because we pimped the hell out of the .yml editor, using the great [UI.Ace Angular directive](https://github.com/angular-ui/ui-ace).
+Do you fancy editing your `bitrise.yml` sometimes, beside using the Workflow Editor? We have great news for you then, because we pimped the hell out of the .yml editor, using the great [ACE editor](https://ace.c9.io).
 
-As per every proper code editor, there is now proper **syntax highlighting** with the beloved Monokai color theme. Sublime users will recognize the familiar touch 😉.
+As per every proper code editor, there is useful **syntax highlighting** now with the beloved Monokai theme. Sublime users will recognize the familiar touch 😉.
 
 You can now use default **keyboard shortcuts**, because yeah, it's the 21st century and ain't nobody got time to right-click all the time. [Check them yourself](https://github.com/ajaxorg/ace/wiki/Default-Keyboard-Shortcuts), there's a lot you can choose from.
 
