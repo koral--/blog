@@ -7,7 +7,7 @@ authors: Agnes Vasarhelyi|agnes@bitrise.io
 
 If you already have webhooks set up for your apps on Bitrise and you are happy with them, you still might be interested in how generalizing our webhook processing logic can make your life better.
 
-## What's new?
+# What's new?
 
 The [new webhook processor](https://github.com/bitrise-io/bitrise-webhooks) supports new providers, now it's possible to set up not just [GitHub](https://github.com/), [Bitbucket](https://bitbucket.org/), but [Visual Studio Online](https://www.visualstudio.com/products/visual-studio-team-services-vs) and [GitLab](https://gitlab.com/) webhooks as well. It's not even the end of the story, because all the logic has been [open sourced](https://github.com/bitrise-io/bitrise-webhooks) and exposed to a separate service.
 
@@ -15,31 +15,31 @@ The point of this update was to make it possible to connect *any kind of* webhoo
 
 > We also introduced API tokens to the webhook URLs. It means that the v1 requests missing the token are now deprecated. The new format is `../h/{provider}/BITRISE-APP-SLUG/BITRISE-APP-API-TOKEN`. Read more about this in the [webhooks GitHub repo](https://github.com/bitrise-io/bitrise-webhooks).
 
-### Supported services
+## Supported services
 
 If you'd like to set up a new webhook for your already existing app right away, go to your app's **Code** tab and check the `Webhook` section for auto-generated webhook URLs after selecting the desired service.
 
-#### GitHub
+### GitHub
 
 It's been there already and it stays still. One thing has changed: now you are able to [see the code](https://github.com/bitrise-io/bitrise-webhooks/blob/master/service/hook/github/github.go) behind it.
 
-#### Bitbucket v2
+### Bitbucket v2
 
 Bitbucket has been already supported, check the [docs on GitHub for setup](https://github.com/bitrise-io/bitrise-webhooks#bitbucket-v2-webhooks---setup--usage) instructions.
 
-#### Visual Studio Online
+### Visual Studio Online
 
 It's a new addition, for people using Xamarin and having their code hosted on VSO. Check out how to set it up in the [related description](https://github.com/bitrise-io/bitrise-webhooks#visual-studio-online--visual-studio-team-services---setup--usage).
 
-#### GitLab
+### GitLab
 
 It's our latest addition, check out [how to set up a Bitrise webhook for your GitLab repository](https://github.com/bitrise-io/bitrise-webhooks#gitlab---setup--usage).
 
-#### Slack
+### Slack
 
 That's something showing the real power of this change. You can set it up easily from your Slack account as an outgoing webhook, or a slash command, like `/bitrise branch: master`.  Read more about how to add it to your Bitrise app in the [webhooks Readme](https://github.com/bitrise-io/bitrise-webhooks#slack---setup--usage).
 
-### Anything else?
+## Anything else?
 
 The greatness of open source is not just about transparency, it's about letting people customize their workflows in their favor. We think that hosting technology is great, but giving the chance to integrate with any kind of service is priceless.
 
