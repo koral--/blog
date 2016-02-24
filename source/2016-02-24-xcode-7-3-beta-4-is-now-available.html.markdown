@@ -18,12 +18,8 @@ you're automatically using 7.3 beta 4 now.
 You can find the Stack's description on our [DevCenter](http://devcenter.bitrise.io/v1.0/docs/available-stacks#section-xcode-7-3-beta-on-os-x-10-11), the full system report at: [https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/osx-xcode-7.3-beta.log](https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/osx-xcode-7.3-beta.log),
 and the changes since the previous version of the stack at: [https://github.com/bitrise-io/bitrise.io/commit/18a7613b726d2408f4f1448d8544d0ecdb23e6cb](https://github.com/bitrise-io/bitrise.io/commit/18a7613b726d2408f4f1448d8544d0ecdb23e6cb).
 
-We had to remove `wine` from this configuration, because, right now,
-it can't be installed through `homebrew`. You can find more information
-about the issue [here](https://github.com/bitrise-io/osx-box-bootstrap/releases/tag/2016_02_24_1).
-
-*If you'd need a VM with `wine` pre-installed* just let us know, and we'll
-sort it out.
+**Update**: we updated the VM again, to have `wine` pre-installed,
+as freedesktop.org is finally accessible again. Change diff: [https://github.com/bitrise-io/bitrise.io/commit/49415c1b73770c263f3f31737200f732d9c4a012](https://github.com/bitrise-io/bitrise.io/commit/49415c1b73770c263f3f31737200f732d9c4a012).
 
 If you'd like to add a tool to be pre-installed on our Stacks
 you can find all the required information at: [https://github.com/bitrise-io/bitrise.io#request-a-tool-to-be-pre-installed](https://github.com/bitrise-io/bitrise.io#request-a-tool-to-be-pre-installed).
