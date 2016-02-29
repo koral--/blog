@@ -7,7 +7,7 @@ authors: Agnes Vasarhelyi|agnes@bitrise.io
 
 [Bitrise](https://bitrise.io), *our precious* CI/CD platform is now able to build, test and distribute *your precious* [Xamarin](https://xamarin.com/) iOS/Android apps!
 
-![Bitrise loves Xamarin](https://dl.dropboxusercontent.com/s/8rk7shurh8s12z0/xamarin_and_bitrise_love.png)
+![Bitrise loves Xamarin](xamarin_and_bitrise_love.png)
 
 Xamarin recently [promoted three months of Bitrise Pro](https://blog.xamarin.com/claim-your-spot-for-xamarin-ci/) plan for a limited amount of customers with some nice features besides basic CI, like Xamarin Test Cloud support and daily regression tests for the Alpha/Beta channels. This period helps us to work a bit more closely to people setting up Xamarin projects on Bitrise. Now we are here to share the journey others took to help you get started.
 
@@ -53,7 +53,7 @@ It's possibly the best to [connect your Xamarin account to Bitrise](http://devce
 
 When [adding a new app](http://devcenter.bitrise.io/docs/creating-your-first-app-on-bitrise), Bitrise will list your repositories for you so you can pick your favorite Xamarin app to build.
 
-![Add new app on Bitrise](https://dl.dropboxusercontent.com/s/xgk8ktxgys57gvo/add_new_app_bitrise_xamarin.png)
+![Add new app on Bitrise](add_new_app_bitrise_xamarin.png)
 
 I chose the `sample-apps-xamarin-ios` repo, which contains a [sample Xamarin iOS](https://github.com/bitrise-io/sample-apps-xamarin-ios) application you can fork anytime.
 
@@ -61,7 +61,7 @@ Some in-between steps are selecting branch to build, [(auto-) adding an SSH key 
 
 Bitrise will detect and list the available solution files and list configurations to pick.
 
-![Xamarin configuration on Bitrise](https://dl.dropboxusercontent.com/s/pykne5wmy5y7e41/set_configuration_bitrise_xamarin.png)
+![Xamarin configuration on Bitrise](set_configuration_bitrise_xamarin.png)
 
 After that you're able to setup a webhook with one click. With this on, Bitrise can build your apps for every push without any manual actions.
 
@@ -75,11 +75,11 @@ A workflow is the lifecycle of your application on Bitrise. That's the flow you 
 
 The default Xamarin iOS workflow looks like this:
 
-![Default Xamarin iOS app workflow](https://dl.dropboxusercontent.com/s/fh6npvdpdxpm0kp/default_xamarin_ios_workflow.png)
+![Default Xamarin iOS app workflow](default_xamarin_ios_workflow.png)
 
 You are able to customize every step's input variables in your favor. Like specifying the platform(s) to build for.
 
-![Xamarin builder step customization](https://dl.dropboxusercontent.com/s/7rfv1lpsxq3l983/xamarin_step_config.png)
+![Xamarin builder step customization](xamarin_step_config.png)
 
 #### Build triggers
 
@@ -95,7 +95,7 @@ We have an interface for uploading exported identities and provisioning profiles
 
 After you have your exported identities and provisioning profile in your hands, just upload them to Bitrise in your app's workflow editor, under the `Code signing & Files` tab.
 
-![Adding identities and provisioning profiles on Bitrise](https://dl.dropboxusercontent.com/s/p257hy9upxn87z7/upload_identities_prov_prof_bitrise_xamarin.png)
+![Adding identities and provisioning profiles on Bitrise](upload_identities_prov_prof_bitrise_xamarin.png)
 
 **Android**
 
