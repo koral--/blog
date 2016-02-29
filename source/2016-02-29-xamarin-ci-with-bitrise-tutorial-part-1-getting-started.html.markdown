@@ -1,11 +1,9 @@
 ---
-title: Xamarin CI with Bitrise Tutorial Part 1 - Getting started
+title: Xamarin CI with Bitrise Tutorial Part 1 - Getting Started
 date: 2016-02-29 10:26 UTC
 tags: xamarin, tutorial
 authors: Agnes Vasarhelyi|agnes@bitrise.io
 ---
-
-# Xamarin CI with Bitrise Tutorial Part 1 - Getting started
 
 [Bitrise](https://bitrise.io), *our precious* CI/CD platform is now able to build, test and distribute *your precious* [Xamarin](https://xamarin.com/) iOS/Android apps!
 
