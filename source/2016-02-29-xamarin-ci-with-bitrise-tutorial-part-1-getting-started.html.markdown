@@ -101,7 +101,7 @@ After you have your exported identities and provisioning profile in your hands, 
 
 If you'd like to have a signed release `.apk`, you just have to upload the locally generated `.keystore` and let `gradle` find it with updating the reference to it.
 
-![Upload keystore to Bitrise](https://dl.dropboxusercontent.com/s/kitrk9xazrh2i0r/android_keystore_upload.png)
+![Upload keystore to Bitrise](android_keystore_upload.png)
 
 ### How it works
 
