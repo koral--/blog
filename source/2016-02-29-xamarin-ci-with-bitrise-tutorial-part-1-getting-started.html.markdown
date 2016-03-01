@@ -15,7 +15,7 @@ This first part of the tutorial series is about *why*, *how* and *what* you can 
 
 ## Just a little bit of history 🏛
 
-[Bitrise](https://bitrise.io) started as CI/CD for iOS, we recently added Android to the collection of officially supported platforms. Our software is known as easy to use, highly customizable, and delivered with [dozens of third party integrations](https://www.bitrise.io/integrations) out of the box. Part of the reasons for flexibility is that the [runner itself](https://github.com/bitrise-io/bitrise) and all these build steps integrating third party services are [open sourced](https://github.com/bitrise-io/bitrise-steplib). Another important detail could be that we host sudoless VMs, so you can basically install anything you like with a simple script step as part of your workflow.
+[Bitrise](https://bitrise.io) started as CI/CD for iOS, we recently added Android to the collection of officially supported platforms. Our software is known as easy to use, highly customizable, and delivered with [dozens of third party integrations](https://www.bitrise.io/integrations) out of the box. Part of the reasons for flexibility is that the [runner itself](https://github.com/bitrise-io/bitrise) and all these build steps integrating third party services are [open sourced](https://github.com/bitrise-io/bitrise-steplib). Another important detail could be that we host VMs with passwordless sudo, so you can basically install anything you like with a simple script step as part of your workflow.
 
 With this combination there are very few things which you cannot do. That's partly the reason why it was possible and straightforward to extend our support to Xamarin apps.
 
