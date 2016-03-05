@@ -25,11 +25,7 @@ Make sure to place every package restore step after the `Git clone repository` s
 
 If you have custom NuGet packages to restore, add a generic `Script` step to your workflow and paste this line of bash into it.
 
-```bash
-#!/bin/bash
-
-nuget sources add -Name ${NAME_FOR_SOURCE} -Source ${SOURCE_URL}
-```
+<script src="https://gist.github.com/vasarhelyia/65d668cc25b83fafb5a3.js"></script>
 
 Make sure to place this step before `NuGet restore`.
 
@@ -55,20 +51,8 @@ For adding UI tests, you will have to modify your project a bit. It's a temporar
 
 In case of an iOS app, you'll have to expose the app's bundle ID and the simulator's UDID in your app configuration. We are going to export the simulator UDID for you as environment variable, so it should look like the following.
 
-```c#
-  [SetUp]
-    public void BeforeEachTest()
-    {
-        string deviceUDID = Environment.GetEnvironmentVariable("IOS_SIMULATOR_UDID");
-        string bundleID = "your.applications.bundle.id";
+<script src="https://gist.github.com/vasarhelyia/c337d6626f0159af87a3.js"></script>
 
-      ConfigureApp
-          .iOS
-          .InstalledApp(bundleID)
-          .DeviceIdentifier(deviceUDID)
-          .StartApp();
-    }
-```
 If you finished updating your project with the above code, just add the `Xamarin iOS Test` step to your workflow to make it part of your build process.
 
 ### Android
@@ -77,36 +61,7 @@ If you'd like to UI test Android apps, you'll have to update your configuration 
 
 It's strongly recommended to add some extra waiting time to deal with Android [emulator launching issues](http://forums.xamarin.com/discussion/27438/xamarin-ui-test-android-timed-out).
 
-```c#
- // Android emulators are slow, give some time for test.
-    public class WaitTimes : IWaitTimes
-    {
-        public TimeSpan GestureWaitTimeout
-        {
-	        get { return TimeSpan.FromMinutes(5); }
-        }
-        public TimeSpan WaitForTimeout
-        {
-            get { return TimeSpan.FromMinutes(5); }
-        }
-    }
-
-    // ...
-
-    [SetUp]
-    public void BeforeEachTest()
-    {
-        // steps-xamarin-android-test exports the generated APK path.
-        string apkPath = Environment.GetEnvironmentVariable ("ANDROID_APK_PATH");
-        string emulatorSerial = Environment.GetEnvironmentVariable("ANDROID_EMULATOR_SERIAL");
-
-        ConfigureApp.Android
-          .ApkFile(apkPath)
-          .DeviceSerial(emulatorSerial)
-          .WaitTimes(new WaitTimes())
-          .StartApp();
-    }
-```
+<script src="https://gist.github.com/vasarhelyia/7c63de37fc8e24ada8b4.js"></script>
 
 Now you just have to add the `Xamarin Android Test` step to your workflow.
 
