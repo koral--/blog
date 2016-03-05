@@ -7,17 +7,19 @@ authors: Agnes Vasarhelyi|agnes@bitrise.io
 
 We recently released support for Xamarin iOS and Android apps on [Bitrise](https://bitrise.io). If you are just about moving to Bitrise with your Xamarin apps, check out the [first part of this tutorial about how to get started](http://blog.bitrise.io/2016/02/29/xamarin-ci-with-bitrise-tutorial-part-1-getting-started.html).
 
-This tutorial is about how to test your apps on Bitrise, from running basic [NUnit](http://www.nunit.org/) tests, through [UITest](https://developer.xamarin.com/guides/testcloud/uitest/) and [Calabash](https://developer.xamarin.com/guides/testcloud/calabash/introduction-to-calabash/), to using the [Xamarin Test Cloud](https://xamarin.com/test-cloud). Last part of the series is coming up next week about how and where to deploy your Xamarin applications using Bitrise.
+This tutorial helps you understand how to test your apps on Bitrise, from running basic [NUnit](http://www.nunit.org/) tests, through [UI Testing](https://developer.xamarin.com/guides/testcloud/uitest/) and [Calabash](https://developer.xamarin.com/guides/testcloud/calabash/introduction-to-calabash/), to using the [Xamarin Test Cloud](https://xamarin.com/test-cloud).
+
+Last part of the series is coming up next week about how and where to deploy your Xamarin applications using Bitrise.
 
 ## Restore packages
 
-Before doing any building, or testing, you will have to restore your packages your project is depending on. To help you achieve this, we implemented a `NuGet restore` and a `Xamarin Components restore` step.
+Before starting to build and test your apps, you will have to restore your packages your project is depending on. To help you achieve this, we implemented a `NuGet restore` and a `Xamarin Components restore` step.
 
 ![NuGet restore step](xamarin_nuget_restore.png)
 
 There is not much to do here, Bitrise already recognized your solution file's path during your app's setup and saved it to an environment variable. This `$BITRISE_PROJECT_PATH` variable will be the default input value for these steps.
 
-Make sure to place every package restore step after the `Git clone repository` step and before any build step!
+Make sure to place every package restore step after the `Git clone repository` step and before any kind of build steps!
 
 > If you'd like to install NuGet packages with custom versions, please check out our [related guide in the Bitrise Dev Center](http://devcenter.bitrise.io/docs/nuget-restore-with-custom-nuget-version).  
 
@@ -35,7 +37,7 @@ If your project contains NUnit tests, the only thing you have to do is to add th
 
 ![Add NUnit runner step](xamarin_add_nunit_runner.png)
 
-Its default inputs are pre-set, but can be modified. These are the paths to your solution file, your configuration and the platform of your NUnit tests to run.  You are able to add extra options through the `NUnit command options`.
+Its default inputs are pre-set, but can be modified. The paths to your solution file, your configuration and the platform of your NUnit tests to run. You are able to add extra options through the `NUnit command options`.
 
 ![NUnit runner step config](xamarin_nunit_runner.png)
 
@@ -45,7 +47,7 @@ Its default inputs are pre-set, but can be modified. These are the paths to your
 
 For adding UI tests, you will have to modify your project a bit. It's a temporary solution until we figure out a better way. Let us know if you have a suggestion!
 
->  Use the `NUnit Test Runner step` for running .NET UI tests.
+>  Use the `NUnit runner` step for running .NET UI tests.
 
 ### iOS
 
@@ -53,7 +55,7 @@ In case of an iOS app, you'll have to expose the app's bundle ID and the simulat
 
 <script src="https://gist.github.com/vasarhelyia/c337d6626f0159af87a3.js"></script>
 
-If you finished updating your project with the above code, just add the `Xamarin iOS Test` step to your workflow to make it part of your build process.
+If you finished updating your project, just add the `Xamarin iOS Test` step to your workflow to make it part of your build process.
 
 ### Android
 
@@ -71,7 +73,7 @@ If you'd like to run your native tests with Calabash on Bitrise, look for the Ca
 
 ### iOS
 
-For running iOS UI tests with Calabash, add the [`Calabash iOS UI test`](https://github.com/bitrise-steplib/steps-calabash-ios-uitest/blob/master/step.yml) step to your workflow. Specify the OS version of the Simulator you'd like to run your tests on, and you are ready to roll.
+For running iOS UI tests with Calabash, add the [`Calabash iOS UI test`](https://github.com/bitrise-steplib/steps-calabash-ios-uitest/blob/master/step.yml) step to your workflow. Specify the OS version of the Simulator you'd like to run your tests on, then you are ready to roll.
 
 ### Android
 
@@ -79,13 +81,13 @@ To run your Android UI tests, you have to add the `Calabash Android UI test` ste
 
 ## Xamarin Test Cloud
 
-Using the XTC lets you run your tests on real devices. You can initiate XTC tests form Bitrise easily. You just have to pull in the `Xamarin Test Cloud for iOS` or `Xamarin Test Cloud for Android` step to get started. The following information is necessary to fill in:
+Using the Test Cloud lets you run your tests on real devices. You can initiate XTC tests form Bitrise easily. You just have to pull in the `Xamarin Test Cloud for iOS` or `Xamarin Test Cloud for Android` step to get started. The following information is necessary to fill in:
 
 * `User email` - Your Xamarin user's email address
 * `API key` - Your Xamarin Test Cloud API key
 * `Device selection id` - The device id you would like to use
 
-It's possible to pass other parameters to the XTC step, please check out the step in your app's workflow editor, or the [`yml` of the step directly](https://github.com/bitrise-steplib/steps-xamarin-test-cloud-for-ios/blob/master/step.yml) for more details.
+It's possible to pass other parameters to the XTC steps, please check out the step's configuration in your app's workflow editor for more details.
 
 ### Submit Calabash tests to Xamarin Test Cloud
 
@@ -93,7 +95,7 @@ For submitting your native tests with Calabash to the XTC, just add the proper s
 
 ## Test results
 
-You are going to have generated output variables after running any of the listed test steps, `BITRISE_XAMARIN_TEST_RESULT`, and `BITRISE_XAMARIN_TEST_FULL_RESULTS_TEXT`. The first one will simply tell you whether the tests succeeded, or not. The full text results will contain the whole test logs. You are able to use these values in steps followed by your test steps, [`Send a Slack message`](https://github.com/bitrise-io/steps-slack-message/blob/master/step.yml) for example.
+You are going to have generated output variables after running any of the listed test steps, `BITRISE_XAMARIN_TEST_RESULT`, and `BITRISE_XAMARIN_TEST_FULL_RESULTS_TEXT`. The first one will simply tell you whether the tests succeeded, or not. The full text results will contain all the tests' logs. You are able to use these values in steps followed by your test steps, like [`Send a Slack message`](https://github.com/bitrise-io/steps-slack-message/blob/master/step.yml) for example.
 
 ![Send test results to Slack](xamarin_slack_results.png)
 
