@@ -13,7 +13,7 @@ This tutorial is about how to test your apps on Bitrise, from running basic [NUn
 
 Before doing any building, or testing, you will have to restore your packages your project is depending on. To help you achieve this, we implemented a `NuGet restore` and a `Xamarin Components restore` step.
 
-// image nuget
+![NuGet restore step](xamarin_nuget_restore.png)
 
 There is not much to do here, Bitrise already recognized your solution file's path during your app's setup and saved it to an environment variable. This `$BITRISE_PROJECT_PATH` variable will be the default input value for these steps.
 
@@ -37,11 +37,11 @@ Make sure to place this step before `NuGet restore`.
 
 If your project contains NUnit tests, the only thing you have to do is to add the [`NUnit Runner` step](https://github.com/bitrise-steplib/steps-nunit-runner/blob/master/step.yml) to your app's workflow.
 
-add_nunit_runner_step.png
+![Add NUnit runner step](xamarin_add_nunit_runner.png)
 
 Its default inputs are pre-set, but can be modified. These are the paths to your solution file, your configuration and the platform of your NUnit tests to run.  You are able to add extra options through the `NUnit command options`.
 
-nunit_runner_step.png
+![NUnit runner step config](xamarin_nunit_runner.png)
 
 > You can always check out what **inputs**, **outputs** and **logic** a Bitrise step has. There's a button pointing to the source of the selected step in the workflow editor of your apps. Check out all the steps we have on [our integrations page](https://www.bitrise.io/integrations), or their implementation at the [Bitrise StepLib repository](https://github.com/bitrise-steplib).
 
@@ -140,7 +140,7 @@ For submitting your native tests with Calabash to the XTC, just add the proper s
 
 You are going to have generated output variables after running any of the listed test steps, `BITRISE_XAMARIN_TEST_RESULT`, and `BITRISE_XAMARIN_TEST_FULL_RESULTS_TEXT`. The first one will simply tell you whether the tests succeeded, or not. The full text results will contain the whole test logs. You are able to use these values in steps followed by your test steps, [`Send a Slack message`](https://github.com/bitrise-io/steps-slack-message/blob/master/step.yml) for example.
 
-//tests steps and slack after
+![Send test results to Slack](xamarin_slack_results.png)
 
 ## Anything else?
 
