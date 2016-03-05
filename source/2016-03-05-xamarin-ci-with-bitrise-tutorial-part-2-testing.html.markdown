@@ -7,7 +7,7 @@ authors: Agnes Vasarhelyi|agnes@bitrise.io
 
 We recently released support for Xamarin iOS and Android apps on [Bitrise](https://bitrise.io). If you are just about moving to Bitrise with your Xamarin apps, check out the [first part of this tutorial about how to get started](http://blog.bitrise.io/2016/02/29/xamarin-ci-with-bitrise-tutorial-part-1-getting-started.html).
 
-This tutorial is about how to test your apps on Bitrise, from running basic [NUnit](http://www.nunit.org/) tests, through [UITest](https://developer.xamarin.com/guides/testcloud/uitest/) and [Calabash](https://developer.xamarin.com/guides/testcloud/calabash/introduction-to-calabash/), to using the [Xamarin Test Cloud](https://xamarin.com/test-cloud).
+This tutorial is about how to test your apps on Bitrise, from running basic [NUnit](http://www.nunit.org/) tests, through [UITest](https://developer.xamarin.com/guides/testcloud/uitest/) and [Calabash](https://developer.xamarin.com/guides/testcloud/calabash/introduction-to-calabash/), to using the [Xamarin Test Cloud](https://xamarin.com/test-cloud). Last part of the series is coming up next week about how and where to deploy your Xamarin applications using Bitrise.
 
 ## Restore packages
 
