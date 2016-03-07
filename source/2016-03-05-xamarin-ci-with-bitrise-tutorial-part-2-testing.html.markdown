@@ -105,4 +105,4 @@ You can always share your questions, problems, compliments, or virtual hugs with
 
 If you are attending the [Xamarin EVOLVE conference](https://evolve.xamarin.com/) in April, make sure to come by to our booth for a chat!
 
-See you in part two about testing Xamarin apps on Bitrise and happy building in the meantime! 🤖
+See you in part three about deploying Xamarin apps from Bitrise and happy building in the meantime! 🤖
