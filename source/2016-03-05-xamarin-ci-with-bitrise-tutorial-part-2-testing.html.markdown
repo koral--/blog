@@ -101,7 +101,7 @@ You are going to have generated output variables after running any of the listed
 
 ## Anything else?
 
-You can always share your questions, problems, compliments, or virtual hugs with us on [Twitter](https://twitter.com/bitrise), by [email](mailto:letsconnect@bitrise.io), or on our [public Slack](chat.bitrise.io).
+You can always share your questions, problems, compliments, or virtual hugs with us on [Twitter](https://twitter.com/bitrise), by [email](mailto:letsconnect@bitrise.io), or on our [public Slack](http://chat.bitrise.io).
 
 If you are attending the [Xamarin EVOLVE conference](https://evolve.xamarin.com/) in April, make sure to come by to our booth for a chat!
 
