@@ -45,4 +45,4 @@ The greatness of open source does not lie in transparency exclusively. For us it
 
 If you have something you'd use and we don't have its support implemented currently, you can [open an issue in the webhooks repo](https://github.com/bitrise-io/bitrise-webhooks/issues) anytime. If you feel the power, you can [send a pull request](https://github.com/bitrise-io/bitrise-webhooks/pulls) right away! Check out our [guide on how to add a new service](https://github.com/bitrise-io/bitrise-webhooks#how-to-add-support-for-a-new-provider) to the webhooks processor.
 
-If you have any questions, [join our public Slack](https://chat.bitrise.io), or tweet us [@bitrise](https://twitter.com/bitrise) we are more than happy to help!
+If you have any questions, [join our public Slack](http://chat.bitrise.io), or tweet us [@bitrise](https://twitter.com/bitrise) we are more than happy to help!
