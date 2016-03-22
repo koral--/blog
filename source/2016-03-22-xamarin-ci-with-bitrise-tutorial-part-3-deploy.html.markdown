@@ -25,7 +25,7 @@ When you're building a Xamarin app on Bitrise, you'll definitely have a [`Xamari
 
 If your configuration has a _real device_ as platform and `Release` as build configuration set, the step will archive your apps after building them automatically. There is no need to add an extra Xcode archive, or Gradle step.
 
-![App environment variables](xamarin_builder_editor.png)
+![App environment variables](app_env_vars.png)
 
 > You are able to add any kind of step after the `Xamarin builder` as you would after an `Xcode archive`, or `Gradle runner` in case of native iOS/Android apps. It's possible because Bitrise generates the same output from the Xamarin builder step as it does from the native archivers. This way your workflow becomes **compatible with all Bitrise integrations for iOS and Android** after building your app.
 
@@ -57,7 +57,7 @@ Most of these third-parties has a dedicated iOS, and an Android step on Bitrise.
 
 You can send your iOS apps to [iTunes Connect](https://itunesconnect.apple.com) via Bitrise with [deliver](https://github.com/fastlane/fastlane/tree/master/deliver), or [Shenzen](https://github.com/nomad/shenzhen).
 
-#### deliver
+#### deliver 🚚
 
 This gem is part of the [fastlane](https://github.com/fastlane) family. You can upload hundreds of localized screenshots, and your app to iTunes Connect from Bitrise, with `deliver`, using the [`Deploy to iTunes Connect (with deliver)`](https://github.com/bitrise-io/steps-deploy-to-itunesconnect-deliver) step.
 
@@ -83,7 +83,7 @@ Specify the service account email address at the Bitrise `Google Play deploy` st
 
 You are able to use [Fabric](https://get.fabric.io/)'s distribution services for iOS with the [`Fabric/Crashlytics deployer`](https://github.com/bitrise-io/steps-fabric-crashlytics-beta-deploy) step. After you've specified your API key and build secret, you are ready to roll. You can specify release notes, email addresses, or groups to send the notifications about new builds to.
 
-### HockeyApp
+### HockeyApp 🏒
 
 You can add [HockeyApp](http://hockeyapp.net/) for iOS, or Android to your workflow with the [HockeyApp iOS](https://github.com/bitrise-io/steps-hockeyapp-deploy), or [HockeyApp Android Deploy](https://github.com/bitrise-steplib/steps-hockeyapp-android-deploy) steps. The only required field is your API token, and you can specify a Hockey app ID instead of a bundle ID to identify apps. This way you can make sure not to generate a new app on Hockey if you already have one for the given project. It's possible to add release notes, manage notification settings, add tags, specify git commit hash, etc.
 
@@ -91,17 +91,17 @@ You can add [HockeyApp](http://hockeyapp.net/) for iOS, or Android to your workf
 
 Distribute your apps with [Appaloosa](https://www.appaloosa-store.com/) by sending your archived apps with Bitrise to the Appaloosa Store. Fear not, if you don't have an Appaloosa account yet, you can add an email address in the [`Publish to Appaloosa Store`](https://github.com/appaloosa-store/bitrise_appalossa) step to receive an email with the link to access your private store.
 
+![Appaloosa step inputs](appaloosa_step_inputs.png)
+
 If you already registered, specify an API key, a store ID to upload your app to. Add screenshots, and a description about your new version optionally. You can also specify groups to send your app to.
 
-### TestFairy
+### TestFairy ✨
 
 Record your videos and deliver your apps to your testers with [TestFairy](https://testfairy.com/) from Bitrise, using the [TestFairy Deploy step for iOS](https://github.com/bitrise-io/steps-testfairy-deploy), or [Android](https://github.com/rudacs/bitrise-steps-testfairy-deploy-android). Add your API key, and configure your step with tester groups, notifications, or video recording amongst others.
 
 ### Applivery
 
 Distribute your apps through [Applivery](http://www.applivery.com/) right away from your CI workflow with the [Applivery.com iOS](https://github.com/applivery/steps-applivery-ios-deploy) & [Android Deploy](https://github.com/applivery/steps-applivery-android-deploy) steps. Set your Applivery account API Key and app ID in the workflow editor to get started. Attach notes, add tags, or modify notification settings any time.
-
-![Appaloosa step inputs](appaloosa_step_inputs.png)
 
 ## Anything else?
 
