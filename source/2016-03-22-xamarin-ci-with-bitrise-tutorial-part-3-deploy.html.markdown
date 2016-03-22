@@ -5,7 +5,7 @@ tags: xamarin, tutorial
 authors: Agnes Vasarhelyi|agnes@bitrise.io
 ---
 
-There are plenty of ways to deploy your iOS, Android, or Xamarin applications from [Bitrise](https://bitrise.io) to any service of your wish. Let me show you what are your options today, if you would like to deliver your apps to your favorite testers, dearest customers, or the iTunes Connect/Google Play directly.
+There are plenty of ways to deploy your iOS, Android, or Xamarin applications from [Bitrise](https://bitrise.io) to any service of your wish. Let me show you what your options are today, if you would like to deliver your apps to your favorite testers, dearest customers, or the iTunes Connect/Google Play directly.
 
 Although this article is part of the tutorial series dedicated to the topic of working with Bitrise as CI for Xamarin apps,  deployment is 99% the same as in case of native apps, so you can read on with confidence either way.
 
