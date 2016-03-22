@@ -49,7 +49,7 @@ If you'd like to upload your build artifacts to [Amazon S3](https://aws.amazon.c
 
 Most of these third-parties has a dedicated iOS, and an Android step on Bitrise. You can use them by simply adding them to your workflow. Check out all the services you can add this easy at our [integrations page](https://www.bitrise.io/integrations).
 
-> Don't forget: you can always add a Script step and install, or run anything you want, but there's no step for it yet. If you feel like contributing, [turn your script into a Bitrise build step](https://github.com/bitrise-io/bitrise-contrib/blob/master/README.md) and earn a 50% discount from our [pro plan with 1 container](https://www.bitrise.io/pricing).
+> Don't forget: you can always add a Script step and install, or run anything you want, but there's no step for it yet. If you feel like contributing, [turn your script into a Bitrise build step](https://github.com/bitrise-io/bitrise-contrib/blob/master/README.md) and earn a 50% discount from our [pro plan with 1 concurrency](https://www.bitrise.io/pricing).
 
 ### iTunes Connect
 
