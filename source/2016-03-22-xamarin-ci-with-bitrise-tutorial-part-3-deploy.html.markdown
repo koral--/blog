@@ -21,7 +21,7 @@ When you're building a Xamarin app on Bitrise, you'll definitely have a [`Xamari
 
 ![Xamarin Builder step](xamarin_builder_editor.png)
 
-If your configuration has a _real device_ as platform and `Release` as build configuration set, the step will archive your apps after building them automatically. There is no need to add an extra Xcode archive, or Gradle step.
+If your configuration has a _real device_ as platform set, the step will archive your apps after building them automatically. There is no need to add an extra Xcode archive, or Gradle step.
 
 ![App environment variables](app_env_vars.png)
 
