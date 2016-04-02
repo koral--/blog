@@ -5,9 +5,12 @@ tags: announcement, status
 authors: Viktor Benei|viktorbenei@bitrise.io
 ---
 
-## OS X Stacks
+## OS X Stacks: Cache update
 
 All of the OS X Stacks received a regular Cache (`brew`, `cocoapods` and `bitrise CLI`) update.
+*These Cache updates __do not__ change the pre-installed tool versions, it's
+only an update of package manager caches, for faster dependency installs.*
+
 As everything else we use for
 provisioning the OS X VMs, the weekly cache update `Ansible` playbook
 can be found on GitHub:
