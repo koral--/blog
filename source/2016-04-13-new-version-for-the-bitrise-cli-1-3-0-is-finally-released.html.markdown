@@ -7,7 +7,7 @@ authors: Daniel Balla|danielballa@bitrise.io
 
 <iframe src="//giphy.com/embed/9tx0gy37p7oXu?hideSocial=true" width="100%" height="300" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
 
-This new version contains tons of improvements, fixes and new features; it is built up by 154 git commits. 😱 We've been working on this new release for a long time now, the previous version (1.2.4) was published in November, 2015. 1.2.4 is SO last year. After this release, we will ship a new `bitrise cli` version **on the second Tuesday of every month.** The new release will always be available on bitrise.io on the following weekend.
+This new version contains tons of improvements, fixes and new features; it is built up by 154 git commits in the main repo and countless others in `envman` and `stepman` and the plugins. 😱  We've been working on this new release for a long time now, the previous version (1.2.4) was published in November, 2015. 1.2.4 is SO last year. After this release, we will ship a new `bitrise cli` version **on the second Tuesday of every month.** The new release will always be available on bitrise.io on the following weekend after the CLI release.
 
 Read on to find out what's changed!
 
