@@ -1,5 +1,5 @@
 ---
-title: New version for the Bitrise CLI (1.3.0) is finally released! 🎉
+title: New version of the Bitrise CLI (1.3.0) is finally released! 🎉
 date: 2016-04-13 11:33 UTC
 tags: announcement
 authors: Daniel Balla|danielballa@bitrise.io
