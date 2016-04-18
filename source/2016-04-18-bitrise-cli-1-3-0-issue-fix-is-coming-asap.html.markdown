@@ -1,9 +1,13 @@
 ---
-title: Bitrise CLI 1.3.0 issue - fix is coming ASAP
+title: Bitrise CLI 1.3.0 issue - [FIXED]
 date: 2016-04-18 12:36 UTC
 tags: status
 authors: Viktor Benei|viktorbenei@bitrise.io
 ---
+
+**Update: this issue is fixed now.** We re-installed the `1.2.4` Bitrise CLI
+for now, while we're working on the new release of the CLI. We'll publish
+a new blog post when the fixed `1.3.1` CLI version is available.
 
 We just discovered a critical issue in the latest CLI (the one which was published
 on the VMs this weekend): the CLI does not return the expected exit code.
@@ -15,5 +19,3 @@ won't be marked as failed on the Web UI.
 
 We're terribly sorry for the issue & the inconvenience this caused,
 we'll fix it ASAP and make it sure that this will never happen again!
-
-**We will update this blog post when the issue is resolved!**
