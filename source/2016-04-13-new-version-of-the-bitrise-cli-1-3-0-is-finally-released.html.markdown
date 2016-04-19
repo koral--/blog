@@ -89,7 +89,12 @@ You can now find [an example YAML](https://github.com/bitrise-io/bitrise/blob/ma
 
 ## More clarity
 
-We've also updated several commands' output to be more informative (see: `bitrise workflows`, `bitrise step-info [STEP_ID]`, `bitrise step-list`, etc...). This version got an updated `bitrise validate` function, which validates your workflow and secret files. The update contains *workflow id validation (until this version, workflow id should conform to `/[A-Za-z0-9-_.]+/`)* and *check for duplicated step inputs*.
+We've also updated several commands' output to be more
+informative (see: `bitrise workflows`, `bitrise step-info [STEP_ID]`, `bitrise step-list`, etc...).
+
+This version got an updated `bitrise validate` function too, which validates your workflow and secret files.
+The update includes **workflow id validation** (workflow id should conform to `/[A-Za-z0-9-_.]+/`, any other naming
+is deprecated but will still work for a while) and **a check for duplicated step inputs**.
 
 *Note: we'll move most of these commands / functionality into "core" plugins in the upcoming CLI releases.*
 
