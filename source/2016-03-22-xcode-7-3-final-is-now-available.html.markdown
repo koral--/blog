@@ -13,7 +13,7 @@ if you used the beta stack you're automatically moved to the non beta 7.3 stack.
 
 If your app is not yet on the 7.3 stack and you want to change it,
 you just have to open your app on [bitrise.io](https://www.bitrise.io),
-go to the `Settings` tab and at the bottom select the `Xcode 7.3, on OS X 10.11`
+go to the `Settings` tab, and at the bottom of the Settings tab select the `Xcode 7.3, on OS X 10.11`
 stack option. Your next build will start with `Xcode 7.3`!
 
 You can find the Stack's description on our [DevCenter](http://devcenter.bitrise.io/v1.0/docs/available-stacks#section-xcode-7-3-on-os-x-10-11) and the full system report at: [https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/osx-xcode-7.3.log](https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/osx-xcode-7.3.log).

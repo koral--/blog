@@ -8,7 +8,7 @@ authors: Viktor Benei|viktorbenei@bitrise.io
 Xcode 7.3 beta 5 is now available [on the New Stacks](http://blog.bitrise.io/2016/01/20/here-comes-the-new-stack.html).
 
 To select this Stack you just have to open your app on [bitrise.io](https://www.bitrise.io),
-go to the `Settings` tab and at the bottom select the `Xcode 7.3 beta, on OS X 10.11`
+go to the `Settings` tab, and at the bottom of the Settings tab select the `Xcode 7.3 beta, on OS X 10.11`
 stack option, and your next build will start with Xcode 7.3 beta 5.
 
 This new Virtual Machine replaces the previous Xcode 7.3 beta configuration,
