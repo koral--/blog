@@ -49,7 +49,10 @@ and then we run a couple of special "builds" with the release binary.
 It includes tests for various build types (success, failed,
 only a "skippable" step fails, build runs with `bitrise run`,
 build runs with `bitrise trigger`, ...), and we now have tests
-for the exit codes for every test case.
+for the exit codes for every test case. This "release binary"
+is also attached to the Build on Bitrise.io (with the `Deploy to Bitrise.io` Step),
+and when we release a new version of the CLI that's the exact
+same binary which was tested and attached to the Build.
 
 We also made it sure that we can roll back a virtual machine update
 which is deemed "faulty" even faster than before.
