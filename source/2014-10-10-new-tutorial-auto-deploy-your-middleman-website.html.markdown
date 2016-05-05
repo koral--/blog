@@ -1,7 +1,7 @@
 ---
 title: "New Tutorial: Auto Deploy your Middleman website"
 date: 2014-10-10 10:29 UTC
-tags: community
+tags: community, tutorial
 authors: Viktor Benei|viktorbenei@bitrise.io
 ---
 
