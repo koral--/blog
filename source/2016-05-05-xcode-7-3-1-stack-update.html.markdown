@@ -40,6 +40,9 @@ The latest Long Term Support (LTS) OS X Stack right now is
 the [Xcode 7.2](http://devcenter.bitrise.io/v1.0/docs/available-stacks#section-xcode-7-2-on-os-x-10-11) stack.
 The 7.3 Stack will be available as a Long Term Support stack once there are no more updates for Xcode 7.3.
 
+*You can find more information about the Stack support
+types [on our DevCenter](http://devcenter.bitrise.io/v1.0/docs/available-stacks#section-stack-status-types).*
+
 
 
 If you'd like to add a tool to be pre-installed on our Stacks
