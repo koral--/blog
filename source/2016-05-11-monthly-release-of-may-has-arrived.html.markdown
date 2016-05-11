@@ -19,11 +19,11 @@ ERRO[13:14:02] Step (tmp) failed, error: (exit status 1)
 
 ☀️ No need to worry about this anymore.
 
-Most changes of v1.3.4 contain stability improvements, the most relevant is the `trigger map validation`, which makes sure your trigger map does not contain trigger map item with empty pattern or workflow ID. Safety check ✅
+Most changes of v1.3.4 includes stability improvements, the most relevant is the `trigger map validation`, which makes sure your trigger map does not contain trigger map item with empty pattern or workflow ID. Safety check ✅
 
 ### New release of stepman (0.9.19)
 
-Stepman became a new version command: `stepman version`. Using the `--full` flag, the output will also contain the build number and commit hash of the version as well.  
+Stepman now has a new version command: `stepman version`. Using the `--full` flag, the output will also contain the build number and commit hash of the version as well.  
 step-template link fixed in v0.9.19 and contains minor bug fixes.
 
 ## New Steps & Step updates
