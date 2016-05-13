@@ -2,7 +2,7 @@
 title: Pretty little updates ✨
 date: 2016-05-13 12:20 UTC
 tags: features
-authors: Daniel Balla|danielballa@bitrise.io
+authors: Norbert Kovach|norbert.kovach@bitrise.io
 ---
 
 <iframe src="//giphy.com/embed/evRN1g9M8xXi0?hideSocial=true" width="100%" height="264" frameborder="0" class="giphy-embed" allowfullscreen=""></iframe>
