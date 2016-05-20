@@ -1,0 +1,192 @@
+---
+title: Bitrise + CocoaPods 1.0
+date: 2016-05-20 14:45 UTC
+tags: tutorial
+authors: Viktor Benei|viktorbenei@bitrise.io
+---
+
+CocoaPods `1.0.0` was released about a week ago. This version was in the works for a really
+long time, the previous stable version `0.39` [was released early October, last year](https://rubygems.org/gems/cocoapods/versions).
+
+Right now all of our OS X Stacks have `0.39` preinstalled, and our Stack update policy -
+as you can see it in our [Available Stacks](http://devcenter.bitrise.io/docs/available-stacks#section-stack-status-types)
+DevCenter article - is that we don't upgrade preinstalled tools on existing stacks.
+This is important to provide you a stable environment, where every build runs
+in the exact same environment.
+
+*Our next OS X Stack will have CocoaPods `1.x` preinstalled - the latest version
+at that time.*
+
+If you like to keep up with the trends you're most likely eager to switch to
+this new CocoaPods version, and we completely understand that, and of course we
+do support it. In fact you can install / select any CocoaPods (or [any other tool](http://devcenter.bitrise.io/docs/install-and-use-custom-tools)) version.
+
+
+## How to install / use a CocoaPods version which is not preinstalled
+
+For selecting / installing CocoaPods versions we have a dedicated page [on our DevCenter](http://devcenter.bitrise.io/docs/cocoapods-how-to).
+
+> **Update the `CocoaPods Install` step:** *in any case if you want to use
+> the `CocoaPods Install` step and CocoaPods 1.x, you should make sure that you upgrade
+> the `CocoaPods Install` step to the
+> latest version, which has a couple of tweaks for CocoaPods 1.x.*
+
+### Main options
+
+If you're fine with always using the latest CocoaPods version you can
+simply [enable the related option of the CococaPods Install step](http://devcenter.bitrise.io/docs/cocoapods-how-to#section-upgrade-to-the-latest-release-version).
+
+You can of course [use a Script step to install the CococaPods version with `gem install`](http://devcenter.bitrise.io/docs/cocoapods-how-to#section--quick-and-dirty-).
+
+The best option is to [use a Gemfile](http://devcenter.bitrise.io/docs/cocoapods-how-to#section-using-a-gemfile-) to lock
+the CocoaPods version you want to use. If you're not familiar with `Gemfile`s, it's about the same
+as the `Podfile` for Ruby projects. You can declare which versions of Ruby GEMs you want to use,
+and then you can install & use them with `bundler`. The `CocoaPods Install` step has built-in
+support for using a `Gemfile`, all you need to do is adding the `Gemfile` into the same
+directory where your `Podfile` is located at. For more details see the
+[related section on our DevCenter](http://devcenter.bitrise.io/docs/cocoapods-how-to#section-using-a-gemfile-).
+
+**There's one more way** you can solve the CocoaPods version issue, **by [adding the CocoaPods generated files
+to your repository](http://devcenter.bitrise.io/docs/should-i-commit-my-dependencies-into-my-repository)**.
+There are obviously pros & cons, we believe that the advantages of this solution outweigh the disadvantages.
+If you commit your `Pods` directory and the CocoaPods generated `.xcworkspace` into your repository
+you don't depends on the installed CocoaPods version at all, as you only have to use CocoaPods
+to update your dependencies. *CocoaPods doesn't even have to be installed on the system* if you just want to
+build your project (which is the case when you use a Continous Integration system).
+It'll make your build faster and more reliable.
+
+*Note: if you decide to commit your `Pods` and `.xcworkspace` into your repository
+you can (you should) remove the `CocoaPods Install` step from
+your Bitrise Workflow.*
+
+
+## Caching
+
+In general if you don't install any other Ruby GEM, only CocoaPods, caching all the Ruby GEMs
+won't make your builds faster (installing CocoaPods with `gem install --version 1.0 --no-document`
+takes about 10 seconds).
+
+If you install other GEMs or if you're just interested how you could cache
+the installed GEMs using our [Build Cache](http://devcenter.bitrise.io/docs/using-the-build-cache#section-caching-all-installed-ruby-gems)
+this example might be useful for you.
+For technical details check out the link, we'll show a simple iOS app specific
+example here.
+
+*This example uses the [github.com/bitrise-samples/ios-cocoapods-1.x](https://github.com/bitrise-samples/ios-cocoapods-1.x)
+sample project, where the Xcode project is located at `./CocoaPods1X` inside the repository.
+The example caches both `GEM_HOME` and the `Pods` directory (located at `./CocoaPods1X/Pods`
+inside the repository).*
+
+<pre><code>---
+format_version: 1.1.0
+default_step_lib_source: https://github.com/bitrise-io/bitrise-steplib.git
+app:
+  envs:
+  - BITRISE_PROJECT_PATH: CocoaPods1X/CocoaPods1X.xcworkspace
+  - BITRISE_SCHEME: CocoaPods1X
+trigger_map:
+- pattern: "*"
+  is_pull_request_allowed: true
+  workflow: primary
+
+workflows:
+  primary:
+    steps:
+    - script@1.1.0:
+        title: Set the GEM_HOME environment variable
+        inputs:
+        - content: |-
+            #!/bin/bash
+            set -ev
+
+            envman add --key GEM_HOME --value "$(gem environment gemdir)"
+    - git-clone@3.2.0: {}
+    - cache-pull@0.9.1: {}
+    - script@1.1.0:
+        title: Install CocoaPods 1.0
+        inputs:
+        - content: |-
+            #!/bin/bash
+            set -ex
+
+            gem install cocoapods --version 1.0 --no-document
+    - cocoapods-install@1.2.1: {}
+    - certificate-and-profile-installer@1.4.2: {}
+    - xcode-test@1.13.7:
+    - xcode-archive@1.7.2:
+    - deploy-to-bitrise-io@1.2.3: {}
+    - cache-push@0.9.3:
+        inputs:
+        - cache_paths: |-
+            $GEM_HOME
+            ./CocoaPods1X/Pods -> ./CocoaPods1X/Podfile.lock
+</code></pre>
+
+**If you use a `Gemfile`** you can use the same configuration, the only thing
+you should change is to remove the "Install CocoaPods 1.0" `Script` step,
+as the CocoaPods version specified in your `Gemfile` will be installed
+automatically by the `CocoaPods Install` step.
+
+> NOTE: `xcodebuild` has an issue if you have a `Gemfile` in the directory
+> or the Xcode project file **AND** you set the `$GEM_HOME` environment variable.
+> We'll soon release a new version of the Xcode Archive step which will include a workaround
+> for the issue, but this is related to `xcodebuild` and not to our Xcode Archive step,
+> so this affects other tools like `fastlane` too. The solution is to "unset" the
+> `$GEM_HOME` environment variable before the Xcode Archive, or to use a different
+> environment variable name, e.g. `$GEM_ENV_GEMDIR`
+
+If you have a `Gemfile` and a `Gemfile.lock` (which is automatically generated when
+you run `bundle install` on your Mac, just like `Podfile.lock` is generated
+when you run `pod install`) in your repository you can further optimize caching
+by adding an [update indicator file](https://github.com/bitrise-steplib/steps-cache-push/blob/master/step.yml#L42).
+In short, instead of `$GEM_HOME` you can use `$GEM_HOME -> ./path/to/Gemfile.lock`,
+which means that inistead of checking the whole content of `$GEM_HOME`
+to see whether the cache have to be updated only the `./path/to/Gemfile.lock`
+file will be checked (if that changes `$GEM_HOME` will be updated in the cache).
+
+Full example for `Gemfile` based caching (using the modified sample
+project [bitrise-samples/ios-cocoapods-1.x-Gemfile](https://github.com/bitrise-samples/ios-cocoapods-1.x-Gemfile),
+which is the exact same code as the previous sample but it contains a `Gemfile` and
+a `Gemfile.lock` in the `./CocoaPods1X/` directory, where the `Podfile` is located):
+
+<pre><code>---
+format_version: 1.1.0
+default_step_lib_source: https://github.com/bitrise-io/bitrise-steplib.git
+app:
+  envs:
+  - BITRISE_PROJECT_PATH: CocoaPods1X/CocoaPods1X.xcworkspace
+  - BITRISE_SCHEME: CocoaPods1X
+trigger_map:
+- pattern: "*"
+  is_pull_request_allowed: true
+  workflow: primary
+
+workflows:
+  primary:
+    steps:
+    - script@1.1.0:
+        title: Set the GEM_ENV_GEMDIR environment variable
+        inputs:
+        - content: |-
+            #!/bin/bash
+            set -ev
+
+            envman add --key GEM_ENV_GEMDIR --value "$(gem environment gemdir)"
+    - git-clone@3.2.0: {}
+    - cache-pull@0.9.1: {}
+    - cocoapods-install@1.2.1: {}
+    - certificate-and-profile-installer@1.4.2: {}
+    - xcode-test@1.13.7: {}
+    - xcode-archive@1.7.2: {}
+    - deploy-to-bitrise-io@1.2.3: {}
+    - cache-push@0.9.3:
+        inputs:
+        - cache_paths: |-
+            $GEM_ENV_GEMDIR -> ./CocoaPods1X/Gemfile.lock
+            ./CocoaPods1X/Pods -> ./CocoaPods1X/Podfile.lock
+
+</code></pre>
+
+For more information and examples see the
+[Build Cache](http://devcenter.bitrise.io/docs/using-the-build-cache#section-caching-all-installed-ruby-gems)
+article on our DevCenter.
