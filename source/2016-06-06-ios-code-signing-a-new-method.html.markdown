@@ -56,7 +56,7 @@ There's only one thing you have to change in your Xcode project settings:
 make sure that the `Provisioning Profile` option is set to `Automatic`,
 as described in our [iOS Code Signing Guide on our DevCenter](http://devcenter.bitrise.io/docs/provprofile-cert-export#section-the-recommended-way-use-the-automatic-option).
 It's also a good idea to set the `Code Signing Identity` option
-to a generic value (e.g. `iOS Development`) instead of a specific one (like `iPhone Developer: My Name (IDOFIDENTITY)`).
+to a generic value (e.g. `iPhone Development`) instead of a specific one (like `iPhone Developer: My Name (IDOFIDENTITY)`).
 
 That's all, you should just commit & push this change.
 
@@ -66,18 +66,18 @@ You can now:
 2. upgrade both the `Certificate and profile installer` and the `Xcode Archive` steps to the latest
    versions (at least `1.5.0` and `1.8.0`, respecively, and `Xcode Analyze` version `1.6.0` if you use that step)
 3. select the `Xcode Archive` step
-4. and for the new `Force code signing with Identity` input specify either `iOS Distribution` or `iOS Development`, depending on
+4. and for the new `Force code signing with Identity` input specify either `iPhone Distribution` or `iPhone Development`, depending on
    which type of Certificate/Identity (.p12) you uploaded to [bitrise.io](https://www.bitrise.io/).
    *You can also upload new ones in the Workflow Editor, under the `Code signing & Files` section, if you'd want to.*
 
 That's all. Save the workflow and start a new build.
 
-With this setup you can leave your code signing settings in Xcode set to "iOS Development",
-and you can overwrite that on [bitrise.io](https://www.bitrise.io/) by specifying `iOS Distribution`
+With this setup you can leave your code signing settings in Xcode set to "iPhone Development",
+and you can overwrite that on [bitrise.io](https://www.bitrise.io/) by specifying `iPhone Distribution`
 as the value of `Force code signing with Identity`.
 
 > Another advantage of this solution is that setting the `Force code signing with Identity`
-> input to a generic category like `iOS Distribution` solves the
+> input to a generic category like `iPhone Distribution` solves the
 > [CocoaPods frameworks code signing issue](http://devcenter.bitrise.io/v1.0/docs/cocoapods-frameworks-signing-issue),
 > where if your main project is set to use Distribution code signing
 > the CocoaPods framework projects still require a Development
@@ -101,7 +101,7 @@ to Xcode directly, and it expects it in the form it would be stored in the Xcode
 
 > **Tip for debugging**: you can check the log of the `Certificate and profile installer` step,
 > that includes the IDs of the files you uploaded to [bitrise.io](https://www.bitrise.io/).
-> You can use this to specify the exact ID or the type of the code signing files (`iOS Development` / `iOS Distribution`).
+> You can use this to specify the exact ID or the type of the code signing files (`iPhone Development` / `iPhone Distribution`).
 > You can also check what value Xcode stores as part of the project settings:
 > just change the value in Xcode and then inspect the change in `git`. You'll see
 > where and in what form Xcode stores these configuration options.
