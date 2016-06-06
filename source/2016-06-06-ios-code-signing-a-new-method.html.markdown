@@ -94,7 +94,7 @@ any time, without the need to change the values in the Workflow.
 you should set it's UUID and not it's title as the parameter - this is noted in the related
 input of the `Xcode Archive` step. Basically you have to set the same value what Xcode stores
 in Xcode project settings. You can check it by changing the value in Xcode and then
-inspecting the changes in e.g. `git`. The Identity is stored as a text (e.g. `iOS Developer: ...`),
+inspecting the changes in e.g. `git`. The Identity is stored as a text (e.g. `iPhone Developer: ...`),
 but the Provisioning Profile is stored as a UUID (e.g. `xyz045x4-6143-4e5a-a94a-3fe3aec96eb3`).
 You have to specify the value in the same form for the step input, as the value will be passed
 to Xcode directly, and it expects it in the form it would be stored in the Xcode project settings files.
