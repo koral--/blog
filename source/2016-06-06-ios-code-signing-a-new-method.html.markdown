@@ -103,7 +103,8 @@ you can of course still do that, by creating multiple Schemes in Xcode (just [do
 mark the schemes as shared](http://devcenter.bitrise.io/docs/scheme-cannot-be-found)).
 Every Xcode step we maintain includes a Scheme input, so you can specify different Schemes
 for every Xcode step if you want to, but you can now specify different Code Signing Identities
-for the (`Xcode Archive` and `Xcode Analyze` - `Xcode Test` does not require code signing) steps instead.*
+for the (`Xcode Archive` and `Xcode Analyze` - `Xcode Test` does not require code signing) steps
+as an alternative, so that you don't have to maintain multiple Schemes in Xcode.*
 
 On our DevCenter you can find more information about
 [how you can export & upload your iOS code signing files](http://devcenter.bitrise.io/docs/provprofile-cert-export),
