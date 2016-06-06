@@ -63,7 +63,8 @@ That's all, you should just commit & push this change.
 You can now:
 
 1. open your app's Workflow Editor on [bitrise.io](https://www.bitrise.io/)
-2. upgrade both the `Certificate and profile installer` and the `Xcode Archive` steps to the latest versions (at least `1.5.0` and `1.8.0`, respecively)
+2. upgrade both the `Certificate and profile installer` and the `Xcode Archive` steps to the latest
+   versions (at least `1.5.0` and `1.8.0`, respecively, and `Xcode Analyze` version `1.6.0` if you use that step)
 3. select the `Xcode Archive` step
 4. and for the new `Force code signing with Identity` input specify either `iOS Distribution` or `iOS Development`, depending on
    which type of Certificate/Identity (.p12) you uploaded to [bitrise.io](https://www.bitrise.io/).
