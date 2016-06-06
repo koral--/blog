@@ -98,13 +98,13 @@ to Xcode directly, and it expects it in the form it would be stored in the Xcode
 > just change the value in Xcode and then inspect the change in `git`. You'll see
 > where and in what form Xcode stores these configuration options.
 
-*If you prefer to use **Xcode Schemes** to manage your code signing settings
+_If you prefer to use **Xcode Schemes** to manage your code signing settings
 you can of course still do that, by creating multiple Schemes in Xcode (just [don't forget to
 mark the schemes as shared](http://devcenter.bitrise.io/docs/scheme-cannot-be-found)).
 Every Xcode step we maintain includes a Scheme input, so you can specify different Schemes
 for every Xcode step if you want to, but you can now specify different Code Signing Identities
 for the (`Xcode Archive` and `Xcode Analyze` - `Xcode Test` does not require code signing) steps
-as an alternative, so that you don't have to maintain multiple Schemes in Xcode.*
+as an alternative, so that you don't have to maintain multiple Schemes in Xcode._
 
 On our DevCenter you can find more information about
 [how you can export & upload your iOS code signing files](http://devcenter.bitrise.io/docs/provprofile-cert-export),
