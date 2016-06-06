@@ -106,6 +106,12 @@ to Xcode directly, and it expects it in the form it would be stored in the Xcode
 > just change the value in Xcode and then inspect the change in `git`. You'll see
 > where and in what form Xcode stores these configuration options.
 
+You also have to specify the Identity in the form it's stored in Xcode project
+settings, and not how it's presented in the Xcode.app GUI! This means that
+instead of `iOS` (`iOS Distribution/Development`) you have to use `iPhone`
+(`iPhone Distribution` or `iPhone Development`). Capitalization also matters,
+`iPhone Distribution` works but `iphone distribution` does not!
+
 _If you prefer to use **Xcode Schemes** to manage your code signing settings
 you can of course still do that, by creating multiple Schemes in Xcode (just [don't forget to
 mark the schemes as shared](http://devcenter.bitrise.io/docs/scheme-cannot-be-found)).
