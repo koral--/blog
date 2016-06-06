@@ -69,12 +69,19 @@ You can now:
 4. and for the new `Force code signing with Identity` input specify either `iOS Distribution` or `iOS Development`, depending on
    which type of Certificate/Identity (.p12) you uploaded to [bitrise.io](https://www.bitrise.io/).
    *You can also upload new ones in the Workflow Editor, under the `Code signing & Files` section, if you'd want to.*
-   
+
 That's all. Save the workflow and start a new build.
 
 With this setup you can leave your code signing settings in Xcode set to "iOS Development",
 and you can overwrite that on [bitrise.io](https://www.bitrise.io/) by specifying `iOS Distribution`
 as the value of `Force code signing with Identity`.
+
+> Another advantage of this solution is that setting the `Force code signing with Identity`
+> input to a generic category like `iOS Distribution` solves the
+> [CocoaPods frameworks code signing issue](http://devcenter.bitrise.io/v1.0/docs/cocoapods-frameworks-signing-issue),
+> where if your main project is set to use Distribution code signing
+> the CocoaPods framework projects still require a Development
+> signing identity to be present on the system.
 
 You can of course force the use of a specific Identity and/or Provisioning Profile, by
 providing the full IDs, but if you keep these values on "automatic" then you can
