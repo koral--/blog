@@ -9,6 +9,14 @@ We just pushed one more change (in addition to the one we described in our previ
 [iOS Code Signing - a new method](/2016/06/06/ios-code-signing-a-new-method.html) blog post)
 which should eliminate a frequent iOS code signing issue.
 
+TL;DR
+
+Till this point you had to use a workaround in some cases if you set your Xcode project settings to use Distribution
+code signing and used e.g. CocoaPods iOS Framework dependencies in your project.
+Now you don't have to do anything special other than uploading your Distribution profile 🎉
+
+Read on for more details about the issue and our solution for it!
+
 
 ## What's the issue?
 
