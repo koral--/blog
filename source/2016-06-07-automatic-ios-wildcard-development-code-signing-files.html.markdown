@@ -1,7 +1,7 @@
 ---
 title: Automatic iOS Wildcard Development Code Signing Files
 date: 2016-06-07 16:44 UTC
-tags: tutorial, announcement
+tags: tutorial, announcement, code-signing
 authors: Viktor Benei|viktorbenei@bitrise.io
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: iOS Code Signing - a new method
 date: 2016-06-06 09:04 UTC
-tags: tutorial, announcement
+tags: tutorial, announcement, code-signing
 authors: Viktor Benei|viktorbenei@bitrise.io
 ---
 
