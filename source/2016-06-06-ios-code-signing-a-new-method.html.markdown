@@ -126,3 +126,7 @@ about our handy [Code Signing Doctor (`codesigndoc`)](https://github.com/bitrise
 as well as more advanced tips and guides like [Using multiple code signing file sets](http://devcenter.bitrise.io/docs/upload-use-more-than-one-certificate-using-generic-file-storage),
 to create multiple, differently signed iOS IPAs (e.g. one with an Ad Hoc code signing,
 and one with an App Store code signing).
+
+You can find **more in-depth description** about how iOS code signing works,
+as well as **tips and tricks to make the process easier and more manageable**
+on our [new, completely open source DevCenter](https://bitrise-io.github.io/devcenter/ios/code-signing/).

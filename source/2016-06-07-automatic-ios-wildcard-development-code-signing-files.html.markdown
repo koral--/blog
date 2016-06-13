@@ -101,3 +101,7 @@ specify your other files' download URL environment variables
 (which will include time limited, expiring
 download URLs as well if you use the Generic File Storage feature)
 as the value for the "Default ..." inputs.
+
+You can find **more in-depth description** about how iOS code signing works,
+as well as **tips and tricks to make the process easier and more manageable**
+on our [new, completely open source DevCenter](https://bitrise-io.github.io/devcenter/ios/code-signing/).
