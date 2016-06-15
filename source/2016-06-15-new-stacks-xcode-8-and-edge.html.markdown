@@ -17,8 +17,8 @@ a very short summary:
 * CocoaPods: `1.0.1`
 * fastlane: `1.94.1`
 
-You can find the full system report, with all the pre-installed tool versions
-[on GitHub](https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/osx-xcode-8.0.x.log).
+*You can find the full system report of this Stack, with all the pre-installed tool versions
+[on GitHub](https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/osx-xcode-8.0.x.log).*
 
 Unfortunately there's one tool we had to remove: `wine`.
 We had troubles with `wine` before (more than with every other tool, combined),
@@ -61,6 +61,9 @@ then this is definitely the macOS stack for you!
 
 This stack will also serve as our "alpha" or "test" stack, to catch issues early on (like
 the incompatibility between Ruby 2.3 and CocoaPods 0.39).
+
+*You can find the full system report of this Stack, with all the pre-installed tool versions
+[on GitHub](https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/osx-xcode-edge.log).*
 
 There's one more thing to note: as you (hopefully ;) already know it (we add this to every stack update post)
 you can [send us Pull Requests](https://github.com/bitrise-io/osx-box-bootstrap#request-a-tool-to-be-pre-installed)
