@@ -5,9 +5,9 @@ tags: announcement, status
 authors: Viktor Benei|viktorbenei@bitrise.io
 ---
 
-## OS X Stacks
+## macOS Stacks
 
-As usual, all of the OS X Stacks received a dependency manager cache (`brew`, `cocoapods` and `bitrise CLI`) update.
+As usual, all of the macOS Stacks received a dependency manager cache (`brew`, `cocoapods` and `bitrise CLI`) update.
 *These Cache updates __do not__ change the pre-installed tool versions, it's
 only an update of package manager caches, for faster dependency installs.*
 
@@ -16,7 +16,7 @@ so it includes the latest-and-greatest versions of the pre-installed tools,
 not just dependency manager cache updates.
 
 As everything else we use for
-provisioning the OS X VMs, the weekly cache update `Ansible` playbook
+provisioning the macOS VMs, the weekly cache update `Ansible` playbook
 [can be found on GitHub](https://github.com/bitrise-io/osx-box-bootstrap/blob/master/weekly-cache-update-playbook.yml).
 
 You can find this week's Stack `diff`s on GitHub:
