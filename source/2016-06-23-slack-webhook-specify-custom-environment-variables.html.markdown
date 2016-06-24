@@ -1,5 +1,5 @@
 ---
-title: "Slack webhook: specify custom environment variables!"
+title: "Trigger a build from Slack, now with custom environment variables!"
 date: 2016-06-23 07:55 UTC
 tags: announcement, features
 authors: Viktor Benei|viktorbenei@bitrise.io
