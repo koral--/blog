@@ -7,7 +7,10 @@ authors: Krisztián Gödrei|krisztiangodrei@bitrise.io
 
 # Monthly release of Bitrise CLI (July)
 
-> We will ship a new bitrise cli version on the second Tuesday of every month. The new release will always be available on bitrise.io on the weekend after the CLI release.
+> We ship a new bitrise cli version on the second Tuesday of every month.
+> The new release will be available on the [bitrise.io](https://www.bitrise.io)
+> virtual machines on the weekend after the CLI release,
+> unless we discover any serious bug / regression.
 
 Read on to learn more about this month's [Bitrise CLI](https://github.com/bitrise-io/bitrise) release and about the changes around bitrise tools and steps.
 
@@ -28,12 +31,12 @@ We decided to remove every command's short version (a.k.a. command alias), becau
 
 We improved the logging of the `step-list` command, to make it clear which StepLib contains the step list.
 
-You can now generate the StepLib's spec - *spec.json is a descriptor for the StepLib, used by other parts of bitrise (like the website, or the integrations page)* - by calling `stepman export-spec` command.  
+You can now generate the StepLib's spec - *spec.json is a descriptor for the StepLib, used by other parts of bitrise (like the website, or the integrations page)* - by calling `stepman export-spec` command.
 You can control the functionality with the following flags:
 
 - `--steplib`: specify the StepLib with the StepLib's git URI
 - `--output`: where stepman should save the exported spec file
-- `--export-type`: controls what should be included in the spec - available options:   
+- `--export-type`: controls what should be included in the spec - available options:
 
   - `full`: contains all meta information about the StepLib and every version of all steps along with their information
   - `latest`: contains all meta information about the StepLib, but steps are presented only with their latest version
