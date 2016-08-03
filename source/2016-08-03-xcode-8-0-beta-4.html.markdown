@@ -1,0 +1,37 @@
+---
+title: Xcode 8.0 beta 4
+date: 2016-08-03 12:46 UTC
+tags: announcement, status
+authors: Viktor Benei|viktorbenei@bitrise.io
+---
+
+Xcode 8.0 beta 4 is now available! 🎉
+
+
+__Notes__: Good news, beta 4 fixes the hanging tests issue of the previous Xcode 8 betas!
+([more info about the issue](https://bitrise-io.github.io/devcenter/ios/known-xcode-issues/#xcode-8-xcodebuild-test-hangs-at-the-very-end-of-the-tests))
+Another thing which changed since Xcode 7: Xcode's Archive command (any command which requires
+code signing, actually. Note: if all you want to do is to run `test`
+on the project, that does not require it) now requires the Team / Team ID to be set in your Xcode project.
+In Xcode 7 you could leave this property empty, which was useful if you had to build
+your project with multiple code signing files, from different teams, but since Xcode 8
+you have to set the Team (ID).
+
+
+__To select this Stack__ you just have to **open your app** on [bitrise.io](https://www.bitrise.io),
+go to the `Settings` tab, and at the bottom of the Settings tab select the `Xcode 8 beta`
+stack option, and your next build will start on the Xcode 8.0 beta stack.
+
+This new Virtual Machine replaced the previous, Xcode 8.0 beta 3 configuration,
+so **if you've already selected this Xcode 8 Beta stack for your app,
+you're automatically using beta 4 now**.
+
+__You can find the Stack's__ full __system report__ at:
+[https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/osx-xcode-8.0.x.log](https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/osx-xcode-8.0.x.log),
+and the changes since the beta 3 stack:
+[https://github.com/bitrise-io/bitrise.io/pull/55/commits/065f116d5fce9539379f1aa2035ab6c3b64321b0](https://github.com/bitrise-io/bitrise.io/pull/55/commits/065f116d5fce9539379f1aa2035ab6c3b64321b0).
+
+If you'd like to add a tool to be pre-installed on our Stacks
+you can find all the required information at: [https://github.com/bitrise-io/bitrise.io#request-a-tool-to-be-pre-installed](https://github.com/bitrise-io/bitrise.io#request-a-tool-to-be-pre-installed).
+
+**Happy Building!** 🚀
