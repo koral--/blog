@@ -23,7 +23,7 @@ As we'll keep adding support for more and more tools, and adding more preinstall
 tools along the process it was crucial to increase the available disk space
 for upcoming stacks.
 
-Another new thing in this Stack: it was built on the latest and gratest (non beta) Mac OS
+Another new thing in this Stack: it was built on the latest and greatest (non beta) Mac OS
 version, `10.11.6`, instead of `10.11.5` we used for previous versions of this Stack.
 This stack was built as a completely new Virtual Machine,
 doing a brand new Mac OS install, to test and validate our provisioning scripts

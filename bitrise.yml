@@ -1,6 +1,10 @@
 format_version: 1.2.0
 default_step_lib_source: https://github.com/bitrise-io/bitrise-steplib.git
 
+app:
+  envs:
+  - DOCKER_IMG_TAG: bitrise-io/bitrise-blog:latest
+
 workflows:
   up:
     steps:
@@ -11,3 +15,29 @@ workflows:
             set -ex
             bundle install
             bundle exec middleman server
+
+  docker-rebuild:
+    steps:
+    - script:
+        inputs:
+        - content: |-
+            #!/bin/bash
+            set -ex
+            docker build --pull --no-cache -t "${DOCKER_IMG_TAG}" .
+  
+  docker-run:
+    steps:
+    - script:
+        inputs:
+        - content: |-
+            #!/bin/bash
+            set -e
+            echo "=> Starting the server at: http://localhost:4567/"
+            set -x
+            docker run --rm -v "$(pwd):/app" -p 4567:4567 "${DOCKER_IMG_TAG}" bundle exec middleman server
+
+  docker-rebuild-and-run:
+    before_run:
+    - docker-rebuild
+    after_run:
+    - docker-run
