@@ -24,6 +24,6 @@ It's also possible to add multiple owners to your organization, because we know 
 
 ##Org for the Pros ⚡️
 
-**Organizations is a Pro only feature**, but since there's no way for us to transfer your billing details, **we are giving you 1 month of trial for your first organization,** to make the transition easier. You can sign up for the 1-month trial for the next 2 months, after that everything will go back to normal, and users will receive 2 weeks of trial for their first org.
+**Organizations is a Pro only feature**, but since there's no way for us to transfer your billing details, **we are giving you 1 month of trial for your first organization,** to make the transition easier. You can sign up for the 1-month trial in the next 2 months, after that everything will go back to normal, and users will receive 2 weeks of trial for their first org.
 
 We've created a [short FAQ](http://devcenter.bitrise.io/v1.0/docs/organization-faq) to help you make sense of Organizations at start, but if you have any questions or feedback, don't hesitate to reach out to us!
