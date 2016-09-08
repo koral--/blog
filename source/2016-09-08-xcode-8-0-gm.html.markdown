@@ -1,0 +1,31 @@
+---
+title: Xcode 8.0 GM
+date: 2016-09-08 15:22 UTC
+tags: announcement, status
+authors: Viktor Benei|viktorbenei@bitrise.io
+---
+
+Xcode 8.0 GM is now available! 🎉
+
+
+__Notes__: This is the first Xcode version which includes the new `iPhone 7` and `iPhone 7 Plus`
+simulators, which you can now set as the test device e.g. in the `Xcode Test` step (on the Xcode 8 stack)!
+
+
+__To select this Stack__ you just have to **open your app** on [bitrise.io](https://www.bitrise.io),
+go to the `Settings` tab, and at the bottom of the Settings tab select the `Xcode 8 beta`
+stack option, and your next build will start on the Xcode 8.0 beta (GM) stack.
+
+This new Virtual Machine replaced the previous Xcode 8.0 beta configuration,
+so **if you've already selected the Xcode 8 Beta stack for your app,
+you're automatically using the GM now**.
+
+__You can find the Stack's__ full __system report__ at:
+[https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/osx-xcode-8.0.x.log](https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/osx-xcode-8.0.x.log),
+and the changes compared to the previous beta stack:
+[https://github.com/bitrise-io/bitrise.io/commit/35b19dd0eae70c8c35aa635bd0a4d560faa87a2d](https://github.com/bitrise-io/bitrise.io/commit/35b19dd0eae70c8c35aa635bd0a4d560faa87a2d).
+
+If you'd like to add a tool to be pre-installed on our Stacks
+you can find all the required information at: [https://github.com/bitrise-io/bitrise.io#request-a-tool-to-be-pre-installed](https://github.com/bitrise-io/bitrise.io#request-a-tool-to-be-pre-installed).
+
+**Happy Building!** 🚀
