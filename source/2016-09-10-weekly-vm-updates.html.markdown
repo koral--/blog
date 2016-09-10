@@ -18,8 +18,11 @@ Additionally Android build tools `24.0.2` is now pre-installed on
 all three Xamarin stacks.
 
 There's only one issue you might experience with the latest
-Xamarin Alpha and Beta versions, if you get an error like
-`MTOUCH: error MT0091: This version of Xamarin.iOS requires the iOS 10.0 SDK (shipped with Xcode 8.0) when the managed linker is disabled. Either upgrade Xcode, or enable the managed linker.`
+Xamarin Alpha and Beta versions, if you get an error like:
+
+<pre><code>MTOUCH: error MT0091: This version of Xamarin.iOS requires the iOS 10.0 SDK (shipped with Xcode 8.0) when the managed linker is disabled. Either upgrade Xcode, or enable the managed linker.
+</code></pre>
+
 in the `Nunit Runner iOS Test` step, for now you should, as the error mentioned, enable the managed linker for your project.
 
 The workaround until we create Xcode 8 based Xamarin stacks (we'll do that
