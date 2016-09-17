@@ -24,59 +24,54 @@ Bitrise 1.4.0 major features:
 
 Bitrise contains a new trigger map syntax, to allow setting more specific and felxible trigger events. Full proposal is available on [GitHub](https://github.com/bitrise-io/bitrise.io/issues/40).
 
-Keep in mind:    
+Keep in mind:
 
 * Every single trigger event should contain, at minimum, one condition.
 * Every single trigger event condition is evaluated with AND condition.
 
 Following trigger item types were introduced:
 
-__code push:__  
+__code push:__
 
-```
-- push_branch: BRANCH_NAME
+<pre><code>- push_branch: BRANCH_NAME
   workflow: WORKFLOW_ID_TO_RUN
-```
+</code></pre>
 
 __pull request:__
 
-```
-- pull_request_source_branch: SOURCE_BRANCH_NAME
+<pre><code>- pull_request_source_branch: SOURCE_BRANCH_NAME
   pull_request_target_branch: TARGET_BRANCH_NAME
   workflow: WORKFLOW_ID_TO_RUN
-```
+</code></pre>
 
-exmple: 
+example:
 
-```
-trigger_map:
+<pre><code>trigger_map:
 - push_branch: release*
   workflow: deploy
 - push_branch: master
-  workflow: primary 
+  workflow: primary
 - pull_request_target_branch: develop
   workflow: test
-```
+</code></pre>
 
 _New trigger map handling is fully compatible with the old syntax, the following conversion is applied:_
 
-```
-Old syntax:                   New Syntax:
+<pre><code>Old syntax:                   New Syntax:
 
 trigger_map:                  trigger_map:
 - pattern: *           ->     - push_branch: *
   workflow: primary             workflow: primary
-```
+</code></pre>
 
-```
-Old syntax:                                New Syntax:
+<pre><code>Old syntax:                                New Syntax:
 
 trigger_map:                               trigger_map:
-- push_branch: *                    ->     - push_branch: *
+- pattern: *                        ->     - push_branch: *
   is_pull_request_allowed: true              workflow: primary
   workflow: primary                        - pull_request_source_branch: *
                                               workflow: primary
-```
+</code></pre>
 
 __The new trigger map syntax will be available on [bitrise.io](https://www.bitrise.io) soon.__
 
@@ -86,15 +81,15 @@ We are also planing to prepare bitrise for __trigger with git tagging event__, s
 
 _Toolkit support is still in beta and details of it might change in following CLI releases._
 
-Currently available toolkits: `bash` and `go`.  
+Currently available toolkits: `bash` and `go`.
 
-__bash toolkit__ realizes the current step handling, e.g.: every step needs to have a `step.sh` in the step's directory as an entry point for the step. When bitrise executes the step, it calls `bash step.sh`.  
+__bash toolkit__ realizes the current step handling, e.g.: every step needs to have a `step.sh` in the step's directory as an entry point for the step. When bitrise executes the step, it calls `bash step.sh`.
 
 In case of __go toolkit__, you need to specify the package name, and the toolkit takes care about:
 
 * moving the go step into a prepared GOPATH inside of the .bitrise directory
 * building the step project
-* chaching the binary of the step's given version  
+* chaching the binary of the step's given version
 
 When bitrise executes the step, it calls the step's binary.
 
@@ -135,7 +130,7 @@ This tool also received some dependency and unit test updates.
 
 ## Step updates 🛠
 
-* __project-scanner 0.9.13__  
+* __project-scanner 0.9.13__
   * omitting xcodeproj and xcworkspace which is not a directory
   * add script step to default workflow
   * add xcode-test to a correct scheme option
@@ -144,7 +139,7 @@ This tool also received some dependency and unit test updates.
   * do not run commands with eval
   * cmd call fix
 * __xcode-archive 1.9.1__
-  * __NEW INPUT:__ `export_all_dsyms`  
+  * __NEW INPUT:__ `export_all_dsyms`
     If this input is set to `yes`, the step will collect every dsym (.app dsym and framwork dsyms) in a directory, zip it and export the zipped directory path. Otherwise only .app dsym will be zipped and the zip path exported.
   * __New ipa export related inputs:__
 	* `export_method`: Select method for export
@@ -199,7 +194,7 @@ This tool also received some dependency and unit test updates.
   * go 1.5 support
   * fixed scheme generation
 * __script 1.1.3__
-  * typo fix in the Step's description 
+  * typo fix in the Step's description
 * __nunit-runner 0.9.3__
   * force kill hanging mdtool command
   * print full stack trace of hanging mdtool command
@@ -220,9 +215,9 @@ This tool also received some dependency and unit test updates.
   * bitrise-init tool update
 * __slack 2.3.0__
   * step uses __toolkit__
-  * it can also use Slack's "Attachment" API feature to send the message, which allows a border color 
+  * it can also use Slack's "Attachment" API feature to send the message, which allows a border color
   * __BREAKING:__ removed formatting_mode, as there's no use for it anymore
-  
+
 ## Removed Steps
 
 * __lifx__
