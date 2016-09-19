@@ -20,4 +20,4 @@ export HOMEBREW_NO_ANALYTICS=1
 
 ([Source](https://github.com/bitrise-io/osx-box-bootstrap/blob/f4da692a405e01bbecd1d7e7af4fdfe35e5e322c/profiles/bashrc#L8))
 
-You can find the full system report of all MacOS stacks at: [https://github.com/bitrise-io/bitrise.io/pull/70/files](https://github.com/bitrise-io/bitrise.io/pull/70/files)
+You can find the system report diffs of all MacOS stacks at: [https://github.com/bitrise-io/bitrise.io/pull/70/files](https://github.com/bitrise-io/bitrise.io/pull/70/files)
