@@ -13,7 +13,7 @@ workflows:
         - content: |-
             #!/bin/bash
             set -ex
-            bundle install
+            bundle install --path vendor/bundle
             bundle exec middleman server
 
   docker-rebuild:
@@ -24,7 +24,7 @@ workflows:
             #!/bin/bash
             set -ex
             docker build --pull --no-cache -t "${DOCKER_IMG_TAG}" .
-  
+
   docker-run:
     steps:
     - script:
