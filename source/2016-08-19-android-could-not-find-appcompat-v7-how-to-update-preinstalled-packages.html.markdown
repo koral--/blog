@@ -5,6 +5,9 @@ tags: announcement, status
 authors: Viktor Benei|viktorbenei@bitrise.io
 ---
 
+> __You can find an up to date version of this issue and fix__
+> on our [DevCenter](https://bitrise-io.github.io/devcenter/android/frequent-android-issues/#could-not-find-an-android-package-or-you-have-not-accepted-the-license-agreements)
+
 If you'd get an error in your Android build like:
 
 <pre><code>Could not find com.android.support:appcompat-v7:24.2.0. 
@@ -40,6 +43,7 @@ set -x
 # write your script here 
 echo y | android update sdk --no-ui --all --filter extra-android-support | grep 'package installed' 
 echo y | android update sdk --no-ui --all --filter extra-android-m2repository | grep 'package installed'
+echo y | android update sdk --no-ui --all --filter extra-google-m2repository | grep 'package installed'
 </code></pre>
 
 
