@@ -5,7 +5,7 @@ tags: step-update, announcement
 authors: Viktor Benei|viktorbenei@bitrise.io
 ---
 
-Multiple iOS Certificate (p12 Idenity file) support is finally here!!
+Multiple iOS Certificate (p12 Identity file) support is finally here!!
 
 ___Important: Multi certificate is only supported in the latest `Certificate and profile installer`
 step version (`1.7.0` or newer)! Previous versions of the step will fail
