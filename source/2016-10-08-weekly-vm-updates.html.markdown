@@ -1,7 +1,7 @@
 ---
 title: Weekly VM updates - Android Build Tools 24.0.3 preinstalled
 date: 2016-10-08 09:01 UTC
-tags: announcement, status
+tags: announcement, status, box-update
 authors: Viktor Benei|viktorbenei@bitrise.io
 ---
 
