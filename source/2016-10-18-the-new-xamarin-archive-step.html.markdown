@@ -5,7 +5,7 @@ tags: announcement, step-update, xamarin-dev
 authors: Krisztián Gödrei|krisztiangodrei@bitrise.io
 ---
 
-# New shared Xamarin Builder tool
+## New shared Xamarin Builder tool
 
 Since Xamarin Studio 6 has been around, we've spotted an annoying __hanging issue__ with `mdtool` (one of Xamarin's build tools), which is used by Bitrise's shared [xamarin-builder](https://github.com/bitrise-io/xamarin-builder) tool.
 This tool is the ❤️ of our Xamarin steps (_xamarin-builder_, _xamarin-test-cloud-for-ios_, _xamarin-test-cloud-for-android_, ...). It's used to analyze and build the Xamarin projects, then export the generated outputs.  
@@ -24,7 +24,7 @@ The new builder tool is part of our [go-xamarin](https://github.com/bitrise-tool
 
 The main packages:
 
-- __analyzers__: Supposed to parse Xamarin Solutions and Projects.
+- __analyzers__: Parses Xamarin Solutions and Projects.
 - __tools__: A collection of easy-to-use Xamarin tool wrappers (`buildtools/mdtool`, `buildtools/xbuild`, `nunit` and `testcloud`).
 - __builder__: This package contains a Model which is able to archive Xamarin projects or run tests.
 
@@ -84,7 +84,7 @@ The step exports the following outputs for `mdtool` build tool:
 
 The archive export process is handled by the build tools (`xbuild` or `mdtool`), based on the project settings.
 
-# Export the generated `xcarchive`
+## Export the generated `xcarchive`
 
 The new xamarin-archive step generates 'final outputs' (`ipa`, `dsym`, `app` and `pkg`) signed based on the project settings,  
 and also generates the 'raw' `xcarchive` file.  
