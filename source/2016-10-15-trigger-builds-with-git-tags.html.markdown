@@ -48,6 +48,18 @@ For those of you, who'd rather click than type, this can be setup easily on the 
 in which case, you'll notice a new option and an icon for tags. Builds triggered by your tags will also show up differently on your Builds page.
 Neat! ✨
 
+
+## Update your webhook URL if it's the old bitrise.io/hooks one!
+
+__New trigger feature__ (like [skip ci](https://bitrise-io.github.io/devcenter/tips-and-tricks/skip-a-build/) or tag based triggering)
+__are only available if you use the new hooks.bitrise.io webhook URL!__
+
+Initially we had a non open source `bitrise.io/hooks` endpoint for webhooks,
+but every new project registered should now get the new `hooks.bitrise.io` webhook URL automatically.
+
+__If your webhook would still be a `bitrise.io/hooks` URL, please replace it with the new `hooks.bitrise.io/` URL - you can find this on the `Code` tab of your app!__
+
+
 ## Couple of service specific notes
 
 ### GitHub
