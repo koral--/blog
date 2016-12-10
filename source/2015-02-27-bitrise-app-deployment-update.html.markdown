@@ -41,7 +41,7 @@ a continuous deployment workflow like this:
 3. Invite your testers into your Bitrise App's team, this way you can configure automatic notifications which will be sent in email every time a new version of your app is built on Bitrise.
 4. If you have other testers or a client you want to share stable versions with you can just go to the Build's page and invite as many additional testers as you like.
 
-Check out our [DevCenter](http://devcenter.bitrise.io/docs/bitrise-app-deployment.html){:target="_blank"} if you want to know all the details of
+Check out our [DevCenter](http://devcenter.bitrise.io/tutorials/deploy/bitrise-app-deployment/){:target="_blank"} if you want to know all the details of
 the deployment system and for a guide on
 how you can configure automatic App deployments.
 

@@ -17,7 +17,7 @@ Renaming your workflow just became a bit more fun with a seamless point-and-clic
 
 ##New trigger pattern popup
 
-You can now easily check the corresponding triggers for each workflow without having to navigate to the triggers tab. We've even added a button that takes you to a helpful guide about [setting up triggers](http://devcenter.bitrise.io/docs/lesson-6-pull-the-trigger-on-the-workflow), because we're nice like that. ⚡️
+You can now easily check the corresponding triggers for each workflow without having to navigate to the triggers tab. We've even added a button that takes you to a helpful guide about [setting up triggers](http://devcenter.bitrise.io/webhooks/trigger-map/), because we're nice like that. ⚡️
 
 ##Edit your scheduled builds 🕑
 

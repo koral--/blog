@@ -38,8 +38,3 @@ We'll replace our existing virtual machines during the weekend
 (starting on Saturday).
 
 
-## More information about the virtual machine build boxes
-
-You can find our description of the build boxes including
-the pre-installed components and our update guideline
-on our [DevCenter](http://devcenter.bitrise.io/docs/virtual-machine-updates.html).

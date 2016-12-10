@@ -38,6 +38,6 @@ In the second example a build is only started if the trigger expression is maste
         workflow: masterwf
 
 
-You can read more about the Trigger Map at our [Devcenter](http://devcenter.bitrise.io/) in [Lesson 6 Pull the trigger on the Workflow](http://devcenter.bitrise.io/docs/lesson-6-pull-the-trigger-on-the-workflow)
+You can read more about the Trigger Map at our [Devcenter](http://devcenter.bitrise.io) in [Lesson 6 Pull the trigger on the Workflow](http://devcenter.bitrise.io/webhooks/trigger-map/)
 
 Happy Building!

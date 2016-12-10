@@ -37,7 +37,3 @@ times might be longer while we disconnect a set of
 builder machines for the update.*
 
 
-## Planned changes
-
-*You can always check the previous and planned changes
-on our [DevCenter - Virtual Machines / Box change log](http://devcenter.bitrise.io/docs/vm-box-changelog).*

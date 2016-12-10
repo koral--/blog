@@ -18,8 +18,6 @@ You can however upgrade your Xcode Steps (Build, Analyze, Archive, Unit Test) to
 
 If you want to keep building with Xcode 5 all you have to do is update your Step to the latest version and set **5** for the *(Optional) Xcode Version to use. Default is "6"* option.
 
-For more information you can check our [Xcode support guideline on our DevCenter](http://devcenter.bitrise.io/docs/xcode-version-support.html).
-
 
 ## xctool Xcode 6 support
 

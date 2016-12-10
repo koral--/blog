@@ -11,7 +11,7 @@ documentation or wherever you want and show it to your visitors.
 
 Here is our [Dev Center's](http://devcenter.bitrise.io) status ( hope it's green when you read this:) )
 
-[![Build Status](https://www.bitrise.io/app/83acac4fa8a7643e.svg?token=KlXUQom3675zIXd5K2xf7w&branch=master)](http://devcenter.bitrise.io/)
+[![Build Status](https://www.bitrise.io/app/83acac4fa8a7643e.svg?token=KlXUQom3675zIXd5K2xf7w&branch=master)](http://devcenter.bitrise.io)
 
 > To get the embed code for your app's status image you just have to
 > click on the status image on [bitrise.io](https://www.bitrise.io).
@@ -21,7 +21,7 @@ Here is our [Dev Center's](http://devcenter.bitrise.io) status ( hope it's green
 Currently we only support private apps on Bitrise so security was a huge issue when we
 integrated [this user request](https://bitrise.uservoice.com/forums/235233-general/suggestions/7678128-add-image-endpoints-for-github-build-passing-faili){:target="_blank"}
 into our service. You already have an API token that you can use to start builds
-manually or through the [Bitrise Build Trigger API](http://devcenter.bitrise.io/docs/build-trigger-api){:target="_blank"}.
+manually or through the [Bitrise Build Trigger API](https://bitrise.readme.io/docs/build-trigger-api){:target="_blank"}.
 Using the same API token would be a big risk if you plan to include your badge image in a public environment.
 
 Therefore we created a new **read-only** token just for interacting with the status image,

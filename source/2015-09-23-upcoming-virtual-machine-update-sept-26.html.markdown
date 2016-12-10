@@ -31,8 +31,6 @@ This is the full version mapping list:
 * __xcode-7-beta__ / __-beta__ / __-latest__: `7.1 beta 1 (build version: 7B60)`
 * __xcode-6__: `6.4 (build version: 6E35b)`
 
-As always you can check all the pre-installed tool version
-changes on our DevCenter at [Virtual Machines / Box #changelog](http://devcenter.bitrise.io/docs/vm-box-changelog){:target="_blank"}.
 
 
 ## Schedule & Status
@@ -46,8 +44,3 @@ we'll update this section with the status of the update.
 times might be longer while we disconnect a set of
 builder machines for the update.*
 
-
-## Planned changes
-
-*You can always check the previous and planned changes
-on our [DevCenter - Virtual Machines / Box change log](http://devcenter.bitrise.io/docs/vm-box-changelog).*

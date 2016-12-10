@@ -20,7 +20,7 @@ Displaying build duration has changed - for the better! We decided that it would
 
 ##Some spring cleaning around workflows 🌷
 
-In the workflow editor inside the step details the toggle for replacing environment variables is not available anymore. The status of each environment variable replacing is still shown, but to change it, you need to head over to the YAML editor. You can find out more about the how [in this guide](http://devcenter.bitrise.io/docs/manage-your-bitrise-workflow#section-step-inputs).
+In the workflow editor inside the step details the toggle for replacing environment variables is not available anymore. The status of each environment variable replacing is still shown, but to change it, you need to head over to the YAML editor. You can find out more about the how [in this guide](http://devcenter.bitrise.io/getting-started/manage-your-bitrise-workflow/#environment-variable-replace-mode).
 
 Also in the workflow editor in the header of step details you can see a purple or an orange information notice. This tells you whether that particular step is maintained by us or not, so if it's us, you can be sure that it's 100% verified and organic. Feel free to contact us if you have any questions or feedback about them!
 
@@ -36,4 +36,4 @@ Setting the connected git service user just became handier, too. When transferri
 
 The largest improvement is the first peek into a completely new feature, which is managing build caches. Navigate to your app's settings tab, click on the "Manage" button, and lo and behold: there's a popup to download or even delete cached items.
 It is available only for Owners and Admins, all others should keep their pesky paws off your precious build cache.
-You can read more extensively about [caching your builds here](http://devcenter.bitrise.io/v1.0/docs/using-the-build-cache).
+You can read more extensively about [caching your builds here](http://devcenter.bitrise.io/caching/about-caching/).

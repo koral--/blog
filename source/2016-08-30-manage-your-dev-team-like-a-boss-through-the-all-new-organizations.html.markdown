@@ -44,6 +44,6 @@ but since there's no way for us to transfer your billing details,
 You can sign up for the 1-month trial in the next month, after that if
 you'd need an Organization trial feel free to [contact us](https://www.bitrise.io/contact)!
 
-We've created a [short FAQ](http://devcenter.bitrise.io/v1.0/docs/organization-faq)
+We've created a [short FAQ](http://devcenter.bitrise.io/faq/organization-faq/)
 to help you make sense of Organizations at start, but if you have any questions or feedback,
 don't hesitate to [reach out to us](https://www.bitrise.io/contact)!

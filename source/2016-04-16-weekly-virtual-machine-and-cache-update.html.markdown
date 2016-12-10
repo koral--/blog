@@ -30,7 +30,7 @@ and in the [official CHANGELOG of the Bitrise CLI](https://github.com/bitrise-io
 
 A notable change / improvement: the `CocoaPods Install` step was
 updated to optimize install times (*you can upgrade the Step in to the latest
-version in the [Workflow Editor on Bitrise.io](http://devcenter.bitrise.io/docs/add-your-first-step-to-your-apps-workflow)*).
+version in the [Workflow Editor on Bitrise.io](http://devcenter.bitrise.io/getting-started/manage-your-bitrise-workflow/)*).
 The step will now first try to
 run `pod install` with the `--no-repo-update` flag ([thanks @scosman for the tip!](https://github.com/bitrise-io/steps-cocoapods-install/issues/5)), and it'll retry
 the install *without* the flag if required. This should help

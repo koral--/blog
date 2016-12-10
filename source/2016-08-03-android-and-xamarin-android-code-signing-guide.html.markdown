@@ -12,7 +12,7 @@ __About the new DevCenter__
 
 We're working on moving from our current DevCenter to this new one.
 For now we host the new DevCenter as a GitHub pages website,
-but eventually it'll replace [http://devcenter.bitrise.io/](http://devcenter.bitrise.io/)
+but eventually it'll replace [devcenter.bitrise.io](http://devcenter.bitrise.io)
 as the primary / official DevCenter.
 
 _Why do we move the DevCenter?_ One of the primary reasons

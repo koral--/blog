@@ -28,4 +28,4 @@ We are really happy to let you know that we officially support [fastlane](https:
 
 We have created a tutorial to make it easy for you to get started with `fastlane`.
 
-**[Check it out!](http://devcenter.bitrise.io/docs/fastlane_tools_integration)**
+**[Check it out!](http://devcenter.bitrise.io/fastlane/fastlane-tools-integration/)**

@@ -25,6 +25,6 @@ We’ll continue refining our Steps so you can build and deploy your apps more e
 
 *Link to the Amazon S3 Deploy Step's [source code](https://github.com/bitrise-io/steps-amazon-s3-deploy){:target="_blank"}*
 
-> If you need help with updating the version of your Steps check out our [DevCenter](http://devcenter.bitrise.io/docs/step-update.html){:target="_blank"} or leave a comment below.
+> If you need help with updating the version of your Steps check out our [DevCenter](http://devcenter.bitrise.io/getting-started/manage-your-bitrise-workflow/){:target="_blank"} or leave a comment below.
 
 > If you have problems with the new version of the Step contact us at **letsconnect at bitrise io** or leave a comment below.

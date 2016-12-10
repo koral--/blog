@@ -35,7 +35,7 @@ There are some general options available on Bitrise for you then, like our very 
 
 ### Bitrise
 
-I'm pretty sure the [`Deploy to bitrise.io`](https://github.com/bitrise-io/steps-deploy-to-bitrise-io) step looks familiar, since everyone has it in their workflows by default, when adding a new app. It uploads the file, or directory found at `$BITRISE_DEPLOY_DIR` and sends an email to the specified group (everyone on the team by default). Read more about the [available environment variables on our dev center](http://devcenter.bitrise.io/docs/available-environment-variables).
+I'm pretty sure the [`Deploy to bitrise.io`](https://github.com/bitrise-io/steps-deploy-to-bitrise-io) step looks familiar, since everyone has it in their workflows by default, when adding a new app. It uploads the file, or directory found at `$BITRISE_DEPLOY_DIR` and sends an email to the specified group (everyone on the team by default). Read more about the [available environment variables on our dev center](http://devcenter.bitrise.io/faq/available-environment-variables/).
 
 ![Deploy to Bitrise step](deploy_to_bitrise_step.png)
 
@@ -67,7 +67,7 @@ You'll have to set your Apple ID email address, your iTunes Connect credentials,
 
 Type in your Apple ID address and your iTunes Connect credentials into the [`Deploy to iTunes Connect (with Shenzen)`](https://github.com/bitrise-io/steps-deploy-to-itunesconnect-shenzhen) step in the workflow editor and just press build to upload your app.
 
-> Please note, that you are able to create separate workflows for the same app and [specify trigger maps](http://devcenter.bitrise.io/docs/lesson-6-pull-the-trigger-on-the-workflow) to manage different scenarios when building app for development, staging, or production.
+> Please note, that you are able to create separate workflows for the same app and [specify trigger maps](http://devcenter.bitrise.io/webhooks/trigger-map/) to manage different scenarios when building app for development, staging, or production.
 
 ### Google Play
 

@@ -21,8 +21,7 @@ This fixed the issue but unfortunately updated the preinstalled
 
 We're terribly sorry for the inconvenience this might have caused to you,
 *please contact us if you need help with downgrading the preinstalled
-CocoaPods version*. We updated the [preinstalled tools list](http://devcenter.bitrise.io/docs/virtual-machine-updates.html){:target="_blank"}
-and the [virtual machine changelog](http://devcenter.bitrise.io/docs/vm-box-changelog){:target="_blank"} articles on our DevCenter and there was no other preinstalled tool version change.
+CocoaPods version*.
 
 We created the necessary tests and changes so these issues won't happen again in
 the future.

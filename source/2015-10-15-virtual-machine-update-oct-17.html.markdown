@@ -17,9 +17,6 @@ These are the most significant updates:
 * Pre-installed `CocoaPods` updated from `0.38.2` to `0.39.0`
 * Our [Bitrise CLI](https://github.com/bitrise-io/bitrise){:target="_blank"} also received a patch update: `1.2.1` -> `1.2.2`
 
-As always you can check all the pre-installed tool version
-changes on our DevCenter at [Virtual Machines / Box #changelog](http://devcenter.bitrise.io/docs/vm-box-changelog){:target="_blank"}.
-
 
 ## Schedule & Status
 
@@ -31,9 +28,3 @@ we'll update this section with the status of the update.
 *We don't expect any downtime during the update, but build queue
 times might be longer while we disconnect a set of
 builder machines for the update.*
-
-
-## Planned changes
-
-*You can always check the previous and planned changes
-on our [DevCenter - Virtual Machines / Box change log](http://devcenter.bitrise.io/docs/vm-box-changelog).*

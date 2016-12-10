@@ -46,6 +46,6 @@ This new Step can upload a given folder to an Amazon S3 bucket. With this you ca
 
 *Repository: [https://github.com/bitrise-io/steps-secure-delete-path](https://github.com/bitrise-io/steps-secure-delete-path){:target="_blank"}*
 
-Right now all the available Steps are maintained by us and we erase the Build Virtual Machine before every Build (<a href="http://devcenter.bitrise.io/docs/code-security.html" target="_blank">read more on our Dev Center</a>, but for an additional security of your code with this Step you can securely delete any file or folder.
+Right now all the available Steps are maintained by us and we erase the Build Virtual Machine before every Build (<a href="http://devcenter.bitrise.io/getting-started/code-security/" target="_blank">read more on our Dev Center</a>, but for an additional security of your code with this Step you can securely delete any file or folder.
 
 If you want to remove your source code right after the builds just add this Step to your Workflow, below your Build, Unit Test, Archive and other Steps which use the source code and set the **File or Folder path to delete** input to **$BITRISE_SOURCE_DIR** (you can select this Variable from the *Insert Variable* popup, described in our [previous post](/2014/06/23/insert-environment-variables-in-your-workflow.html)) and leave the *Use sudo for delete?* input empty (default is *yes, use sudo*)

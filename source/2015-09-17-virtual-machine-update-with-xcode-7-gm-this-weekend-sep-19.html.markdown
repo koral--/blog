@@ -22,8 +22,7 @@ VM after this one).
 from `1.0.0` to `1.1.1`.
 
 There are other minor version changes and we also update
-OS X from `10.10.4` to `10.10.5`. If you want to see the full list
-you can check it on our DevCenter at [Virtual Machines / Box #changelog](http://devcenter.bitrise.io/docs/vm-box-changelog){:target="_blank"}.
+OS X from `10.10.4` to `10.10.5`.
 
 
 ## Schedule & Status
@@ -37,8 +36,3 @@ we'll update this section with the status of the update.
 times might be longer while we disconnect a set of
 builder machines for the update.*
 
-
-## Planned changes
-
-*You can always check the previous and planned changes
-on our [DevCenter - Virtual Machines / Box change log](http://devcenter.bitrise.io/docs/vm-box-changelog).*

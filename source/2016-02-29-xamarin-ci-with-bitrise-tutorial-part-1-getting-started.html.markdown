@@ -29,7 +29,7 @@ You can build, test and distribute Xamarin iOS & Android applications with Bitri
 
 #### Build
 
-Before building your Xamarin apps, you are going to need your dependencies installed, if you have any. We currently support [NuGet and Xamarin Components](http://devcenter.bitrise.io/v1.0/docs/restore-nuget-packages), but you can also [operate with custom NuGet versions](http://devcenter.bitrise.io/docs/nuget-restore-with-custom-nuget-version).
+Before building your Xamarin apps, you are going to need your dependencies installed, if you have any. We currently support [NuGet and Xamarin Components](http://devcenter.bitrise.io/xamarin/restore-nuget-packages-and-xamarin-components/).
 
 We are building iOS projects with [`mdtool`](http://manpages.ubuntu.com/manpages/trusty/man1/mdtool.1.html) and the Android ones with [`xbuild`](http://manpages.ubuntu.com/manpages/utopic/man1/xbuild.1.html) after we analyzed the proper inputs to hand over to the build commands.
 
@@ -37,7 +37,7 @@ We are building iOS projects with [`mdtool`](http://manpages.ubuntu.com/manpages
 
 You are able to run [NUnit](http://www.nunit.org/) and UI tests on Bitrise, you just have to add the corresponding step to your workflow.
 
-You are able to [run your tests in the Xamarin Test Cloud](http://devcenter.bitrise.io/v1.0/docs/run-your-tests-in-the-xamarin-test-cloud) as well.
+You are able to [run your tests in the Xamarin Test Cloud](http://devcenter.bitrise.io/xamarin/run-your-tests-in-the-xamarin-test-cloud/) as well.
 
 #### Distribute
 
@@ -47,17 +47,17 @@ There are [plenty of options for deployment](https://www.bitrise.io/integrations
 
 First, you have to **sign up** on [bitrise.io](https://bitrise.io). You can do that easily with GitHub/Bitbucket or your email address.
 
-It's possibly the best to [connect your Xamarin account to Bitrise](http://devcenter.bitrise.io/docs/connect-your-xamarin-account-to-bitrise) right away, but you will be asked for it if it's missing during your first app setup.
+It's possibly the best to [connect your Xamarin account to Bitrise](http://devcenter.bitrise.io/xamarin/connect-your-xamarin-account-to-bitrise/) right away, but you will be asked for it if it's missing during your first app setup.
 
 #### Add your apps
 
-When [adding a new app](http://devcenter.bitrise.io/docs/creating-your-first-app-on-bitrise), Bitrise will list your repositories for you so you can pick your favorite Xamarin app to build.
+When [adding a new app](http://devcenter.bitrise.io/getting-started/create-your-first-app-on-bitrise/), Bitrise will list your repositories for you so you can pick your favorite Xamarin app to build.
 
 ![Add new app on Bitrise](add_new_app_bitrise_xamarin.png)
 
 I chose the `sample-apps-xamarin-ios` repo, which contains a [sample Xamarin iOS](https://github.com/bitrise-io/sample-apps-xamarin-ios) application you can fork anytime.
 
-Some in-between steps are selecting branch to build, [(auto-) adding an SSH key to your repo](http://devcenter.bitrise.io/docs/adding-projects-with-submodules#section-when-adding-a-new-app-on-bitrise) and a validation we run against every repository during setup to make sure we have the right access.
+Some in-between steps are selecting branch to build, [(auto-) adding an SSH key to your repo](http://devcenter.bitrise.io/faq/adding-projects-with-submodules/#how-to-do-this-when-you-add-a-new-app) and a validation we run against every repository during setup to make sure we have the right access.
 
 Bitrise will detect and list the available solution files and list configurations to pick.
 
@@ -65,7 +65,7 @@ Bitrise will detect and list the available solution files and list configuration
 
 After that you're able to setup a webhook with one click. With this on, Bitrise can build your apps for every push without any manual actions.
 
->You can always add, disable, or [customize webhooks](http://devcenter.bitrise.io/docs/setup-webhook) on your GitHub, Bitbucket, or any other git hosting service.
+>You can always add, disable, or [customize webhooks](http://devcenter.bitrise.io/webhooks/) on your GitHub, Bitbucket, or any other git hosting service.
 
 Then you are ready to roll. 🏁
 
@@ -83,7 +83,7 @@ You are able to customize every step's input variables in your favor. Like speci
 
 #### Build triggers
 
-There are several ways to trigger builds on Bitrise. You can do it manually, or by pushing code to your remote repository if you have connected webhooks. We also have a [build trigger API](http://devcenter.bitrise.io/docs/build-trigger-api), which you can call with a simple `curl`, or from your app's [Slack channel with one command](https://github.com/bitrise-io/bitrise-webhooks#slack---setup--usage).
+There are several ways to trigger builds on Bitrise. You can do it manually, or by pushing code to your remote repository if you have connected webhooks. We also have a [build trigger API](https://bitrise.readme.io/docs/build-trigger-api), which you can call with a simple `curl`, or from your app's [Slack channel with one command](https://github.com/bitrise-io/bitrise-webhooks#slack---setup--usage).
 
 #### Code signing
 
@@ -91,7 +91,7 @@ Code signing might sound scary even for practiced developers. The good news is, 
 
 **iOS**
 
-We have an interface for uploading exported identities and provisioning profiles and a step to install them to the build machine. If you can't find the identity to export on your machine, or you'd like to upload more at once, check out [our guide on how to solve that with one command](http://devcenter.bitrise.io/docs/provprofile-cert-export#section-use-our-codesigndoc-tool-to-get-your-code-signing-files).
+We have an interface for uploading exported identities and provisioning profiles and a step to install them to the build machine. If you can't find the identity to export on your machine, or you'd like to upload more at once, check out [our guide on how to solve that with one command](http://devcenter.bitrise.io/ios/code-signing/).
 
 After you have your exported identities and provisioning profile in your hands, just upload them to Bitrise in your app's workflow editor, under the `Code signing & Files` tab.
 

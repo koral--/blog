@@ -24,9 +24,6 @@ To summarize this week's changes:
 * There will be three Xcode versions pre-installed: `Xcode 7.1`, `Xcode 7.2 beta` and `Xcode 6.4`.
 * `fastlane` and the `bitrise CLI` were updated to the latest available versions.
 
-As always you can check all the pre-installed tool version
-changes on our DevCenter at [Virtual Machines / Box #changelog](http://devcenter.bitrise.io/docs/vm-box-changelog){:target="_blank"}.
-
 
 ## Schedule & Status
 
@@ -39,8 +36,3 @@ we'll update this section with the status of the update.
 times might be longer while we disconnect a set of
 builder machines for the update.*
 
-
-## Planned changes
-
-*You can always check the previous and planned changes
-on our [DevCenter - Virtual Machines / Box change log](http://devcenter.bitrise.io/docs/vm-box-changelog).*

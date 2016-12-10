@@ -41,9 +41,6 @@ builder machines for the update.*
 
 ## Planned changes
 
-*You can always check the previous and planned changes
-on our [DevCenter - Virtual Machines / Box change log](http://devcenter.bitrise.io/docs/vm-box-changelog).*
-
 * git: 2.3.5 -> 2.3.6
 * Xcode:
   * -stable: 6.3 -> 6.3.1 (6D1002)

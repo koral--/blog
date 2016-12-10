@@ -12,9 +12,6 @@ There's only two pre-installed tool version change in this weekend's new Virtual
 * `Xcode 7.2` upgraded from `beta 1` to `beta 2`
 * `git` received a patch release: `2.6.2` -> `2.6.3`
 
-As always you can check all the pre-installed tool version
-changes on our DevCenter at [Virtual Machines / Box #changelog](http://devcenter.bitrise.io/docs/vm-box-changelog){:target="_blank"}.
-
 
 ## Schedule & Status
 
@@ -26,9 +23,3 @@ we'll update this section with the status of the update.
 *We don't expect any downtime during the update, but build queue
 times might be longer while we disconnect a set of
 builder machines for the update.*
-
-
-## Planned changes
-
-*You can always check the previous and planned changes
-on our [DevCenter - Virtual Machines / Box change log](http://devcenter.bitrise.io/docs/vm-box-changelog).*

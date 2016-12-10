@@ -94,7 +94,7 @@ or by simply deleting the default values on the Web UI.
 **You can of course set these inputs to another set of your own code signing files too**,
 e.g. if you want to upload your own Development code signing files in addition to the
 Distribution one. You can use
-the [Generic File Storage](http://devcenter.bitrise.io/docs/how-to-use-the-generic-file-storage-with-any-step)
+the [Generic File Storage](http://devcenter.bitrise.io/tutorials/how-to-use-the-generic-file-storage/)
 feature to store your files,
 and instead of adding a second `Certificate and profile installer` step you can just
 specify your other files' download URL environment variables

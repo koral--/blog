@@ -8,9 +8,8 @@ authors: Viktor Benei|viktorbenei@bitrise.io
 CocoaPods `1.0.0` was released about a week ago. This version was in the works for a really
 long time, the previous stable version `0.39` [was released early October, last year](https://rubygems.org/gems/cocoapods/versions).
 
-Right now all of our OS X Stacks have `0.39` preinstalled, and our Stack update policy -
-as you can see it in our [Available Stacks](http://devcenter.bitrise.io/docs/available-stacks#section-stack-status-types)
-DevCenter article - is that we don't upgrade preinstalled tools on existing stacks.
+Right now all of our OS X Stacks have `0.39` preinstalled, and our Stack update policy 
+is that we don't upgrade preinstalled tools on existing stacks.
 This is important to provide you a stable environment, where every build runs
 in the exact same environment.
 
@@ -19,12 +18,11 @@ at that time.*
 
 If you like to keep up with the trends you're most likely eager to switch to
 this new CocoaPods version, and we completely understand that, and of course we
-do support it. In fact you can install / select any CocoaPods (or [any other tool](http://devcenter.bitrise.io/docs/install-and-use-custom-tools)) version.
+do support it.
+In fact you can install / select any CocoaPods (or [any other tool](http://devcenter.bitrise.io/tips-and-tricks/install-additional-tools/)) version.
 
 
 ## How to install / use a CocoaPods version which is not preinstalled
-
-For selecting / installing CocoaPods versions we have a dedicated page [on our DevCenter](http://devcenter.bitrise.io/docs/cocoapods-how-to).
 
 > **Update the `CocoaPods Install` step:** *in any case if you want to use
 > the `CocoaPods Install` step and CocoaPods 1.x, you should make sure that you upgrade
@@ -33,21 +31,21 @@ For selecting / installing CocoaPods versions we have a dedicated page [on our D
 
 ### Main options
 
-If you're fine with always using the latest CocoaPods version you can
-simply [enable the related option of the CococaPods Install step](http://devcenter.bitrise.io/docs/cocoapods-how-to#section-upgrade-to-the-latest-release-version).
+The best option is to __commit your `Podfile.lock` into your repository__ to lock
+the CocoaPods version you want to use. The `Run CocoaPods Install` step can detect
+the `Podfile.lock` and read the required CocoaPods version from it automatically!
 
-You can of course [use a Script step to install the CococaPods version with `gem install`](http://devcenter.bitrise.io/docs/cocoapods-how-to#section--quick-and-dirty-).
-
-The best option is to [use a Gemfile](http://devcenter.bitrise.io/docs/cocoapods-how-to#section-using-a-gemfile-) to lock
-the CocoaPods version you want to use. If you're not familiar with `Gemfile`s, it's about the same
+Alternatively, you can use a `Gemfile` too.
+If you're not familiar with `Gemfile`s, it's about the same
 as the `Podfile` for Ruby projects. You can declare which versions of Ruby GEMs you want to use,
 and then you can install & use them with `bundler`. The `CocoaPods Install` step has built-in
 support for using a `Gemfile`, all you need to do is adding the `Gemfile` into the same
-directory where your `Podfile` is located at. For more details see the
-[related section on our DevCenter](http://devcenter.bitrise.io/docs/cocoapods-how-to#section-using-a-gemfile-).
+directory where your `Podfile` is located at.
+
+You can of course use a `Script` step to install the CococaPods version with `gem install` too.
 
 **There's one more way** you can solve the CocoaPods version issue, **by [adding the CocoaPods generated files
-to your repository](http://devcenter.bitrise.io/docs/should-i-commit-my-dependencies-into-my-repository)**.
+to your repository](http://devcenter.bitrise.io/tips-and-tricks/should-i-commit-my-dependencies-into-my-repository/)**.
 There are obviously pros & cons, we believe that the advantages of this solution outweigh the disadvantages.
 If you commit your `Pods` directory and the CocoaPods generated `.xcworkspace` into your repository
 you don't depends on the installed CocoaPods version at all, as you only have to use CocoaPods
@@ -56,7 +54,7 @@ build your project (which is the case when you use a Continous Integration syste
 It'll make your build faster and more reliable.
 
 *Note: if you decide to commit your `Pods` and `.xcworkspace` into your repository
-you can (you should) remove the `CocoaPods Install` step from
+you can (you should) remove the `Run CocoaPods Install` step from
 your Bitrise Workflow.*
 
 
@@ -67,7 +65,7 @@ won't make your builds faster (installing CocoaPods with `gem install --version 
 takes about 10 seconds).
 
 If you install other GEMs or if you're just interested how you could cache
-the installed GEMs using our [Build Cache](http://devcenter.bitrise.io/docs/using-the-build-cache#section-caching-all-installed-ruby-gems)
+the installed GEMs using our [Build Cache](http://devcenter.bitrise.io/caching/caching-ruby-gems/)
 this example might be useful for you.
 For technical details check out the link, we'll show a simple iOS app specific
 example here.
@@ -188,5 +186,5 @@ workflows:
 </code></pre>
 
 For more information and examples see the
-[Build Cache](http://devcenter.bitrise.io/docs/using-the-build-cache#section-caching-all-installed-ruby-gems)
+[Build Cache](http://devcenter.bitrise.io/caching/caching-ruby-gems/)
 article on our DevCenter.

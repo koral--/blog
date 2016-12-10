@@ -19,9 +19,6 @@ There's only two pre-installed tool version change this time:
 We might add an additional, minor `bitrise CLI` update in case
 we can finalize the new release in time (in the next 1-2 days).
 
-As always you can check all the pre-installed tool version
-changes on our DevCenter at [Virtual Machines / Box #changelog](http://devcenter.bitrise.io/docs/vm-box-changelog){:target="_blank"}.
-
 
 ## Schedule & Status
 
@@ -34,8 +31,3 @@ we'll update this section with the status of the update.
 times might be longer while we disconnect a set of
 builder machines for the update.*
 
-
-## Planned changes
-
-*You can always check the previous and planned changes
-on our [DevCenter - Virtual Machines / Box change log](http://devcenter.bitrise.io/docs/vm-box-changelog).*

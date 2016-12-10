@@ -21,7 +21,6 @@ There is not much to do here, Bitrise already recognized your solution file's pa
 
 Make sure to place every package restore step after the `Git clone repository` step and before any kind of build steps!
 
-> If you'd like to install NuGet packages with custom versions, please check out our [related guide in the Bitrise Dev Center](http://devcenter.bitrise.io/docs/nuget-restore-with-custom-nuget-version).  
 
 ### Custom NuGet packages
 

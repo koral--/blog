@@ -30,7 +30,7 @@ see our previous blog post: [Xcode 8 and automatic code signing](/2016/09/21/xco
 
 Of course, if you prefer to have better control over which code signing files are available in
 which workflow,
-[you can still use the previous, Generic File Storage based solution](http://devcenter.bitrise.io/docs/upload-use-more-than-one-certificate-using-generic-file-storage),
+you can still use the previous, _Generic File Storage based solution_,
 but from now on you can decide which one you prefer ;)
 
 Happy Building! 🚀

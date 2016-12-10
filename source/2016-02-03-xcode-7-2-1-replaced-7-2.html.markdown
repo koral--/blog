@@ -15,7 +15,7 @@ This new Virtual Machine replaces the previous Xcode 7.2 configuration,
 so if you've already selected this Xcode 7.2 stack for your app
 you're automatically using 7.2.1 now.
 
-You can find the Stack's description on our [DevCenter](http://devcenter.bitrise.io/v1.0/docs/available-stacks#section-xcode-7-2-on-os-x-10-11), the full system report at: [https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/osx-xcode-7.2.log](https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/osx-xcode-7.2.log),
+You can find the Stack's description on our [DevCenter](http://devcenter.bitrise.io/infrastructure/available-stacks/#section-xcode-7-2-on-os-x-10-11), the full system report at: [https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/osx-xcode-7.2.log](https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/osx-xcode-7.2.log),
 and the changes since the beta 1 stack: [https://github.com/bitrise-io/bitrise.io/commit/85b5e4ba039b40a9c39d9d0de08c1f47b3a7da61](https://github.com/bitrise-io/bitrise.io/commit/85b5e4ba039b40a9c39d9d0de08c1f47b3a7da61).
 
 This new configuration also has [Carthage](https://github.com/Carthage/Carthage) pre-installed,

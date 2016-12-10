@@ -15,7 +15,7 @@ This new Virtual Machine replaces the previous Xcode 7.3 beta configuration,
 so if you've already selected this Xcode 7.3 beta stack for your app
 you're automatically using 7.3 beta 5 now.
 
-You can find the Stack's description on our [DevCenter](http://devcenter.bitrise.io/v1.0/docs/available-stacks#section-xcode-7-3-beta-on-os-x-10-11), the full system report at: [https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/osx-xcode-7.3-beta.log](https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/osx-xcode-7.3-beta.log),
+You can find the Stack's description on our [DevCenter](http://devcenter.bitrise.io/infrastructure/available-stacks/#section-xcode-7-3-beta-on-os-x-10-11), the full system report at: [https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/osx-xcode-7.3-beta.log](https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/osx-xcode-7.3-beta.log),
 and the changes since the previous version of the stack at: [https://github.com/bitrise-io/bitrise.io/commit/7aff8edd706df8fb94202f344b1953b26dedf99f](https://github.com/bitrise-io/bitrise.io/commit/7aff8edd706df8fb94202f344b1953b26dedf99f).
 
 If you'd like to add a tool to be pre-installed on our Stacks

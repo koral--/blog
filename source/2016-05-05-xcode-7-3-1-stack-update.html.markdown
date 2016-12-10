@@ -16,7 +16,7 @@ to select this Stack you just have to **open your app** on [bitrise.io](https://
 go to the `Settings` tab, and at the bottom of the Settings tab select the `Xcode 7.3.1, on OS X 10.11`
 stack option, and your next build will start on the Xcode 7.3.1 stack.
 
-You can find the Stack's description on our [DevCenter](http://devcenter.bitrise.io/v1.0/docs/available-stacks#section-xcode-7-3-on-os-x-10-11),
+You can find the Stack's description on our [DevCenter](http://devcenter.bitrise.io/infrastructure/available-stacks/#section-xcode-7-3-on-os-x-10-11),
 the full system report at: [https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/osx-xcode-7.3.log](https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/osx-xcode-7.3.log),
 and the full system report `diff` between 7.3 and 7.3.1 at: [https://github.com/bitrise-io/bitrise.io/commit/f2b580ecb99ac259d1da1605dc7e578640866193](https://github.com/bitrise-io/bitrise.io/commit/f2b580ecb99ac259d1da1605dc7e578640866193).
 
@@ -37,11 +37,11 @@ the 7.3 Stack is *not yet a Long Term Support stack*! This means that when a new
 version is available for Xcode 7.3 (in this case 7.3.1) we upgrade this Stack
 and the previous version of it is no longer available.
 The latest Long Term Support (LTS) OS X Stack right now is
-the [Xcode 7.2](http://devcenter.bitrise.io/v1.0/docs/available-stacks#section-xcode-7-2-on-os-x-10-11) stack.
+the [Xcode 7.2](http://devcenter.bitrise.io/infrastructure/available-stacks/#section-xcode-7-2-on-os-x-10-11) stack.
 The 7.3 Stack will be available as a Long Term Support stack once there are no more updates for Xcode 7.3.
 
 *You can find more information about the Stack support
-types [on our DevCenter](http://devcenter.bitrise.io/v1.0/docs/available-stacks#section-stack-status-types).*
+types [on our DevCenter](http://devcenter.bitrise.io/infrastructure/available-stacks/#section-stack-status-types).*
 
 
 

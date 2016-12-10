@@ -7,8 +7,6 @@ authors: Viktor Benei|viktorbenei@bitrise.io
 
 We finished the virtual machine update which was announced [here](/2014/12/05/scheduled-virtual-machine-update-with-xcode-6-1-1.html) and every build virtual machine is updated now.
 
-You can find the current pre-installed software list and the version numbers
-on our [DevCenter](http://devcenter.bitrise.io/docs/virtual-machine-updates.html).
 
 > As usual if you have any issues or suggestion
 > you can [contact us](https://www.bitrise.io/contact?utm_source=blog&utm_medium=blog&utm_campaign=bitrise){:target="_blank"}

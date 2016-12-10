@@ -9,8 +9,7 @@ Lately new Xcode beta versions are popping quite frequently
 in preparation for Apple Watch, and our beloved Swift
 gets updated in almost every new Xcode beta version as well.
 
-Our current Virtual Machine update schedule (which you can find
-on our [DevCenter](http://devcenter.bitrise.io/docs/virtual-machine-updates.html){:target="_blank"}) is not really ideal in these fast changing
+Our current Virtual Machine update schedule is not really ideal in these fast changing
 times, additionally quite a lot of you have requested
 Xcode beta version support for Xcode point releases.
 

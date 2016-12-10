@@ -8,8 +8,6 @@ authors: Viktor Benei|viktorbenei@bitrise.io
 # Virtual Machine update
 
 We finished the virtual machine update which was announced [here](/2014/10/27/scheduled-virtual-machine-box-update.html) and every build virtual machine is updated now.
-You can find the current pre-installed software list and the version numbers
-on our [DevCenter](http://devcenter.bitrise.io/docs/virtual-machine-updates.html).
 
 
 # Undo feature added to Workflow Step update

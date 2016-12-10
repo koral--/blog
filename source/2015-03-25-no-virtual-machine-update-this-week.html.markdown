@@ -11,8 +11,7 @@ we decided not to do a virtual machine update this week.
 We already have the **latest Xcode versions, both 6.2 (stable) and 6.3 beta 3**
 preinstalled on the current virtual machines
 and there were only point release updates for the other
-preinstalled tools - you can find the full list
-on our [DevCenter](http://devcenter.bitrise.io/docs/virtual-machine-updates.html).
+preinstalled tools.
 
 We're still experimenting with the perfect virtual machine
 update schedule to provide an up-to-date but also stable and

@@ -14,7 +14,7 @@ We are proud to announce the Android support on [Bitrise](https://www.bitrise.io
 ##What does Beta mean in this case?
 
 
-We are working hard to hash out the details. We want it to be as awesome and easy to use as our iOS support, and for that we'll need a few more Build Steps / Integrations. During the last couple of weeks of the private beta, we received helpful feedback and a couple of Pull Requests for our existing Android Steps. You can find helpful Docs and Guides for the Android support on our [DevCenter](http://devcenter.bitrise.io/docs/android-beta).
+We are working hard to hash out the details. We want it to be as awesome and easy to use as our iOS support, and for that we'll need a few more Build Steps / Integrations. During the last couple of weeks of the private beta, we received helpful feedback and a couple of Pull Requests for our existing Android Steps. You can find helpful Docs and Guides for the Android support on our [DevCenter](http://devcenter.bitrise.io/android/android-tips-and-tricks/).
 
 All the Steps are [open source](https://github.com/bitrise-io/bitrise-steplib/tree/master/steps), so feel free to create new Steps or modify the existing ones. We've just created a legendary **Contributor sticker**, which will be received by people who - yes, you guessed it right - contribute to any of our open source tools / Steps. It is pretty badass, too! 😎
 

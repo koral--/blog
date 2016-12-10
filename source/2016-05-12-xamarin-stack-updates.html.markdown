@@ -25,22 +25,19 @@ Xcode was also upgraded on all three Xamarin stacks to the latest version: `7.3.
 
 ## Changelog of Stable
 
-You can find the Stack's description on our [DevCenter](http://devcenter.bitrise.io/docs/available-stacks#section-xamarin-stable-with-xcode-7-3-on-os-x-10-11),
-the full system report at: [https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/osx-xamarin-stable.log](https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/osx-xamarin-stable.log),
+You can find the Stack's full system report at: [https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/osx-xamarin-stable.log](https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/osx-xamarin-stable.log),
 and the full system report `diff` between the current
 and the previous version of the Stack at: [https://github.com/bitrise-io/bitrise.io/commit/183ed77434898bf08a7497d243847d65e7476143](https://github.com/bitrise-io/bitrise.io/commit/183ed77434898bf08a7497d243847d65e7476143).
 
 ## Changelog of Beta
 
-You can find the Stack's description on our [DevCenter](http://devcenter.bitrise.io/docs/available-stacks#section-xamarin-beta-with-xcode-7-3-on-os-x-10-11),
-the full system report at: [https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/osx-xamarin-beta.log](https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/osx-xamarin-beta.log),
+You can find the Stack's the full system report at: [https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/osx-xamarin-beta.log](https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/osx-xamarin-beta.log),
 and the full system report `diff` between the current
 and the previous version of the Stack at: [https://github.com/bitrise-io/bitrise.io/commit/0d3702cf2803e3fbf5daf6fec46e8fa879a5d672](https://github.com/bitrise-io/bitrise.io/commit/0d3702cf2803e3fbf5daf6fec46e8fa879a5d672).
 
 ## Changelog of Alpha
 
-You can find the Stack's description on our [DevCenter](http://devcenter.bitrise.io/docs/available-stacks#section-xamarin-alpha-with-xcode-7-3-on-os-x-10-11),
-the full system report at: [https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/osx-xamarin-alpha.log](https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/osx-xamarin-alpha.log),
+You can find the Stack's the full system report at: [https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/osx-xamarin-alpha.log](https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/osx-xamarin-alpha.log),
 and the full system report `diff` between the current
 and the previous version of the Stack at: [https://github.com/bitrise-io/bitrise.io/commit/66409192eccd4fa11d31673e5d7f502341158cd2](https://github.com/bitrise-io/bitrise.io/commit/66409192eccd4fa11d31673e5d7f502341158cd2).
 

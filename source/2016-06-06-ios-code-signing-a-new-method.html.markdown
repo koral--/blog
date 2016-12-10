@@ -54,7 +54,7 @@ but you can now use a more flexible configuration!
 
 There's only one thing you have to change in your Xcode project settings:
 make sure that the `Provisioning Profile` option is set to `Automatic`,
-as described in our [iOS Code Signing Guide on our DevCenter](http://devcenter.bitrise.io/docs/provprofile-cert-export#section-the-recommended-way-use-the-automatic-option).
+as described in our [iOS Code Signing Guide on our DevCenter](http://devcenter.bitrise.io/ios/code-signing/).
 It's also a good idea to set the `Code Signing Identity` option
 to a generic value (e.g. `iPhone Development`) instead of a specific one (like `iPhone Developer: My Name (IDOFIDENTITY)`).
 
@@ -78,7 +78,7 @@ as the value of `Force code signing with Identity`.
 
 > Another advantage of this solution is that setting the `Force code signing with Identity`
 > input to a generic category like `iPhone Distribution` solves the
-> [CocoaPods frameworks code signing issue](http://devcenter.bitrise.io/v1.0/docs/cocoapods-frameworks-signing-issue),
+> [CocoaPods frameworks code signing issue](http://devcenter.bitrise.io/ios/frequent-ios-issues/#cocoapods-frameworks-signing-issue),
 > where if your main project is set to use Distribution code signing
 > the CocoaPods framework projects still require a Development
 > signing identity to be present on the system.
@@ -114,16 +114,16 @@ instead of `iOS` (`iOS Distribution/Development`) you have to use `iPhone`
 
 _If you prefer to use **Xcode Schemes** to manage your code signing settings
 you can of course still do that, by creating multiple Schemes in Xcode (just [don't forget to
-mark the schemes as shared](http://devcenter.bitrise.io/docs/scheme-cannot-be-found)).
+mark the schemes as shared](http://devcenter.bitrise.io/ios/frequent-ios-issues/#xcode-scheme-not-found)).
 Every Xcode step we maintain includes a Scheme input, so you can specify different Schemes
 for every Xcode step if you want to, but you can now specify different Code Signing Identities
 for the (`Xcode Archive` and `Xcode Analyze` - `Xcode Test` does not require code signing) steps
 as an alternative, so that you don't have to maintain multiple Schemes in Xcode._
 
 On our DevCenter you can find more information about
-[how you can export & upload your iOS code signing files](http://devcenter.bitrise.io/docs/provprofile-cert-export),
+[how you can export & upload your iOS code signing files](http://devcenter.bitrise.io/ios/code-signing/),
 about our handy [Code Signing Doctor (`codesigndoc`)](https://github.com/bitrise-tools/codesigndoc) tool,
-as well as more advanced tips and guides like [Using multiple code signing file sets](http://devcenter.bitrise.io/docs/upload-use-more-than-one-certificate-using-generic-file-storage),
+as well as more advanced tips and guides like _Using multiple code signing file sets_,
 to create multiple, differently signed iOS IPAs (e.g. one with an Ad Hoc code signing,
 and one with an App Store code signing).
 

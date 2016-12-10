@@ -23,4 +23,4 @@ For example the *$BITRISE_STEP_DIR* key will be replaced with the actual path of
 > Note: the Insert Variable Popup lists the Environment Variables which are set by the Bitrise Build (for example the build's and the app's URL) automatically **and** the Environment Variables which are exported from previous Steps.
 
 > For example the *Xcode Build* Step exports a *$BITRISE_BUILD_STATUS* variable, which will store whether the Build was successful or not.
-> For more details on Step exported Environment Variables check out the Bitrise Dev Center's [Step Development](http://devcenter.bitrise.io/docs/step-dev.html) page.
+> For more details on Step exported Environment Variables check out the Bitrise Dev Center's [Bitrise CLI and bitrise.yml](http://devcenter.bitrise.io/bitrise-cli/) page.

@@ -20,7 +20,7 @@ Recently for example [we changed the default Xcode version](/2014/09/15/new-box-
 in our VMs because the first non beta version of Xcode 6 was released.
 
 When we introduce a breaking change we update our steps to support the new
-environment the steps run in. The step upgrade in most cases [takes only a few clicks](http://devcenter.bitrise.io/docs/step-update.html){:target="_blank"},
+environment the steps run in. The step upgrade in most cases [takes only a few clicks](http://devcenter.bitrise.io/getting-started/manage-your-bitrise-workflow/){:target="_blank"},
 but you have to know about these updates in the most efficient way.
 
 We always announce the significant step version updates here on our blog

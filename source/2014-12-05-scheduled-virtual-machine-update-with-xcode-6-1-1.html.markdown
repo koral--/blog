@@ -43,8 +43,3 @@ We'll replace our existing virtual machines during the weekend:
 > **The upgrade will be performed without any downtime.**
 
 
-## More information about the virtual machine build boxes
-
-You can find our description of the build boxes including
-the pre-installed components and our update guideline
-on our [DevCenter](http://devcenter.bitrise.io/docs/virtual-machine-updates.html).

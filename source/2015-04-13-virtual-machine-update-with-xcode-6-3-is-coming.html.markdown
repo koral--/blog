@@ -23,9 +23,6 @@ builder machines for the update.*
 
 ## Planned changes
 
-*You can always check the previous and planned changes
-on our [DevCenter - Virtual Machines / Box change log](http://devcenter.bitrise.io/docs/vm-box-changelog).*
-
 * Will include the **final, stable version of Xcode 6.3** (6D570)
 * Xcode 6.2 and Xcode 6.3 beta 4 **will be removed**.
 * OS X: 10.10.2 -> 10.10.3

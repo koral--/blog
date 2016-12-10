@@ -6,7 +6,7 @@ authors: Viktor Benei|viktorbenei@bitrise.io
 ---
 
 Huge thanks to [erosdome](https://github.com/erosdome) for submitting
-an amazing tutorial on [How to Auto Deploy your Middleman website with Bitrise](http://devcenter.bitrise.io/docs/middleman-project)
+an amazing tutorial on [How to Auto Deploy your Middleman website with Bitrise](http://devcenter.bitrise.io/tutorials/auto-deploy-middleman-project/)
 
 It's a great example of how Bitrise's flexible Step and Workflow system can be
 used to create any kind of build automation pipeline.

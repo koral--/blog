@@ -11,7 +11,7 @@ and overall service tweaks. You can find the details below.
 ## OS X Stacks
 
 The most significant change is that we now have
-[Pre-Booted](http://devcenter.bitrise.io/docs/available-stacks#section-stack-prepare-types)
+[Pre-Booted](http://devcenter.bitrise.io/infrastructure/available-stacks/#stack-prepare-types)
 capacity for `Xcode 7.3` (the Stack was [introduced this week](http://blog.bitrise.io/2016/03/22/xcode-7-3-final-is-now-available.html), but it was only available
 in *On-Demand* configuration initially). This means that most of the times, outside of peak hours,
 your Xcode 7.3 stack based build should start right away, it won't have to

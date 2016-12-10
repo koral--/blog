@@ -15,7 +15,7 @@ This new Virtual Machine replaces the previous Xcode 7.3 beta configuration,
 so if you've already selected this Xcode 7.3 beta stack for your app
 you're automatically using 7.3 beta 4 now.
 
-You can find the Stack's description on our [DevCenter](http://devcenter.bitrise.io/v1.0/docs/available-stacks#section-xcode-7-3-beta-on-os-x-10-11), the full system report at: [https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/osx-xcode-7.3-beta.log](https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/osx-xcode-7.3-beta.log),
+You can find the Stack's description on our [DevCenter](http://devcenter.bitrise.io/infrastructure/available-stacks/#section-xcode-7-3-beta-on-os-x-10-11), the full system report at: [https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/osx-xcode-7.3-beta.log](https://github.com/bitrise-io/bitrise.io/blob/master/system_reports/osx-xcode-7.3-beta.log),
 and the changes since the previous version of the stack at: [https://github.com/bitrise-io/bitrise.io/commit/18a7613b726d2408f4f1448d8544d0ecdb23e6cb](https://github.com/bitrise-io/bitrise.io/commit/18a7613b726d2408f4f1448d8544d0ecdb23e6cb).
 
 **Update**: we updated the VM again, to have `wine` pre-installed,

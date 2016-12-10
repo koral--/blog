@@ -17,9 +17,6 @@ Notable changes:
 * Our old workaround daemon for Xcode Simulator access ([https://github.com/bitrise-io/xcodebuild-unittest-miniserver](https://github.com/bitrise-io/xcodebuild-unittest-miniserver)) will be removed. **Make sure you upgrade to the latest Xcode Test step** as previous versions use this workaround!
     * You can find more information on this tool's GitHub page why it was required, and we're now replacing it with our new, more flexible version which was integrated into Bitrise a couple of months ago: [https://github.com/bitrise-io/cmd-bridge](https://github.com/bitrise-io/cmd-bridge)
 
-As always you can check all the pre-installed tool version
-changes on our DevCenter at [Virtual Machines / Box #changelog](http://devcenter.bitrise.io/docs/vm-box-changelog){:target="_blank"}.
-
 
 ## Schedule & Status
 
@@ -32,8 +29,3 @@ we'll update this section with the status of the update.
 times might be longer while we disconnect a set of
 builder machines for the update.*
 
-
-## Planned changes
-
-*You can always check the previous and planned changes
-on our [DevCenter - Virtual Machines / Box change log](http://devcenter.bitrise.io/docs/vm-box-changelog).*

@@ -47,7 +47,3 @@ In every other case, if you want to use the absolutely latest Xcode version
 (which might be a beta) you should use the `-latest` channel, which will
 not fail if there's no beta version available, but rather it will use
 the latest installed stable version instead.
-
-For available "version channel" identifiers and exact version numbers
-see the [Virtual Machine pre-installed tools](http://devcenter.bitrise.io/docs/virtual-machine-updates.html)
-article on our [DevCenter](http://devcenter.bitrise.io).
