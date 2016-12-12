@@ -1,7 +1,7 @@
 ---
 title: Bitbucket pull request support is here! 😱
 date: 2016-10-06 12:03 UTC
-tags: feature, announcement
+tags: features, announcement
 authors: Barnabas Birmacher|birmacher@bitrise.io
 ---
 It was long overdue to introduce pull request support for Bitbucket users, however we had to make a couple of changes to make it as easy as possible.
