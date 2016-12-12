@@ -9,6 +9,9 @@ workflows:
   up:
     steps:
     - script:
+        deps:
+          apt_get:
+          - name: nodejs
         inputs:
         - content: |-
             #!/bin/bash
