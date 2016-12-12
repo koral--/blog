@@ -10,9 +10,9 @@ Builds triggerd **from** Slack! This is possible thanks to [@nobre84](https://gi
 who implemented this feature and sent us the [pull request](https://github.com/bitrise-io/bitrise-webhooks/pull/4) 🚀
 
 A very short technical summary about how triggering a build through webhooks works:
-**[bitrise.io](https://www.bitrise.io/) only supports our [Build Trigger API](https://bitrise.readme.io/docs/build-trigger-api)**.
+**[bitrise.io](https://www.bitrise.io/) only supports our [Build Trigger API](http://devcenter.bitrise.io/api/build-trigger)**.
 This API is used by the web interface when you start a build manually, as well as you can call it
-via `curl` or from any other tool ([more info on our DevCenter](https://bitrise.readme.io/docs/build-trigger-api)).
+via `curl` or from any other tool ([more info on our DevCenter](http://devcenter.bitrise.io/api/build-trigger)).
 
 **So then how are webhooks handled?**
 

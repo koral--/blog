@@ -21,7 +21,7 @@ Here is our [Dev Center's](http://devcenter.bitrise.io) status ( hope it's green
 Currently we only support private apps on Bitrise so security was a huge issue when we
 integrated [this user request](https://bitrise.uservoice.com/forums/235233-general/suggestions/7678128-add-image-endpoints-for-github-build-passing-faili){:target="_blank"}
 into our service. You already have an API token that you can use to start builds
-manually or through the [Bitrise Build Trigger API](https://bitrise.readme.io/docs/build-trigger-api){:target="_blank"}.
+manually or through the [Bitrise Build Trigger API](http://devcenter.bitrise.io/api/build-trigger){:target="_blank"}.
 Using the same API token would be a big risk if you plan to include your badge image in a public environment.
 
 Therefore we created a new **read-only** token just for interacting with the status image,

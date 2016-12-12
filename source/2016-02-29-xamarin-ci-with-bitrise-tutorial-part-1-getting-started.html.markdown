@@ -83,7 +83,7 @@ You are able to customize every step's input variables in your favor. Like speci
 
 #### Build triggers
 
-There are several ways to trigger builds on Bitrise. You can do it manually, or by pushing code to your remote repository if you have connected webhooks. We also have a [build trigger API](https://bitrise.readme.io/docs/build-trigger-api), which you can call with a simple `curl`, or from your app's [Slack channel with one command](https://github.com/bitrise-io/bitrise-webhooks#slack---setup--usage).
+There are several ways to trigger builds on Bitrise. You can do it manually, or by pushing code to your remote repository if you have connected webhooks. We also have a [build trigger API](http://devcenter.bitrise.io/api/build-trigger), which you can call with a simple `curl`, or from your app's [Slack channel with one command](https://github.com/bitrise-io/bitrise-webhooks#slack---setup--usage).
 
 #### Code signing
 

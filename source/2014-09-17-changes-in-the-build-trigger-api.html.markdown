@@ -33,4 +33,4 @@ To help you testing your build triggers we've included a configurator
 on the Settings tab of your apps under the *Build Trigger API* section.
 
 For more information check out
-our [DevCenter](https://bitrise.readme.io/docs/build-trigger-api).
+our [DevCenter](http://devcenter.bitrise.io/api/build-trigger).
