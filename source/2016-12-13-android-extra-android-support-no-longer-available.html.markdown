@@ -32,3 +32,11 @@ echo y | android update sdk --no-ui --all --filter extra-google-m2repository | g
 Or if you already have those, just simply remove the
 `echo y | android update sdk --no-ui --all --filter extra-android-support | grep 'package installed'`
 line.
+
+_Note: you can __edit the build configuration by clicking the `Workflow` tab__
+on your app's [bitrise.io](https://www.bitrise.io) page,
+selecting the related step (e.g. `Update Android Extra packages`),
+then on the right side you can see the script's content
+in the `Script content` option. You can edit the content there,
+and then click `Save` to save the change. Your next build will
+start with the new configuration._
