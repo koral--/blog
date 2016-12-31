@@ -18,8 +18,10 @@ stacks. Next week we'll keep an eye on how things progress and will
 find a solution - either by upgrading gems to versions which work with
 Ruby 2.4.0 on the Edge stack, or by fixing the Ruby version to 2.3.x for a while.
 
+_For the full list of changes please check the `diff` of the stacks below._
 
-_For full list of changes please check the `diff` of the stacks below!_
+_Join this Stack update's discussion on
+[discuss.bitrise.io](http://discuss.bitrise.io/t/weekly-virtual-machine-stack-updates-2016-12-30/42)_
 
 ## macOS Stacks
 
