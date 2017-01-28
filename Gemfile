@@ -13,3 +13,4 @@ gem "middleman-blog-authors"
 gem "middleman-disqus"
 
 gem "middleman-minify-html"
+gem "nokogiri"

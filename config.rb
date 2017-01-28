@@ -1,4 +1,20 @@
 helpers do
+  def text_only(html)
+    doc = Nokogiri::HTML(html)
+    doc.xpath("//text()").to_s
+  end
+
+  def host_with_port
+    [host, optional_port].compact.join(':')
+  end
+  def optional_port
+      port unless port.to_i == 80
+  end
+
+  def image_url(source)
+    protocol + host_with_port + source
+  end
+
   def gravatar_for(email)
     if email
       # Make md5 hash for email address
@@ -20,7 +36,7 @@ helpers do
 
     tags_by_count.each do |k, v|
       tags_by_count[k] = tags_by_count[k].sort { |a,b| a <=> b }
-    end    
+    end
 
     tags_in_order = []
     Hash[tags_by_count.sort.reverse].each do |key,value|
@@ -60,10 +76,11 @@ activate :blog do |blog|
 
   # Enable pagination
   blog.paginate = true
-  blog.per_page = 2
+  blog.per_page = 5
   blog.page_link = "page/{num}"
 
   blog.layout = "article_layout"
+  blog.summary_length = 130
 end
 
 page "/feed.xml", layout: false
@@ -121,20 +138,14 @@ set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
 
-# Build-specific configuration
 configure :build do
   activate :minify_css
   activate :minify_javascript
   activate :minify_html
 
-  # Enable cache buster
-  # activate :asset_hash
-
-  # Use relative URLs
-  # activate :relative_assets
-
-  # Or use a different image path
-  # set :http_prefix, "/Content/images/"
+  set :protocol, "http://"
+  set :host, "blog.bitrise.io"
+  set :port, 80
 end
 
 # Disqus
