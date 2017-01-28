@@ -22,9 +22,7 @@
 			n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
 			t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
 			document,'script','https://connect.facebook.net/en_US/fbevents.js');
-			fbq('init', '1527313887281951', {
-			em: 'insert_email_variable,'
-			});
+			fbq('init', '1527313887281951');
 			fbq('track', 'PageView');
 		</script>
 		<noscript><img height="1" width="1" style="display:none"
@@ -39,7 +37,9 @@
 			<a href="/" id="logo"></a>
 			<div class="right">
 				<div class="btn">
-					<a href="https://www.bitrise.io/?utm_source=bitrise_blog&utm_medium=content&utm_campaign=blog&utm_term=blog_navigation_button&utm_content=CTA_start_building_for_free" class="white">Start building for free</a>
+					<a class="btn"href="https://www.bitrise.io/?utm_source=bitrise_blog&utm_medium=content&utm_campaign=blog&utm_term=blog_navigation_button&utm_content=CTA_start_building_for_free" class="white" onclick="fbq('track', 'bitrise-link-clicked'); ga('send', 'event', 'bitrise', 'click', 'button', 1, {'NonInteraction': 1});">
+						<div class="btn">Start building for free</div>
+					</a>
 				</div>
 			</div>
 		</div>
