@@ -97,11 +97,11 @@ a.white {
 		margin-top: 30px;
 	}
 
-	background-image: image-url("/images/bitrise_blog_logo.svg");
+	background-image: image-url("/images/bitrise_logo.svg");
 	background-repeat: no-repeat;
-	width: 206px;
-	height: 31px;
-	margin-top: 26px;
+	width: 200px;
+	height: 45px;
+	margin-top: 17px;
 	position: fixed;
 	z-index: 1000;
 }
@@ -191,12 +191,12 @@ a.white {
 		}
 
 		line-height: 13px;
-		margin: 18px 0 0 10px;
-		padding: 15px 30px;
-		font-weight: 300;
+		margin: 21px 0 0 10px;
+		padding: 12px 20px;
+		font-weight: 500;
 		font-size: 14px;
-		background-color: $default_green;
-		border: none;
+		background-color: none;
+		border: 1px solid white;
 		border-radius: 5px;
 		margin-right: 40px;
 		letter-spacing: 1px;
@@ -209,7 +209,10 @@ a.white {
 		cursor: pointer;
 
 		&:hover {
-			background-color: $dark_green;
+			background-color: white;
+			a {
+					color: #8151a8;
+			}
 		}
 	}
 }
@@ -262,6 +265,12 @@ a.white {
 			font-size: 24px;
 			font-weight: 300;
 			margin: 0;
+
+			&.tagline {
+				max-width: 800px;
+				margin-left: auto;
+				margin-right: auto;
+			}
 		}
 	}
 }
@@ -416,17 +425,62 @@ a.white {
 				font-size: 21px;
 				font-weight: 700;
 				color: #363636;
-				margin-top: 20px;
+				margin-top: 40px;
 			}
 
 			h3 {
 				font-size: 18px;
 				font-weight: 600;
+				margin-top: 30px;
 			}
 
 			h4 {
 				font-size: 16px;
 				font-weight: 700;
+			}
+
+			.CTA {
+				background-color: #32eab5;
+				background-image: image-url('images/cta_bg.svg');
+				background-size: cover;
+				min-height: 90px;
+				padding: 20px;
+				text-align: center;
+				border-radius: 5px;
+
+				h2 {
+					margin-top: 10px;
+					line-height: 25px;
+				}
+
+				.btn-purple {
+					max-width: 200px;
+					margin-left: auto;
+					margin-right: auto;
+					margin-top: 10px;
+					margin-bottom: 10px;
+					padding: 13px 15px;
+					background-color: #8151a8;
+					border-radius: 3px;
+					cursor: pointer;
+
+					a {
+						color: white;
+						font-size: 14px;
+						font-weight: 600;
+						text-decoration: none;
+
+						&:hover {
+							color: white;
+							text-decoration: none;
+						}
+					}
+
+					&:hover {
+						background-color: #6c4090;
+					}
+				}
+
 			}
 
 			img {

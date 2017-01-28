@@ -44,9 +44,16 @@
 			</div>
 		</div>
 		<div class="content">
-			<div class="main subpage">
+			<% if current_page.metadata[:page]["overlay"] %>
+			<div class="main subpage" style="background-image:url('<%= current_page.metadata[:page]["overlay"] %>')">
 				<div class="overlay"></div>
 			</div>
+			<% else %>
+			<div class="main subpage">
+				<%= current_page.metadata[:page] %>
+				<div class="overlay"></div>
+			</div>
+			<% end %>
 			<div class="wrapper">
 				<div class="articles">
 					<div class="articles-inner">
@@ -71,16 +78,10 @@
 						</div>
 						<div class="article">
 							<p><%= current_page.body %>
-								<blockquote  class="contact-us">
-									<p>As always if you have any issues or suggestion you can
-										<span>
-											<a href="https://www.bitrise.io/contact?utm_source=blog&utm_medium=blog&utm_campaign=bitrise">contact us</a></span>, submit your idea on
-										<span>
-											<a href="https://bitrise.uservoice.com/">UserVoice</a>
-										</span>
-										or leave a comment below, we're happy to help and to discuss about Bitrise.
-									</p>
-								</blockquote>
+								<div class="CTA">
+									<h2>Automate your building, testing and deployment</h2>
+									<div class="btn-purple"><a href="https://www.bitrise.io/?utm_source=bitrise_blog&utm_medium=content&utm_campaign=blog&utm_term=blog_post_CTA_button&utm_content=CTA_start_building_for_free">Start building for free</a></div>
+								</div>
 							</p>
 							<div class="share-buttons">
 								<a href="https://twitter.com/share" class="twitter-share-button" data-via="bitrise">Tweet</a>
