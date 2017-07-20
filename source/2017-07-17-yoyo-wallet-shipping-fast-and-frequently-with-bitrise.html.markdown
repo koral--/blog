@@ -41,6 +41,7 @@ By decoupling this from the UI, we are able to better test all of the logic inde
 ***Upcoming Yoyo v6 alongside Caffè Nero***
 
 Even though each app shares the same app core, their user experiences may vary vastly, as can be seen above.
+
 This final layer allows us to enable bespoke functionality within individual apps, say the **NUS Extra** integration in Yoyo, or the **Store Locator** in Caffè Nero.
 
 ##How do we remain confident in our releases?
