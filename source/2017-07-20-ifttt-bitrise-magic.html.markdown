@@ -1,6 +1,6 @@
 ---
 title: Let's automate together! Bitrise + IFTTT = ⚙
-date: 2017-07-20 14:55 UTC
+date: 2017-07-20 10:00 UTC
 tags: how-to
 authors: Anna Bátki|anna.batki@bitrise.io
 overlay: /images/ifttt.png
