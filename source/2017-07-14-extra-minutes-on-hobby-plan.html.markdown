@@ -16,7 +16,7 @@ You’ll be granted an additional 5 minutes when a user you invited have added a
 ![Bonus](referral_bonus.png)
 
 ## All you need is love! Nope... your URL
-To start collecting the extra time find your unique referral URL on the upper right corner of [Profile / Referrals page](https://www.bitrise.io/url). Share it with your friends or colleagues on LinkedIn, Twitter or Facebook or simply via e-mail.
+To start collecting the extra time find your unique referral URL on the upper right corner of [Profile / Referrals page](https://www.bitrise.io/me/profile#/referrals). Share it with your friends or colleagues on LinkedIn, Twitter or Facebook or simply via e-mail.
 
 ![Page](referral_page.png)
 
