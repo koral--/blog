@@ -1,14 +1,14 @@
 ---
 title: Droids on Roids - How to Connect Physical Devices to Bitrise.io
 date: 2017-08-07 13:14 UTC
-tags: guest-post
+tags: guest-post, android, how-to
 authors: Anna Bátki|anna.batki@bitrise.io
 overlay: /images/droids-on-roids-overlay.jpg
 ---
 
-_Guest blog by Karol Wrótniak, mobile developer at Droids on Roids. The original post appeared on [Droids on Roids blog](https://www.thedroidsonroids.com/blog/how-to-connect-physical-devices-to-bitrise-io)_
+_Guest blog by Karol Wrótniak, mobile developer at Droids on Roids. The original post appeared on [Droids on Roids blog](https://www.thedroidsonroids.com/blog/how-to-connect-physical-devices-to-bitrise-io)_. 
 
->[Droids On Roids](https://www.thedroidsonroids.com/) is a full-service iOS, Android and backend development company from Poland offering sophisticated mobile solutions from design to store release and building high-performing mobile apps for [[the]] start-ups and great brands. With 50+ mobile applications in their portfolio, Droids on Roids' solutions serve millions of users across platforms and channels.
+>[Droids On Roids](https://www.thedroidsonroids.com/) is a full-service iOS, Android and backend development company from Poland offering sophisticated mobile solutions from design to store release and building high-performing mobile apps for start-ups and great brands. With 50+ mobile applications in their portfolio, Droids on Roids' solutions serve millions of users across platforms and channels.
 
 Bitrise.io is a cloud CI/CD service. It can build, test and deploy your apps. In this article we will focus on testing, namely on Android apps [UI](https://developer.android.com/training/testing/ui-testing/index.html) and [instrumented unit tests](https://developer.android.com/training/testing/unit-testing/instrumented-unit-tests.html).
 
